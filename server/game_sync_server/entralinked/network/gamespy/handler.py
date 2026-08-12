@@ -108,21 +108,15 @@ class GameSpyHandler(socketserver.BaseRequestHandler):
             return
 
         self.user = session.user
-        self.profile = self.user.get_profile(session.branch_code)
-        
-        if self.profile is None:
-            self.profile = self.user_manager.create_profile_for_user(self.user, session.branch_code)
-            
-            if self.profile is None:
-                self.send_error_message(0x203, "Profile creation failed due to an error.", req.id)
-                return
+        self.profile = self.user_manager.get_or_create_profile_for_login(
+            self.user,
+            session.branch_code,
+            req.profileid,
+        )
 
-        profile_id_override = self.user.profile_id_override
-        
-        if profile_id_override > 0:
-            self.profile.set_id(profile_id_override)
-            self.user.set_profile_id_override(0)
-            self.user_manager.save_user(self.user)
+        if self.profile is None:
+            self.send_error_message(0x203, "Profile creation failed due to an error.", req.id)
+            return
 
         logger.info(f"User {self.user.get_redacted_id()} logged in with profile {self.profile.id}")
 

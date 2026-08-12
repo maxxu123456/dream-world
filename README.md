@@ -64,16 +64,23 @@ must be running, and your user must have permission to access Docker without
 
 ### Start Dream World
 
-1. Check the detected LAN IPv4. It must belong to the physical Wi-Fi or
+1. In the game, open **Bag > Key Items > Pal Pad**, choose your trainer's
+   **Friend Code**, and enter all 12 digits in the app. Save it. The app uses
+   the profile ID encoded in this code so a fresh self-host does not trigger
+   Nintendo WFC error 60000. Use the code from the exact game and save that
+   will connect.
+2. Check the detected LAN IPv4. It must belong to the physical Wi-Fi or
    Ethernet network shared with the DS, not a VPN or virtual adapter. Correct it
    if necessary, then choose **Save DNS IP**.
-2. Choose **Pull / Update image** if you want to download the newest server,
+3. Choose **Pull / Update image** if you want to download the newest server,
    then choose **Start**. Start also downloads the public image automatically
    when it is not already installed.
-3. Set the DS Primary DNS to the large saved IP shown in the app. Leave the
+4. Set the DS Primary DNS to the large saved IP shown in the app. Leave the
    Secondary DNS blank or set it to `0.0.0.0`.
-4. In the game, use C-Gear > Game Sync and tuck in a Pokemon. The DS-facing
-   service stays healthy while waiting. When the live log says
+5. In White 2, open the C-Gear, press **ONLINE** on the bottom screen, then
+   press **GAME SYNC** and tuck in a Pokemon. Black, White, and Black 2 use the
+   same C-Gear Online/Game Sync path. The DS-facing service stays healthy while
+   waiting. When the live log says
    `Player upload found; Dream World site is starting`, choose
    **Open Dream World**.
 
@@ -130,17 +137,24 @@ Run every command in this guide from inside that `dream-world` folder.
    If the command selects a VPN, disconnect it temporarily or choose the
    physical interface that shares the DS's network.
 
-2. Create a file named `.env` in this folder with one line, using your IP:
+2. In the game, open **Bag > Key Items > Pal Pad** and display your trainer's
+   12-digit Friend Code. It must come from the exact game and save that will
+   connect.
+
+3. Create a file named `.env` in this folder with both values, using your IP
+   and Friend Code (digits only):
 
    ```
    HOST_IP=192.168.1.50
+   FRIEND_CODE=123456789012
    ```
 
-   Quick ways to create it (put in your own IP from step 1, not the example):
+   Quick ways to create it (replace both examples with your own values):
 
    - Windows PowerShell:
-     `Set-Content -Path .env -Value "HOST_IP=192.168.1.50" -Encoding ascii`
-   - macOS or Linux: `echo "HOST_IP=192.168.1.50" > .env`
+     `Set-Content -Path .env -Value "HOST_IP=192.168.1.50`nFRIEND_CODE=123456789012" -Encoding ascii`
+   - macOS or Linux:
+     `printf 'HOST_IP=192.168.1.50\nFRIEND_CODE=123456789012\n' > .env`
 
    Your LAN IP can change when your router hands out a new lease. So it keeps
    working, reserve a fixed IP for this computer in your router settings (look
@@ -148,13 +162,13 @@ Run every command in this guide from inside that `dream-world` folder.
    update `.env` and your DS's DNS setting to match, then run
    `docker compose up -d` again.
 
-3. Start the container:
+4. Start the container:
 
    ```
    docker compose up -d
    ```
 
-4. Check it:
+5. Check it:
 
    ```
    docker compose ps
@@ -198,8 +212,10 @@ macOS or Linux:
 
 ```sh
 HOST_IP=192.168.1.50
+FRIEND_CODE=123456789012
 docker run --rm \
   --env "HOST_IP=${HOST_IP}" \
+  --env "FRIEND_CODE=${FRIEND_CODE}" \
   --volume dream-world-data:/opt/server/save_data \
   --publish "${HOST_IP}:53:53/udp" \
   --publish "${HOST_IP}:80:80" \
@@ -213,8 +229,10 @@ Windows PowerShell:
 
 ```powershell
 $HostIp = "192.168.1.50"
+$FriendCode = "123456789012"
 docker run --rm `
   --env "HOST_IP=$HostIp" `
+  --env "FRIEND_CODE=$FriendCode" `
   --volume dream-world-data:/opt/server/save_data `
   --publish "${HostIp}:53:53/udp" `
   --publish "${HostIp}:80:80" `
@@ -251,7 +269,8 @@ can still block traffic from a physical DS.
 2. Set the Primary DNS of the console's game connection to the same LAN IP used
    as `HOST_IP`. Leave Secondary DNS blank or `0.0.0.0`. A failed connection
    test does not necessarily prevent Game Sync; continue and check the logs.
-3. In the game, open the C-Gear, choose Game Sync, and tuck in a Pokemon.
+3. In the game, open the C-Gear, press **ONLINE** on the bottom screen, then
+   press **GAME SYNC** and tuck in a Pokemon.
 4. Wait for `Player upload found; Dream World site is starting` in the logs.
 5. Open http://127.0.0.1:8080/ in a Flash-capable client.
 
@@ -273,6 +292,10 @@ Step by step: [docs/dsi-setup.md](docs/dsi-setup.md).
   containing the selected host IP plus listeners on TCP 80, 443, and 29900.
 - DS cannot connect: recheck the physical interface/IP, firewall, 2.4 GHz
   compatibility, and client isolation. Temporarily disconnect VPN software.
+- Error 60000: stop the container, verify that `FRIEND_CODE` (or the code saved
+  in the app) exactly matches **Pal Pad > your trainer's Friend Code** for this
+  game/save, then start or restart it. The server repairs that save's GameSpy
+  profile ID before replying to the next login.
 - Platform warning on Apple Silicon: choose **Pull / Update image** in the app,
   or run `docker compose pull`. The published image supports amd64 and arm64.
 

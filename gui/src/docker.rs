@@ -113,7 +113,7 @@ pub fn inspect() -> Snapshot {
     }
 }
 
-pub fn start(host_ip: &str) -> Result<String, String> {
+pub fn start(host_ip: &str, friend_code: &str) -> Result<String, String> {
     ensure_docker_running()?;
     ensure_container_is_safe_to_replace()?;
     run_checked(&["volume", "create", VOLUME_NAME])?;
@@ -121,12 +121,13 @@ pub fn start(host_ip: &str) -> Result<String, String> {
     if managed_container_exists()? {
         // Give PID 1 time to forward the signal and reap both servers before
         // replacing the container with the selected IP/latest local image.
-        run_checked(&["container", "stop", "--time", "20", CONTAINER_NAME])?;
+        run_checked(&["container", "stop", "--timeout", "20", CONTAINER_NAME])?;
         run_checked(&["container", "rm", "--force", CONTAINER_NAME])?;
     }
 
     let host_label = format!("{HOST_IP_LABEL}={host_ip}");
     let host_env = format!("HOST_IP={host_ip}");
+    let friend_code_env = format!("FRIEND_CODE={friend_code}");
     let volume = format!("{VOLUME_NAME}:/opt/server/save_data");
     let dns = format!("{host_ip}:53:53/udp");
     let http = format!("{host_ip}:80:80/tcp");
@@ -146,6 +147,8 @@ pub fn start(host_ip: &str) -> Result<String, String> {
         &host_label,
         "--env",
         &host_env,
+        "--env",
+        &friend_code_env,
         "--volume",
         &volume,
         "--publish",
@@ -162,7 +165,7 @@ pub fn start(host_ip: &str) -> Result<String, String> {
     ])?;
 
     Ok(format!(
-        "Dream World started. Set the DS Primary DNS to {host_ip}, then perform the first tuck-in."
+        "Dream World started with your saved Friend Code. Set the DS Primary DNS to {host_ip}, then perform the first tuck-in."
     ))
 }
 
@@ -173,7 +176,7 @@ pub fn stop() -> Result<String, String> {
         Ownership::Missing => Ok("Dream World is already stopped.".to_owned()),
         Ownership::Foreign => Err(foreign_container_error()),
         Ownership::Managed => {
-            run_checked(&["container", "stop", "--time", "20", CONTAINER_NAME])?;
+            run_checked(&["container", "stop", "--timeout", "20", CONTAINER_NAME])?;
             Ok("Dream World stopped. Your saved data is still in dream-world-data.".to_owned())
         }
     }

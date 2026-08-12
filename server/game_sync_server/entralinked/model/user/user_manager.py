@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import logging
 
+import os
 import re
 import json
 import random
@@ -26,6 +27,7 @@ class UserManager:
     def __init__(self):
         self.users: Dict[str, User] = {}
         self.service_sessions: Dict[str, ServiceSession] = {}
+        self.configured_profile_id = self._load_configured_profile_id()
 
         logger.info("Loading user and profile data ...")
 
@@ -44,11 +46,32 @@ class UserManager:
         with open(input_file, "r", encoding="UTF-8") as f:
             data = json.load(f)
 
-        user = User(data["id"], data["password"])
+        user = User(
+            data["id"],
+            data["password"],
+            profile_id_override=data.get("profileIdOverride", 0),
+        )
         for branch_code, profile_data in data.get("profiles", {}).items():
             user.add_profile(branch_code, GameProfile(**profile_data))
 
         self.users[user.id] = user
+
+    @staticmethod
+    def _load_configured_profile_id():
+        raw_profile_id = os.environ.get("WFC_PROFILE_ID")
+        if raw_profile_id is None:
+            return None
+
+        try:
+            profile_id = int(raw_profile_id)
+        except ValueError as exc:
+            raise ValueError("WFC_PROFILE_ID must be an integer") from exc
+
+        if not 0 < profile_id <= 0x7FFFFFFF:
+            raise ValueError("WFC_PROFILE_ID must be between 1 and 2147483647")
+
+        logger.info("A Friend Code profile ID is configured for the connecting save")
+        return profile_id
 
     def save_users(self):
         for user in self.users.values():
@@ -110,11 +133,11 @@ class UserManager:
         user = self.users.get(user_id)
         return None if user is None or user.password != password else user
 
-    def create_profile_for_user(self, user: User, branch_code: str):
+    def create_profile_for_user(self, user: User, branch_code: str, profile_id: int = None):
         if user.get_profile(branch_code) is not None:
             logger.warning(f"Attempted to create duplicate profile {branch_code} in user {user.id}")
 
-        profile_id = random.randint(0, 2 ** 31 - 1)
+        profile_id = profile_id or random.randint(1, 2 ** 31 - 1)
         profile = GameProfile(profile_id)
         user.add_profile(branch_code, profile)
 
@@ -123,6 +146,55 @@ class UserManager:
             return None
 
         return profile
+
+    def get_or_create_profile_for_login(self, user: User, branch_code: str, requested_id: int = None):
+        """Return the login profile, preserving the configured cartridge ID.
+
+        A self-host normally has one save. If a volume contains multiple WFC
+        users, a configured ID is only applied when the connecting client asks
+        for that ID or already owns it; this avoids rewriting another player.
+        """
+        profile = user.get_profile(branch_code)
+        configured_id = self._configured_id_for_login(user, branch_code, requested_id)
+
+        if profile is None:
+            return self.create_profile_for_user(user, branch_code, configured_id)
+
+        if configured_id is not None and profile.id != configured_id:
+            old_profile_id = profile.id
+            profile.id = configured_id
+            if not self.save_user(user):
+                profile.id = old_profile_id
+                return None
+            logger.info(
+                "Repaired GameSpy profile ID for user %s (%s -> %s)",
+                user.get_redacted_id(),
+                old_profile_id,
+                configured_id,
+            )
+
+        return profile
+
+    def _configured_id_for_login(self, user: User, branch_code: str, requested_id: int = None):
+        configured_id = self.configured_profile_id
+        if configured_id is None:
+            return None
+
+        for candidate in self.users.values():
+            for candidate_branch, candidate_profile in candidate.profiles.items():
+                if candidate_profile.id == configured_id:
+                    if candidate is user and candidate_branch == branch_code:
+                        return configured_id
+                    return None
+
+        if requested_id == configured_id or len(self.users) == 1:
+            return configured_id
+
+        logger.warning(
+            "The configured Friend Code was not applied to user %s because this volume contains multiple WFC users",
+            user.get_redacted_id(),
+        )
+        return None
 
     def does_user_exist(self, id: str):
         return id in self.users

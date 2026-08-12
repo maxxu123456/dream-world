@@ -25,10 +25,13 @@ check the router's 2.4 GHz and legacy Nintendo DS settings first.
 ## Start Game Sync
 
 Use the desktop app from the main [README](../README.md) (recommended): confirm
-and save the host LAN IP, then choose **Start**. The app shows health and live
-logs without requiring a terminal.
+and save the host LAN IP, enter and save the 12-digit Friend Code from this
+save's Pal Pad, then choose **Start**. The app shows health and live logs
+without requiring a terminal. The Friend Code lets the server preserve the
+GameSpy profile ID in the cartridge save instead of returning error 60000.
 
-For the manual Compose path, put the host LAN IP in `.env`, then run:
+For the manual Compose path, put both `HOST_IP` and `FRIEND_CODE` in `.env`,
+then run:
 
 ```
 docker compose up -d
@@ -56,8 +59,9 @@ for a manual install) for DNS/HTTP activity.
 
 ## Tuck in and play
 
-1. In the game, open the C-Gear, choose Game Sync, and tuck in a Pokemon. Save
-   when asked.
+1. In the game, open the C-Gear, press **ONLINE** on the bottom screen, then
+   press **GAME SYNC** and tuck in a Pokemon. This is the menu path shown in
+   White 2; save when asked.
 2. Wait for this message in the app's live logs or the Compose logs:
 
    ```text

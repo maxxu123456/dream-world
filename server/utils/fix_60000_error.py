@@ -1,5 +1,4 @@
 import json
-import hashlib
 from pathlib import Path
 
 MASK = 2147483647  # 0x7FFFFFFF
@@ -16,22 +15,10 @@ def calculate_pid(friend_code: str) -> int:
     
     num_fc = int(friend_code)
     
-    # Validate checksum
-    buffer = [
-        num_fc & 0xFF,
-        num_fc >> 8 & 0xFF,
-        num_fc >> 16 & 0xFF,
-        num_fc >> 24 & 0xFF,
-        0x4A, # J
-        0x41, # A
-        0x52, # R
-        0x49  # I
-    ]
-    
+    # The upper seven bits are a game-code-specific checksum. Checking only its
+    # range keeps this utility compatible with every Black/White/B2/W2 region.
     checksum = num_fc >> 32 & 0xFFFFFFFF
-    computed_checksum = hashlib.md5(bytearray(buffer)).digest()[0] >> 1 & 0x7F
-    
-    if not computed_checksum == checksum:
+    if checksum > 0x7F or (num_fc & MASK) == 0:
         raise ValueError("Friend Code is invalid. Please double-check your Pal Pad.")
     
     return num_fc & MASK
@@ -55,7 +42,15 @@ def main():
         print(f"No WFC profiles found in {save_dir}")
         return
 
-    print(f"Found {len(files)} save file(s).\n")
+    if len(files) > 1:
+        print(
+            "Multiple WFC accounts were found. This legacy utility cannot safely "
+            "identify which account owns the code, so nothing was changed. Use "
+            "the desktop app with the matching save instead."
+        )
+        return
+
+    print("Found 1 save file.\n")
 
     for file_path in files:
         with open(file_path, encoding="UTF-8") as f:

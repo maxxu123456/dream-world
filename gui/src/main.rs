@@ -2,6 +2,7 @@
 
 mod config;
 mod docker;
+mod friend_code;
 mod network;
 
 use docker::{ContainerState, DockerState, HealthState, Snapshot};
@@ -27,9 +28,12 @@ fn main() -> iced::Result {
 struct App {
     host_ip: String,
     confirmed_host_ip: Option<String>,
+    friend_code: String,
+    confirmed_friend_code: Option<String>,
     detected_host_ip: Option<String>,
     detection_error: Option<String>,
     ip_error: Option<String>,
+    friend_code_error: Option<String>,
     snapshot: Snapshot,
     logs: String,
     logs_error: Option<String>,
@@ -46,6 +50,8 @@ enum Message {
     HostIpChanged(String),
     UseDetectedIp,
     SaveHostIp,
+    FriendCodeChanged(String),
+    SaveFriendCode,
     Start,
     Stop,
     Restart,
@@ -71,7 +77,9 @@ impl Action {
         match self {
             Self::Start => "Starting Dream World. The image will download first if needed...",
             Self::Stop => "Stopping Dream World safely...",
-            Self::Restart => "Restarting with the saved DNS IP and latest downloaded image...",
+            Self::Restart => {
+                "Restarting with the saved DNS IP, Friend Code, and latest downloaded image..."
+            }
             Self::Pull => "Pulling the latest image. This can take a few minutes...",
         }
     }
@@ -121,10 +129,28 @@ impl App {
             .or_else(|| detected_host_ip.clone())
             .unwrap_or_default();
 
-        let feedback = if let Some(error) = settings_error {
+        let (saved_friend_code, friend_code_settings_error) = match config::load_friend_code() {
+            Ok(Some(value)) => match friend_code::validate(&value) {
+                Ok(code) => (Some(code.normalized), None),
+                Err(_) => (
+                    None,
+                    Some(
+                        "The previously saved Friend Code was invalid and was ignored.".to_owned(),
+                    ),
+                ),
+            },
+            Ok(None) => (None, None),
+            Err(error) => (None, Some(error)),
+        };
+
+        let friend_code = saved_friend_code.clone().unwrap_or_default();
+
+        let feedback = if let Some(error) = settings_error.or(friend_code_settings_error) {
             Feedback::error(error)
+        } else if saved_host_ip.is_some() && saved_friend_code.is_some() {
+            Feedback::info("Saved setup loaded. Docker status is being checked...")
         } else if saved_host_ip.is_some() {
-            Feedback::info("Saved DNS IP loaded. Docker status is being checked...")
+            Feedback::info("DNS IP loaded. Enter the Friend Code from your game's Pal Pad.")
         } else if detected_host_ip.is_some() {
             Feedback::info(
                 "LAN IP detected. Confirm it is the address shared with your DS, then save it.",
@@ -137,9 +163,12 @@ impl App {
             Self {
                 host_ip,
                 confirmed_host_ip: saved_host_ip,
+                friend_code,
+                confirmed_friend_code: saved_friend_code,
                 detected_host_ip,
                 detection_error,
                 ip_error: None,
+                friend_code_error: None,
                 snapshot: Snapshot::default(),
                 logs: String::new(),
                 logs_error: None,
@@ -207,6 +236,35 @@ impl App {
                         self.feedback = Feedback::info(format!(
                             "DNS IP {host_ip} saved. Use this same address as the DS Primary DNS."
                         ));
+                    }
+                    Err(error) => self.feedback = Feedback::error(error),
+                }
+
+                Task::none()
+            }
+            Message::FriendCodeChanged(value) => {
+                self.friend_code = value;
+                self.friend_code_error = None;
+                Task::none()
+            }
+            Message::SaveFriendCode => {
+                let friend_code = match friend_code::validate(&self.friend_code) {
+                    Ok(code) => code.normalized,
+                    Err(error) => {
+                        self.friend_code_error = Some(error.clone());
+                        self.feedback = Feedback::error(error);
+                        return Task::none();
+                    }
+                };
+
+                match config::save_friend_code(&friend_code) {
+                    Ok(()) => {
+                        self.friend_code.clone_from(&friend_code);
+                        self.confirmed_friend_code = Some(friend_code);
+                        self.friend_code_error = None;
+                        self.feedback = Feedback::info(
+                            "Friend Code saved. It will prevent the profile mismatch that causes error 60000.",
+                        );
                     }
                     Err(error) => self.feedback = Feedback::error(error),
                 }
@@ -290,14 +348,22 @@ impl App {
             return Task::none();
         }
 
+        if matches!(action, Action::Start | Action::Restart) && self.ready_friend_code().is_none() {
+            let error = "Enter and save the 12-digit Friend Code from your Pal Pad before starting Dream World.";
+            self.feedback = Feedback::error(error);
+            self.friend_code_error = Some(error.to_owned());
+            return Task::none();
+        }
+
         let host_ip = self.ready_host_ip().unwrap_or_default();
+        let friend_code = self.ready_friend_code().unwrap_or_default();
         self.operation = Some(action);
         self.feedback = Feedback::info(action.progress_message());
 
         Task::perform(
             async move {
                 match action {
-                    Action::Start | Action::Restart => docker::start(&host_ip),
+                    Action::Start | Action::Restart => docker::start(&host_ip, &friend_code),
                     Action::Stop => docker::stop(),
                     Action::Pull => docker::pull_image(),
                 }
@@ -309,6 +375,11 @@ impl App {
     fn ready_host_ip(&self) -> Option<String> {
         let valid = network::validate_host_ip(&self.host_ip).ok()?.to_string();
         (self.confirmed_host_ip.as_deref() == Some(valid.as_str())).then_some(valid)
+    }
+
+    fn ready_friend_code(&self) -> Option<String> {
+        let valid = friend_code::validate(&self.friend_code).ok()?.normalized;
+        (self.confirmed_friend_code.as_deref() == Some(valid.as_str())).then_some(valid)
     }
 
     fn poll_task() -> Task<Message> {
@@ -346,6 +417,7 @@ impl App {
     fn controls_panel(&self) -> Element<'_, Message> {
         let docker_card = self.docker_card();
         let ip_card = self.ip_card();
+        let friend_code_card = self.friend_code_card();
         let action_card = self.action_card();
         let instructions = self.instructions_card();
 
@@ -358,6 +430,7 @@ impl App {
         let content = column![
             docker_card,
             ip_card,
+            friend_code_card,
             action_card,
             container(text(&self.feedback.message).size(14).color(feedback_color))
                 .padding(12)
@@ -456,6 +529,56 @@ impl App {
             .into()
     }
 
+    fn friend_code_card(&self) -> Element<'_, Message> {
+        let saved = self.ready_friend_code().is_some();
+        let valid = friend_code::validate(&self.friend_code).is_ok();
+        let mut save_button = button(if saved {
+            "Friend Code saved"
+        } else {
+            "Save Friend Code"
+        })
+        .style(if saved {
+            button::success
+        } else {
+            button::primary
+        });
+
+        if valid && !saved && self.operation.is_none() {
+            save_button = save_button.on_press(Message::SaveFriendCode);
+        }
+
+        let mut content = column![
+            text("In-game Friend Code").size(19),
+            text("Required: open the game's Pal Pad and enter its 12-digit Friend Code. This makes the server use the profile ID already stored in this save and prevents error 60000.")
+                .size(13)
+                .color(Color::from_rgb8(78, 92, 110)),
+            row![
+                text_input("0000-0000-0000", &self.friend_code)
+                    .on_input(Message::FriendCodeChanged)
+                    .on_submit(Message::SaveFriendCode)
+                    .padding(10)
+                    .width(Fill),
+                save_button,
+            ]
+            .spacing(8)
+            .align_y(Alignment::Center),
+            text("Use the code for the same game and save that will connect to Dream World.")
+                .size(12)
+                .color(Color::from_rgb8(78, 92, 110)),
+        ]
+        .spacing(9);
+
+        if let Some(error) = &self.friend_code_error {
+            content = content.push(text(error).size(12).color(Color::from_rgb8(180, 42, 42)));
+        }
+
+        container(content)
+            .padding(15)
+            .width(Fill)
+            .style(container::rounded_box)
+            .into()
+    }
+
     fn action_card(&self) -> Element<'_, Message> {
         let docker_ready = matches!(self.snapshot.docker, DockerState::Ready(_));
         let idle = self.operation.is_none();
@@ -466,9 +589,10 @@ impl App {
             ContainerState::NotCreated | ContainerState::Stopped(_)
         );
         let host_ready = self.ready_host_ip().is_some();
+        let friend_code_ready = self.ready_friend_code().is_some();
 
         let mut start = button("Start").style(button::success);
-        if docker_ready && idle && host_ready && startable {
+        if docker_ready && idle && host_ready && friend_code_ready && startable {
             start = start.on_press(Message::Start);
         }
 
@@ -478,7 +602,7 @@ impl App {
         }
 
         let mut restart = button("Restart").style(button::secondary);
-        if docker_ready && idle && host_ready && managed {
+        if docker_ready && idle && host_ready && friend_code_ready && managed {
             restart = restart.on_press(Message::Restart);
         }
 
@@ -493,7 +617,7 @@ impl App {
         }
 
         let operation_text = self.operation.map_or(
-            "Stop keeps saved data. Restart applies DNS-IP changes and a newly pulled image.",
+            "Stop keeps saved data. Restart applies DNS-IP, Friend Code, and image changes.",
             Action::progress_message,
         );
 
@@ -532,7 +656,7 @@ impl App {
             column![
                 text("First tuck-in").size(19),
                 text(format!("1. Set the DS Primary DNS to {ip}.")).size(13),
-                text("2. In Black/White or Black 2/White 2, open C-Gear → Game Sync and tuck in a Pokémon.").size(13),
+                text("2. Open C-Gear, press ONLINE on the bottom screen, then press GAME SYNC and tuck in a Pokémon.").size(13),
                 text("3. Keep this app open and watch the live logs. When the player-upload message appears, open Dream World.").size(13),
                 text(readiness)
                     .size(13)
