@@ -6,7 +6,7 @@ mod friend_code;
 mod network;
 
 use docker::{ContainerState, DockerState, HealthState, Snapshot};
-use iced::widget::{button, column, container, row, scrollable, text, text_input, Space};
+use iced::widget::{button, checkbox, column, container, row, scrollable, text, text_input, Space};
 use iced::{Alignment, Color, Element, Fill, Font, Length, Subscription, Task, Theme};
 use std::process::Command;
 use std::time::Duration;
@@ -30,6 +30,7 @@ struct App {
     confirmed_host_ip: Option<String>,
     friend_code: String,
     confirmed_friend_code: Option<String>,
+    use_existing_friend_code: bool,
     detected_host_ip: Option<String>,
     detection_error: Option<String>,
     ip_error: Option<String>,
@@ -51,6 +52,7 @@ enum Message {
     UseDetectedIp,
     SaveHostIp,
     FriendCodeChanged(String),
+    ExistingFriendCodeToggled(bool),
     SaveFriendCode,
     Start,
     Stop,
@@ -145,12 +147,24 @@ impl App {
 
         let friend_code = saved_friend_code.clone().unwrap_or_default();
 
-        let feedback = if let Some(error) = settings_error.or(friend_code_settings_error) {
+        let (use_existing_friend_code, friend_code_mode_error) =
+            match config::load_friend_code_mode() {
+                Ok(Some(value)) => (value, None),
+                Ok(None) => (saved_friend_code.is_some(), None),
+                Err(error) => (saved_friend_code.is_some(), Some(error)),
+            };
+
+        let feedback = if let Some(error) = settings_error
+            .or(friend_code_settings_error)
+            .or(friend_code_mode_error)
+        {
             Feedback::error(error)
-        } else if saved_host_ip.is_some() && saved_friend_code.is_some() {
+        } else if saved_host_ip.is_some()
+            && (!use_existing_friend_code || saved_friend_code.is_some())
+        {
             Feedback::info("Saved setup loaded. Docker status is being checked...")
-        } else if saved_host_ip.is_some() {
-            Feedback::info("DNS IP loaded. Enter the Friend Code from your game's Pal Pad.")
+        } else if saved_host_ip.is_some() && use_existing_friend_code {
+            Feedback::info("DNS IP loaded. Enter the existing Friend Code from this save.")
         } else if detected_host_ip.is_some() {
             Feedback::info(
                 "LAN IP detected. Confirm it is the address shared with your DS, then save it.",
@@ -165,6 +179,7 @@ impl App {
                 confirmed_host_ip: saved_host_ip,
                 friend_code,
                 confirmed_friend_code: saved_friend_code,
+                use_existing_friend_code,
                 detected_host_ip,
                 detection_error,
                 ip_error: None,
@@ -247,6 +262,26 @@ impl App {
                 self.friend_code_error = None;
                 Task::none()
             }
+            Message::ExistingFriendCodeToggled(enabled) => {
+                self.use_existing_friend_code = enabled;
+                self.friend_code_error = None;
+
+                match config::save_friend_code_mode(enabled) {
+                    Ok(()) if enabled => {
+                        self.feedback = Feedback::info(
+                            "Existing-code mode selected. Enter and save the 12 digits from this save's Pal Pad.",
+                        );
+                    }
+                    Ok(()) => {
+                        self.feedback = Feedback::info(
+                            "New-save mode selected. This server will create and keep the WFC profile; Kaeru is not needed.",
+                        );
+                    }
+                    Err(error) => self.feedback = Feedback::error(error),
+                }
+
+                Task::none()
+            }
             Message::SaveFriendCode => {
                 let friend_code = match friend_code::validate(&self.friend_code) {
                     Ok(code) => code.normalized,
@@ -257,8 +292,11 @@ impl App {
                     }
                 };
 
-                match config::save_friend_code(&friend_code) {
+                match config::save_friend_code(&friend_code)
+                    .and_then(|()| config::save_friend_code_mode(true))
+                {
                     Ok(()) => {
+                        self.use_existing_friend_code = true;
                         self.friend_code.clone_from(&friend_code);
                         self.confirmed_friend_code = Some(friend_code);
                         self.friend_code_error = None;
@@ -348,7 +386,10 @@ impl App {
             return Task::none();
         }
 
-        if matches!(action, Action::Start | Action::Restart) && self.ready_friend_code().is_none() {
+        if matches!(action, Action::Start | Action::Restart)
+            && self.use_existing_friend_code
+            && self.ready_friend_code().is_none()
+        {
             let error = "Enter and save the 12-digit Friend Code from your Pal Pad before starting Dream World.";
             self.feedback = Feedback::error(error);
             self.friend_code_error = Some(error.to_owned());
@@ -356,14 +397,19 @@ impl App {
         }
 
         let host_ip = self.ready_host_ip().unwrap_or_default();
-        let friend_code = self.ready_friend_code().unwrap_or_default();
+        let friend_code = self
+            .use_existing_friend_code
+            .then(|| self.ready_friend_code())
+            .flatten();
         self.operation = Some(action);
         self.feedback = Feedback::info(action.progress_message());
 
         Task::perform(
             async move {
                 match action {
-                    Action::Start | Action::Restart => docker::start(&host_ip, &friend_code),
+                    Action::Start | Action::Restart => {
+                        docker::start(&host_ip, friend_code.as_deref())
+                    }
                     Action::Stop => docker::stop(),
                     Action::Pull => docker::pull_image(),
                 }
@@ -380,6 +426,10 @@ impl App {
     fn ready_friend_code(&self) -> Option<String> {
         let valid = friend_code::validate(&self.friend_code).ok()?.normalized;
         (self.confirmed_friend_code.as_deref() == Some(valid.as_str())).then_some(valid)
+    }
+
+    fn friend_code_setup_ready(&self) -> bool {
+        !self.use_existing_friend_code || self.ready_friend_code().is_some()
     }
 
     fn poll_task() -> Task<Message> {
@@ -549,24 +599,43 @@ impl App {
 
         let mut content = column![
             text("In-game Friend Code").size(19),
-            text("Required: open the game's Pal Pad and enter its 12-digit Friend Code. This makes the server use the profile ID already stored in this save and prevents error 60000.")
+            text("Leave the option below off if the Pal Pad says you do not have a Friend Code yet. This server will create the first WFC profile itself; it does not use Kaeru.")
                 .size(13)
                 .color(Color::from_rgb8(78, 92, 110)),
-            row![
-                text_input("0000-0000-0000", &self.friend_code)
-                    .on_input(Message::FriendCodeChanged)
-                    .on_submit(Message::SaveFriendCode)
-                    .padding(10)
-                    .width(Fill),
-                save_button,
-            ]
-            .spacing(8)
-            .align_y(Alignment::Center),
-            text("Use the code for the same game and save that will connect to Dream World.")
-                .size(12)
-                .color(Color::from_rgb8(78, 92, 110)),
+            checkbox(
+                "This save already has a Friend Code (prevents/fixes 60000)",
+                self.use_existing_friend_code,
+            )
+            .on_toggle(Message::ExistingFriendCodeToggled)
+            .size(15),
         ]
         .spacing(9);
+
+        if self.use_existing_friend_code {
+            content = content.push(
+                row![
+                    text_input("0000-0000-0000", &self.friend_code)
+                        .on_input(Message::FriendCodeChanged)
+                        .on_submit(Message::SaveFriendCode)
+                        .padding(10)
+                        .width(Fill),
+                    save_button,
+                ]
+                .spacing(8)
+                .align_y(Alignment::Center),
+            );
+            content = content.push(
+                text("Use the code for the same game and save that will connect to Dream World.")
+                    .size(12)
+                    .color(Color::from_rgb8(78, 92, 110)),
+            );
+        } else {
+            content = content.push(
+                text("New-save mode: press Start without a code. Keep the Docker volume so this new identity remains available later.")
+                    .size(12)
+                    .color(Color::from_rgb8(42, 93, 68)),
+            );
+        }
 
         if let Some(error) = &self.friend_code_error {
             content = content.push(text(error).size(12).color(Color::from_rgb8(180, 42, 42)));
@@ -589,7 +658,7 @@ impl App {
             ContainerState::NotCreated | ContainerState::Stopped(_)
         );
         let host_ready = self.ready_host_ip().is_some();
-        let friend_code_ready = self.ready_friend_code().is_some();
+        let friend_code_ready = self.friend_code_setup_ready();
 
         let mut start = button("Start").style(button::success);
         if docker_ready && idle && host_ready && friend_code_ready && startable {
@@ -651,13 +720,19 @@ impl App {
         } else {
             "The website intentionally waits for the first player upload."
         };
+        let identity_step = if self.use_existing_friend_code {
+            "1. The saved Friend Code will preserve this cartridge's existing WFC profile."
+        } else {
+            "1. No Friend Code is required; this server will create the save's first WFC profile."
+        };
 
         container(
             column![
                 text("First tuck-in").size(19),
-                text(format!("1. Set the DS Primary DNS to {ip}.")).size(13),
-                text("2. Open C-Gear, press ONLINE on the bottom screen, then press GAME SYNC and tuck in a Pokémon.").size(13),
-                text("3. Keep this app open and watch the live logs. When the player-upload message appears, open Dream World.").size(13),
+                text(identity_step).size(13),
+                text(format!("2. Set the DS Primary DNS to {ip}.")).size(13),
+                text("3. Open C-Gear, press ONLINE on the bottom screen, then press GAME SYNC and tuck in a Pokémon.").size(13),
+                text("4. Keep this app open and watch the live logs. When the player-upload message appears, open Dream World.").size(13),
                 text(readiness)
                     .size(13)
                     .color(if player_ready {

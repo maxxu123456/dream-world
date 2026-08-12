@@ -25,13 +25,14 @@ check the router's 2.4 GHz and legacy Nintendo DS settings first.
 ## Start Game Sync
 
 Use the desktop app from the main [README](../README.md) (recommended): confirm
-and save the host LAN IP, enter and save the 12-digit Friend Code from this
-save's Pal Pad, then choose **Start**. The app shows health and live logs
-without requiring a terminal. The Friend Code lets the server preserve the
-GameSpy profile ID in the cartridge save instead of returning error 60000.
+and save the host LAN IP, then check the Pal Pad. Leave existing-Friend-Code
+mode off if the save has no code yet; the self-host creates the first WFC
+profile itself and does not contact Kaeru. If a 12-digit code already exists,
+enable the option and enter it so the server preserves that profile ID instead
+of returning error 60000. Then choose **Start**.
 
-For the manual Compose path, put both `HOST_IP` and `FRIEND_CODE` in `.env`,
-then run:
+For the manual Compose path, put `HOST_IP` and `FRIEND_CODE` in `.env`. Leave
+`FRIEND_CODE=` blank for a save that does not have one yet, then run:
 
 ```
 docker compose up -d

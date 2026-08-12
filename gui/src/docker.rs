@@ -113,7 +113,7 @@ pub fn inspect() -> Snapshot {
     }
 }
 
-pub fn start(host_ip: &str, friend_code: &str) -> Result<String, String> {
+pub fn start(host_ip: &str, friend_code: Option<&str>) -> Result<String, String> {
     ensure_docker_running()?;
     ensure_container_is_safe_to_replace()?;
     run_checked(&["volume", "create", VOLUME_NAME])?;
@@ -127,7 +127,7 @@ pub fn start(host_ip: &str, friend_code: &str) -> Result<String, String> {
 
     let host_label = format!("{HOST_IP_LABEL}={host_ip}");
     let host_env = format!("HOST_IP={host_ip}");
-    let friend_code_env = format!("FRIEND_CODE={friend_code}");
+    let friend_code_env = format!("FRIEND_CODE={}", friend_code.unwrap_or_default());
     let volume = format!("{VOLUME_NAME}:/opt/server/save_data");
     let dns = format!("{host_ip}:53:53/udp");
     let http = format!("{host_ip}:80:80/tcp");
@@ -164,8 +164,14 @@ pub fn start(host_ip: &str, friend_code: &str) -> Result<String, String> {
         IMAGE,
     ])?;
 
+    let identity_message = if friend_code.is_some() {
+        "The existing Friend Code profile ID will be preserved."
+    } else {
+        "This server will create and persist a new WFC profile for the save."
+    };
+
     Ok(format!(
-        "Dream World started with your saved Friend Code. Set the DS Primary DNS to {host_ip}, then perform the first tuck-in."
+        "Dream World started. {identity_message} Set the DS Primary DNS to {host_ip}, then perform the first tuck-in."
     ))
 }
 

@@ -5,6 +5,7 @@ use std::path::PathBuf;
 const APP_DIRECTORY: &str = "dream-world-gui";
 const HOST_IP_FILE: &str = "host-ip";
 const FRIEND_CODE_FILE: &str = "friend-code";
+const FRIEND_CODE_MODE_FILE: &str = "use-existing-friend-code";
 
 pub fn load_host_ip() -> Result<Option<String>, String> {
     load_setting(HOST_IP_FILE, "DNS IP")
@@ -12,6 +13,15 @@ pub fn load_host_ip() -> Result<Option<String>, String> {
 
 pub fn load_friend_code() -> Result<Option<String>, String> {
     load_setting(FRIEND_CODE_FILE, "Friend Code")
+}
+
+pub fn load_friend_code_mode() -> Result<Option<bool>, String> {
+    match load_setting(FRIEND_CODE_MODE_FILE, "Friend Code mode")? {
+        Some(value) if value == "true" => Ok(Some(true)),
+        Some(value) if value == "false" => Ok(Some(false)),
+        Some(_) => Err("The saved Friend Code mode was invalid and was ignored.".to_owned()),
+        None => Ok(None),
+    }
 }
 
 fn load_setting(file_name: &str, label: &str) -> Result<Option<String>, String> {
@@ -36,6 +46,14 @@ pub fn save_host_ip(host_ip: &str) -> Result<(), String> {
 
 pub fn save_friend_code(friend_code: &str) -> Result<(), String> {
     save_setting(FRIEND_CODE_FILE, "Friend Code", friend_code)
+}
+
+pub fn save_friend_code_mode(use_existing: bool) -> Result<(), String> {
+    save_setting(
+        FRIEND_CODE_MODE_FILE,
+        "Friend Code mode",
+        if use_existing { "true" } else { "false" },
+    )
 }
 
 fn save_setting(file_name: &str, label: &str, value: &str) -> Result<(), String> {

@@ -8,9 +8,9 @@ services:
       # Your computer's LAN IP, so the DNS hands the DS a reachable address.
       # Set it in a .env file next to this one (see .env.example).
       HOST_IP: ${HOST_IP:?Set HOST_IP in a .env file, e.g. HOST_IP=192.168.1.50}
-      # The code in this cartridge save encodes the GameSpy profile ID. Using
-      # it from the first login prevents Nintendo WFC error 60000.
-      FRIEND_CODE: ${FRIEND_CODE:?Set FRIEND_CODE in .env to the 12 digits shown in the game's Pal Pad}
+      # Optional. Leave blank if the Pal Pad says there is no Friend Code yet.
+      # For an existing code, preserving its profile ID prevents error 60000.
+      FRIEND_CODE: ${FRIEND_CODE:-}
     ports:
       # DS-facing ports are bound to your LAN IP (from HOST_IP), not to every
       # interface. This avoids clashing with a local DNS resolver or VPN that

@@ -64,11 +64,14 @@ must be running, and your user must have permission to access Docker without
 
 ### Start Dream World
 
-1. In the game, open **Bag > Key Items > Pal Pad**, choose your trainer's
-   **Friend Code**, and enter all 12 digits in the app. Save it. The app uses
-   the profile ID encoded in this code so a fresh self-host does not trigger
-   Nintendo WFC error 60000. Use the code from the exact game and save that
-   will connect.
+1. Check the game's **Bag > Key Items > Pal Pad**:
+   - If it says you do not have a Friend Code yet, leave **This save already
+     has a Friend Code** off. That is normal for a new save. This app is the WFC
+     replacement and creates the first persistent profile itself; it does not
+     contact Kaeru or require another DNS server.
+   - If a 12-digit Friend Code is displayed, turn that option on and enter the
+     code from the exact game/save that will connect. This preserves the old
+     profile ID and prevents or repairs Nintendo WFC error 60000.
 2. Check the detected LAN IPv4. It must belong to the physical Wi-Fi or
    Ethernet network shared with the DS, not a VPN or virtual adapter. Correct it
    if necessary, then choose **Save DNS IP**.
@@ -137,24 +140,25 @@ Run every command in this guide from inside that `dream-world` folder.
    If the command selects a VPN, disconnect it temporarily or choose the
    physical interface that shares the DS's network.
 
-2. In the game, open **Bag > Key Items > Pal Pad** and display your trainer's
-   12-digit Friend Code. It must come from the exact game and save that will
-   connect.
+2. In the game, check **Bag > Key Items > Pal Pad**. If a 12-digit Friend Code
+   is displayed, use it below. If the game says you do not have one yet, leave
+   `FRIEND_CODE` blank; the self-host will create the first WFC profile.
 
 3. Create a file named `.env` in this folder with both values, using your IP
-   and Friend Code (digits only):
+   and optional Friend Code (digits only):
 
    ```
    HOST_IP=192.168.1.50
-   FRIEND_CODE=123456789012
+   FRIEND_CODE=
    ```
 
-   Quick ways to create it (replace both examples with your own values):
+   Quick ways to create it (replace the IP; add the real code after `=` only if
+   one already exists):
 
    - Windows PowerShell:
-     `Set-Content -Path .env -Value "HOST_IP=192.168.1.50`nFRIEND_CODE=123456789012" -Encoding ascii`
+     `Set-Content -Path .env -Value "HOST_IP=192.168.1.50`nFRIEND_CODE=" -Encoding ascii`
    - macOS or Linux:
-     `printf 'HOST_IP=192.168.1.50\nFRIEND_CODE=123456789012\n' > .env`
+     `printf 'HOST_IP=192.168.1.50\nFRIEND_CODE=\n' > .env`
 
    Your LAN IP can change when your router hands out a new lease. So it keeps
    working, reserve a fixed IP for this computer in your router settings (look
@@ -212,7 +216,7 @@ macOS or Linux:
 
 ```sh
 HOST_IP=192.168.1.50
-FRIEND_CODE=123456789012
+FRIEND_CODE= # leave blank if the Pal Pad has not assigned one yet
 docker run --rm \
   --env "HOST_IP=${HOST_IP}" \
   --env "FRIEND_CODE=${FRIEND_CODE}" \
@@ -229,7 +233,7 @@ Windows PowerShell:
 
 ```powershell
 $HostIp = "192.168.1.50"
-$FriendCode = "123456789012"
+$FriendCode = "" # leave blank if the Pal Pad has not assigned one yet
 docker run --rm `
   --env "HOST_IP=$HostIp" `
   --env "FRIEND_CODE=$FriendCode" `
@@ -292,7 +296,8 @@ Step by step: [docs/dsi-setup.md](docs/dsi-setup.md).
   containing the selected host IP plus listeners on TCP 80, 443, and 29900.
 - DS cannot connect: recheck the physical interface/IP, firewall, 2.4 GHz
   compatibility, and client isolation. Temporarily disconnect VPN software.
-- Error 60000: stop the container, verify that `FRIEND_CODE` (or the code saved
+- Error 60000: this normally means the save already has a WFC identity. Stop
+  the container, verify that `FRIEND_CODE` (or the code saved
   in the app) exactly matches **Pal Pad > your trainer's Friend Code** for this
   game/save, then start or restart it. The server repairs that save's GameSpy
   profile ID before replying to the next login.

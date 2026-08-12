@@ -6,10 +6,12 @@ not read the repository's Compose file or any other repository file at runtime.
 
 It owns a labeled container named `dream-world-gui`, publishes the DS ports to
 the confirmed LAN IP, publishes the website only to `127.0.0.1:8080`, and uses
-the shared `dream-world-data` volume. Before Start, it requires and persists the
-Pal Pad Friend Code for the connecting save; that code is passed to the image so
-GameSpy preserves the cartridge's profile ID and avoids error 60000. An
-unrelated container with the same name is never modified.
+the shared `dream-world-data` volume. A new save can start without a Friend
+Code; the local server creates and persists its first WFC profile without
+contacting Kaeru. If the save already has a Pal Pad code, the optional setup
+passes it to the image so GameSpy preserves the cartridge's profile ID and
+avoids error 60000. An unrelated container with the same name is never
+modified.
 
 ## Develop
 

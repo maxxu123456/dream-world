@@ -4,12 +4,12 @@
 set -euo pipefail
 
 : "${HOST_IP:?Set -e HOST_IP to the LAN IPv4 address shared with your DS; see README.md}"
-: "${FRIEND_CODE:?Set -e FRIEND_CODE to the 12-digit code shown in the game Pal Pad; see README.md}"
-
-# A Nintendo DS Friend Code contains the GameSpy profile ID already stored in
-# the cartridge save. Reusing that ID prevents error 60000 on a fresh server.
-profile_id_file="/tmp/dream-world-profile-id"
-FRIEND_CODE="$FRIEND_CODE" python3 - <<'PY' > "$profile_id_file"
+# If this save already has a Friend Code, preserve its embedded GameSpy profile
+# ID to prevent error 60000. A truly new save has no code; in that mode the
+# server creates a profile normally and persists it in the Docker volume.
+if [ -n "${FRIEND_CODE:-}" ]; then
+  profile_id_file="/tmp/dream-world-profile-id"
+  FRIEND_CODE="$FRIEND_CODE" python3 - <<'PY' > "$profile_id_file"
 import os
 
 raw = os.environ["FRIEND_CODE"]
@@ -29,10 +29,14 @@ if checksum > 0x7F or profile_id == 0:
 
 print(profile_id)
 PY
-IFS= read -r WFC_PROFILE_ID < "$profile_id_file"
-rm -f "$profile_id_file"
-export WFC_PROFILE_ID
-echo "Friend Code accepted; GameSpy profile ID $WFC_PROFILE_ID will be preserved."
+  IFS= read -r WFC_PROFILE_ID < "$profile_id_file"
+  rm -f "$profile_id_file"
+  export WFC_PROFILE_ID
+  echo "Friend Code accepted; GameSpy profile ID $WFC_PROFILE_ID will be preserved."
+else
+  unset WFC_PROFILE_ID
+  echo "No existing Friend Code selected; Game Sync will create a new persistent profile."
+fi
 
 # Validate HOST_IP and pin the DNS answer to it. "local" auto-detection would
 # return the container's private address, which a physical DS cannot reach.
