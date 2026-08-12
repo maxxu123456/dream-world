@@ -225,4 +225,9 @@ submodules come from
 by minibug1021. The Game Sync method comes from
 [Entralinked](https://github.com/kuroppoi/entralinked).
 
-This is an unofficial fan project. See [docs/legal.md](docs/legal.md).
+The root MIT license covers only this repository's original wrapper and GUI
+code. It does not relicense the vendored server or assets. See
+[third-party notices](docs/third-party-notices.md) and
+[legal information](docs/legal.md).
+
+This is an unofficial fan project.

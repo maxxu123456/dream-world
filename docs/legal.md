@@ -5,7 +5,9 @@ This unofficial fan project preserves a service Nintendo closed in 2014.
 - Use a legally owned game. No ROM is included or required.
 - Nintendo, Game Freak, and Creatures own the restored site assets and related
   trademarks. Their inclusion under `server/` is intended for preservation.
-- The wrapper code is MIT licensed. See [LICENSE](../LICENSE).
+- The original wrapper and GUI code are MIT licensed. See
+  [LICENSE](../LICENSE). That license does not relicense vendored code or
+  assets.
 - Vendored projects and third-party tools keep their own terms.
 - This project is not affiliated with or endorsed by Nintendo or The Pokemon
   Company.
@@ -19,4 +21,5 @@ This unofficial fan project preserves a service Nintendo closed in 2014.
   provides the vendored Dream World server and its asset and Game Sync
   submodules.
 - [Entralinked](https://github.com/kuroppoi/entralinked) provides the Game Sync
-  method used by the vendored server.
+  method used by the vendored server. Its complete MIT notice is preserved in
+  [third-party notices](third-party-notices.md).
