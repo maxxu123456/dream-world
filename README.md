@@ -1,103 +1,210 @@
 # Dream World
 
-Run the Pokemon Dream World on your own computer and connect a real DS or DSi
-to it. Tuck in a Pokemon from Black, White, Black 2, or White 2, then play the
-Dream World in a Flash-capable browser as that save.
+Run the Pokemon Dream World on your own computer and connect a real DS, DSi,
+or 3DS to it. Tuck in a Pokemon from Black, White, Black 2, or White 2, then
+play the Dream World in a Flash-capable browser as that save.
 
-Everything needed to run is included in this repo (the server and all game
-assets), so the image is fully self-contained.
+Everything needed at runtime is included in the image: the server, restored
+site, and pre-patched game assets. The container does not clone repositories or
+download JPEXS when it starts.
+
+## Install Docker
+
+- Windows or macOS: download Docker Desktop from
+  https://www.docker.com/products/docker-desktop/, install it, and open it once
+  so it is running (look for the whale icon).
+- Linux: install Docker Engine and the Compose plugin, see
+  https://docs.docker.com/engine/install/.
+
+## Get the project
+
+You also need git. On Windows, install it from https://git-scm.com/download/win.
+On macOS, `git --version` offers to install the Command Line Tools if needed;
+on Linux, install git with your distribution's package manager. Then open a
+terminal (PowerShell on Windows, Terminal on macOS or Linux) and run:
+
+```
+git clone https://github.com/maxxu123456/dream-world.git
+cd dream-world
+```
+
+Run every command in this guide from inside that `dream-world` folder.
 
 ## Run with Docker Compose (recommended)
 
-You only need Docker.
+1. Find the LAN IPv4 address of the physical Wi-Fi or Ethernet interface on the
+   same home network as the DS. It often looks like `192.168.x.x` or `10.x.x.x`.
 
-1. Find your computer's LAN IP:
+   - Windows: run `ipconfig` and read `IPv4 Address` under the active Wi-Fi or
+     Ethernet adapter. Ignore VPN, `vEthernet`, WSL, and other virtual adapters.
+   - macOS: run `route -n get default` and read its `interface`, then run
+     `ipconfig getifaddr INTERFACE` (for example, `ipconfig getifaddr en0`).
+   - Linux: run `ip -4 route get 1.1.1.1` and read the address after `src`.
+
+   If the command selects a VPN, disconnect it temporarily or choose the
+   physical interface that shares the DS's network.
+
+2. Create a file named `.env` in this folder with one line, using your IP:
 
    ```
-   scripts/find-lan-ip.sh
+   HOST_IP=192.168.1.50
    ```
 
-2. Put it in a `.env` file next to `docker-compose.yml` (copy `.env.example`):
+   Quick ways to create it (put in your own IP from step 1, not the example):
 
-   ```
-   echo "HOST_IP=192.168.1.50" > .env   # use your own IP
-   ```
+   - Windows PowerShell:
+     `Set-Content -Path .env -Value "HOST_IP=192.168.1.50" -Encoding ascii`
+   - macOS or Linux: `echo "HOST_IP=192.168.1.50" > .env`
 
-3. Start it:
+   Your LAN IP can change when your router hands out a new lease. So it keeps
+   working, reserve a fixed IP for this computer in your router settings (look
+   for "DHCP reservation" or "static lease"). If the IP ever does change,
+   update `.env` and your DS's DNS setting to match, then run
+   `docker compose up -d` again.
+
+3. Start the container:
 
    ```
    docker compose up -d
    ```
 
-That is it. To stop it: `docker compose down`. To watch logs: `docker compose logs -f`.
+4. Check it:
+
+   ```
+   docker compose ps
+   docker compose logs -f
+   ```
+
+   On a brand-new install, Game Sync becomes healthy and stays available for
+   the DS while the website waits for player data. Complete the first tuck-in;
+   the website then starts automatically on port 8080. No container restart is
+   needed.
+
+To stop it, run `docker compose down`. To start it again, run
+`docker compose up -d`.
 
 ### Your progress is saved
 
-Saves, berries, and items are stored in a named Docker volume
-(`dream-world-data`) and persist across restarts and updates. `docker compose
-down` keeps your progress. Only `docker compose down -v` deletes it.
+Game Sync accounts, saves, berries, and items are stored in the named Docker
+volume `dream-world-data`. Both Compose and the single-command method below use
+that exact volume. `docker compose down` keeps it; `docker compose down -v`
+deletes it permanently.
+
+If you used an older Compose file, your data may be in the old project-scoped
+volume `dream-world_dream-world-data`. With the Dream World container stopped,
+copy it once before starting this version:
+
+```
+docker volume inspect dream-world_dream-world-data
+docker volume create dream-world-data
+docker run --rm --volume dream-world_dream-world-data:/from:ro --volume dream-world-data:/to alpine sh -c "cp -a /from/. /to/"
+```
+
+Skip that migration if `docker volume inspect` says the old volume does not
+exist.
 
 ## Run with a single command (alternative)
 
-```
+This path needs only Docker, not git or the project files. Replace the example
+IP with the LAN IP shared with your DS.
+
+macOS or Linux:
+
+```sh
+HOST_IP=192.168.1.50
 docker run --rm \
-  -e HOST_IP=<your LAN IP> \
-  -v dream-world-data:/opt/server/save_data \
-  -p <your LAN IP>:53:53/udp \
-  -p <your LAN IP>:80:80 \
-  -p <your LAN IP>:443:443 \
-  -p <your LAN IP>:29900:29900/tcp \
-  -p 127.0.0.1:8080:8080 \
+  --env "HOST_IP=${HOST_IP}" \
+  --volume dream-world-data:/opt/server/save_data \
+  --publish "${HOST_IP}:53:53/udp" \
+  --publish "${HOST_IP}:80:80" \
+  --publish "${HOST_IP}:443:443" \
+  --publish "${HOST_IP}:29900:29900/tcp" \
+  --publish 127.0.0.1:8080:8080 \
   ghcr.io/maxxu123456/dream-world:latest
 ```
 
-The `-v dream-world-data:/opt/server/save_data` volume is what keeps your
-progress. Without it, `--rm` deletes everything when the container stops. Port
-29900 is the GameSpy login the DS needs. Port 8080 is only for your browser, so
-it stays on localhost.
+Windows PowerShell:
 
-For a DS to reach the container, Docker must expose these ports on your LAN. That
-works out of the box on Linux, and usually on Docker Desktop for Mac and Windows
-too. If the DS cannot connect, run Docker on a Linux machine.
+```powershell
+$HostIp = "192.168.1.50"
+docker run --rm `
+  --env "HOST_IP=$HostIp" `
+  --volume dream-world-data:/opt/server/save_data `
+  --publish "${HostIp}:53:53/udp" `
+  --publish "${HostIp}:80:80" `
+  --publish "${HostIp}:443:443" `
+  --publish "${HostIp}:29900:29900/tcp" `
+  --publish "127.0.0.1:8080:8080" `
+  ghcr.io/maxxu123456/dream-world:latest
+```
 
-## Troubleshooting
+`--rm` removes only the stopped container. The `dream-world-data` volume keeps
+your progress. Press Ctrl+C to stop this foreground command.
 
-- `bind: address already in use` on port 53: a local DNS resolver or VPN already
-  holds it. Binding to your LAN IP (which Compose and the command above do)
-  avoids most of these. To find and stop the process holding it:
-  `sudo lsof -nP -iUDP:53`.
-- The image is multi-arch (amd64 and arm64), so it runs natively on Apple
-  Silicon. If Docker still warns about platform, run `docker compose pull` to get
-  the current image.
+## Network requirements
+
+- The DS and Docker host must be on the same reachable LAN. Disable wireless
+  client/AP isolation; guest networks commonly block devices from each other.
+- Allow inbound UDP 53 and TCP 80, 443, and 29900 in the host firewall for the
+  LAN/private network. Port 8080 remains bound to host localhost only.
+- Original DS and DS Lite hardware require a compatible 2.4 GHz legacy network,
+  normally open or WEP. DSi and 3DS systems running these DSi-enhanced games can
+  use their system Internet settings with newer Wi-Fi security. If association
+  fails, check that the router offers 2.4 GHz and legacy Nintendo DS support.
+- The IP in `.env`, the published-port bindings, and the DS Primary DNS setting
+  must all be the same address.
+
+Docker Engine on Linux and current Docker Desktop releases publish ports bound
+to the selected LAN address. VPNs, endpoint-security tools, and host firewalls
+can still block traffic from a physical DS.
 
 ## Connect your DS
 
-1. Set the Primary DNS of your DS Wi-Fi connection to your computer's LAN IP
-   (the same value you passed as `HOST_IP`). The connection test may fail, that
-   is fine.
-2. In game, open the C-Gear, pick Game Sync, and tuck in a Pokemon.
-3. If this is your first ever tuck-in, restart the container once so the site
-   picks up game sync mode.
-4. Open http://127.0.0.1:8080/ in a Flash-capable browser and play.
+1. Start the container and confirm Game Sync is healthy.
+2. Set the Primary DNS of the console's game connection to the same LAN IP used
+   as `HOST_IP`. Leave Secondary DNS blank or `0.0.0.0`. A failed connection
+   test does not necessarily prevent Game Sync; continue and check the logs.
+3. In the game, open the C-Gear, choose Game Sync, and tuck in a Pokemon.
+4. Wait for `Player upload found; Dream World site is starting` in the logs.
+5. Open http://127.0.0.1:8080/ in a Flash-capable client.
 
-Step by step: [docs/dsi-setup.md](docs/dsi-setup.md)
+Step by step: [docs/dsi-setup.md](docs/dsi-setup.md).
+
+## Troubleshooting
+
+- Website unavailable before the first tuck-in: expected. The DS-facing Game
+  Sync service starts first; the website starts after usable save data arrives.
+- `bind: address already in use`: another service has one of the required host
+  ports. For UDP 53, common causes are a local DNS resolver, VPN, WARP,
+  Tailscale, or an ad blocker. Binding to the LAN IP avoids a resolver that uses
+  only `127.0.0.1:53`, but not a process bound to all interfaces.
+  - Windows PowerShell as administrator:
+    `Get-Process -Id (Get-NetUDPEndpoint -LocalPort 53).OwningProcess`
+  - macOS or Linux: `sudo lsof -nP -iUDP:53`
+- Container is unhealthy: run `docker compose logs -f`. Health requires a DNS
+  answer containing `HOST_IP` plus listeners on TCP 80, 443, and 29900.
+- DS cannot connect: recheck the physical interface/IP, firewall, 2.4 GHz
+  compatibility, and client isolation. Temporarily disconnect VPN software.
+- Platform warning on Apple Silicon: run `docker compose pull`. The published
+  image supports both amd64 and arm64.
 
 ## Flash
 
-Ruffle does not run the Dream World yet. Use the Basilisk browser with the
-archived Flash plugin, or the standalone Flash Player.
-See [docs/flash-setup.md](docs/flash-setup.md).
+Ruffle does not run the Dream World correctly yet. Use Basilisk with the
+archived Flash plug-in, or preferably the standalone Flash projector. Flash is
+unsupported and unsafe for general browsing; use it only with this local
+server. See [docs/flash-setup.md](docs/flash-setup.md).
 
 ## Status
 
-The DS round trip (tuck in, play, berries and items persist) works. Some parts
-are still broken, including two minigames whose files are lost. See
+The DS round trip—tuck in, play, and persist berries/items—works. Some upstream
+features remain incomplete, including two minigames whose files are lost. See
 [docs/whats-working.md](docs/whats-working.md).
 
 ## Credits
 
-The server and the restored site come from the Dream World Revival team and are
-vendored here so the image is self-contained:
+The server and restored site come from the Dream World Revival team and are
+vendored here so the runtime image is self-contained:
 
 - Server and assets: [minibug1021/dreamworld-reawakened](https://github.com/minibug1021/dreamworld-reawakened)
   and its submodules ([game-sync-python](https://github.com/minibug1021/game-sync-python),

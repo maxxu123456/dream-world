@@ -1,15 +1,17 @@
 # What works and what does not
 
-The Dream World server is a community work in progress. This list comes from the
-upstream project.
+The vendored Dream World server is a community work in progress. This list
+tracks the upstream snapshot included in this repository.
 
 Working:
+
 - Connecting a physical DS through Game Sync and tucking in a Pokemon
 - Playing the Dream World website as that save
 - Berry farming and items that carry over between sessions
 - C-Gear skins, Pokedex skins, and Musical shows delivered to the game
 
 Not working yet:
+
 - The Pokemon Bistro and Blow Out Candles minigames
 - Making a wish at the Tree of Dreams
 - Sending Pokemon back to the game through the Entralink
