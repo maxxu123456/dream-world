@@ -1,0 +1,7 @@
+# the upstream server checkout (fetched by scripts/setup.sh)
+server/
+
+.DS_Store
+*.log
+*.pid
+__pycache__/
