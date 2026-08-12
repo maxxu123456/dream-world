@@ -1,0 +1,15 @@
+[package]
+name = "dream-world-gui"
+version = "0.1.0"
+edition = "2021"
+description = "A desktop Docker front end for the Pokemon Dream World self-host"
+license = "MIT"
+repository = "https://github.com/maxxu123456/dream-world"
+
+[dependencies]
+iced = { version = "0.13.1", default-features = false, features = ["fira-sans", "tiny-skia", "tokio"] }
+
+[profile.release]
+strip = true
+lto = "thin"
+codegen-units = 1

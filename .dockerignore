@@ -1,6 +1,7 @@
 .git
 .github
 docs
+gui
 LICENSE
 README.md
 server/.venv

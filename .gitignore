@@ -5,6 +5,7 @@ server/patches/ffdec.zip
 server/patches/ffdec/
 server/patches/scripts/
 **/__pycache__/
+gui/target/
 
 .DS_Store
 *.log

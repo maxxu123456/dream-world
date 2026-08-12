@@ -24,8 +24,11 @@ check the router's 2.4 GHz and legacy Nintendo DS settings first.
 
 ## Start Game Sync
 
-Follow the Compose instructions in the main [README](../README.md), putting the
-host LAN IP in `.env`, then run:
+Use the desktop app from the main [README](../README.md) (recommended): confirm
+and save the host LAN IP, then choose **Start**. The app shows health and live
+logs without requiring a terminal.
+
+For the manual Compose path, put the host LAN IP in `.env`, then run:
 
 ```
 docker compose up -d
@@ -43,17 +46,19 @@ upload; port 8080 becomes available automatically after tuck-in.
    3DS, use the matching connection configured in System Settings when
    appropriate for the console.
 2. Edit the connection and disable automatic DNS.
-3. Set Primary DNS to the same LAN IP used for `HOST_IP`.
+3. Set Primary DNS to the LAN IP saved in the app (or used for `HOST_IP` in a
+   manual install).
 4. Leave Secondary DNS blank or set it to `0.0.0.0`, then save.
 
 The connection test can fail even when the game-specific flow works. If it
-does, continue once and watch `docker compose logs -f` for DNS/HTTP activity.
+does, continue once and watch the app's live logs (or `docker compose logs -f`
+for a manual install) for DNS/HTTP activity.
 
 ## Tuck in and play
 
 1. In the game, open the C-Gear, choose Game Sync, and tuck in a Pokemon. Save
    when asked.
-2. Wait for this container message:
+2. Wait for this message in the app's live logs or the Compose logs:
 
    ```text
    Player upload found; Dream World site is starting on port 8080.

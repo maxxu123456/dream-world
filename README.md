@@ -8,7 +8,93 @@ Everything needed at runtime is included in the image: the server, restored
 site, and pre-patched game assets. The container does not clone repositories or
 download JPEXS when it starts.
 
-## Install Docker
+## Recommended: Dream World desktop app
+
+The desktop app is the easiest way to run Dream World. It detects your network,
+starts and updates the public Docker image, shows live health and logs, and
+guides you through the first tuck-in. You do not need Git, this repository, or
+Docker commands after downloading it.
+
+The app is one executable, but it still requires Docker Desktop to provide the
+container runtime. Install and open
+[Docker Desktop](https://www.docker.com/products/docker-desktop/) first; wait
+until its whale menu says Docker is running.
+
+### Download the app
+
+Open the [latest GitHub Release](https://github.com/maxxu123456/dream-world/releases/latest)
+and download the single binary for your computer:
+
+- Apple Silicon Mac (M1/M2/M3/M4 or newer):
+  `dream-world-gui-macos-aarch64`
+- Intel Mac: `dream-world-gui-macos-x86_64`
+- Windows: `dream-world-gui-windows-x86_64.exe`
+- 64-bit Linux: `dream-world-gui-linux-x86_64`
+
+#### macOS
+
+macOS does not keep the executable permission when a binary is downloaded from
+the web. Open Terminal, type `chmod +x ` (including the trailing space), drag
+the downloaded `dream-world-gui-macos-*` file into the Terminal window, and
+press Return. This is a one-time step; Docker commands are not required.
+
+In Finder, **Control-click the downloaded binary > Open**, then choose **Open**
+in the Gatekeeper prompt. Double-clicking works on later launches. If the file
+opens in a text editor instead, open Terminal, drag the file into it, and press
+Return.
+
+#### Windows
+
+Double-click `dream-world-gui-windows-x86_64.exe`. If Microsoft Defender
+SmartScreen appears, choose **More info > Run anyway**. Keep the executable in a
+normal folder such as Documents or Downloads.
+
+#### Linux
+
+In a terminal, change to the download folder once and run:
+
+```sh
+chmod +x dream-world-gui-linux-x86_64
+./dream-world-gui-linux-x86_64
+```
+
+You can launch the executable from your file manager afterward. Docker Desktop
+must be running, and your user must have permission to access Docker without
+`sudo`.
+
+### Start Dream World
+
+1. Check the detected LAN IPv4. It must belong to the physical Wi-Fi or
+   Ethernet network shared with the DS, not a VPN or virtual adapter. Correct it
+   if necessary, then choose **Save DNS IP**.
+2. Choose **Pull / Update image** if you want to download the newest server,
+   then choose **Start**. Start also downloads the public image automatically
+   when it is not already installed.
+3. Set the DS Primary DNS to the large saved IP shown in the app. Leave the
+   Secondary DNS blank or set it to `0.0.0.0`.
+4. In the game, use C-Gear > Game Sync and tuck in a Pokemon. The DS-facing
+   service stays healthy while waiting. When the live log says
+   `Player upload found; Dream World site is starting`, choose
+   **Open Dream World**.
+
+The restored site still requires a Flash-capable client; modern browsers and
+Ruffle do not run it correctly. Read the [Flash setup guide](docs/flash-setup.md)
+before playing.
+
+The app continues polling health and logs while it is open. Closing the app
+does not stop the server; use **Stop** first when you want to stop it. Progress
+is stored in the named Docker volume `dream-world-data`, shared with the manual
+methods below. Reserve the selected address in your router (look for "DHCP
+reservation" or "static lease") so the DS DNS setting does not become stale.
+
+If you already run the manual Compose setup, stop it before pressing Start in
+the app because both methods use the same host ports.
+
+## Manual Docker setup
+
+The following methods remain available for people who prefer Docker commands.
+
+### Install Docker
 
 - Windows or macOS: download Docker Desktop from
   https://www.docker.com/products/docker-desktop/, install it, and open it once
@@ -16,7 +102,7 @@ download JPEXS when it starts.
 - Linux: install Docker Engine and the Compose plugin, see
   https://docs.docker.com/engine/install/.
 
-## Get the project
+### Get the project
 
 You also need git. On Windows, install it from https://git-scm.com/download/win.
 On macOS, `git --version` offers to install the Command Line Tools if needed;
@@ -30,7 +116,7 @@ cd dream-world
 
 Run every command in this guide from inside that `dream-world` folder.
 
-## Run with Docker Compose (recommended)
+### Run with Docker Compose
 
 1. Find the LAN IPv4 address of the physical Wi-Fi or Ethernet interface on the
    same home network as the DS. It often looks like `192.168.x.x` or `10.x.x.x`.
@@ -83,7 +169,7 @@ Run every command in this guide from inside that `dream-world` folder.
 To stop it, run `docker compose down`. To start it again, run
 `docker compose up -d`.
 
-### Your progress is saved
+#### Your progress is saved
 
 Game Sync accounts, saves, berries, and items are stored in the named Docker
 volume `dream-world-data`. Both Compose and the single-command method below use
@@ -103,7 +189,7 @@ docker run --rm --volume dream-world_dream-world-data:/from:ro --volume dream-wo
 Skip that migration if `docker volume inspect` says the old volume does not
 exist.
 
-## Run with a single command (alternative)
+### Run with a single command
 
 This path needs only Docker, not git or the project files. Replace the example
 IP with the LAN IP shared with your DS.
@@ -151,8 +237,9 @@ your progress. Press Ctrl+C to stop this foreground command.
   normally open or WEP. DSi and 3DS systems running these DSi-enhanced games can
   use their system Internet settings with newer Wi-Fi security. If association
   fails, check that the router offers 2.4 GHz and legacy Nintendo DS support.
-- The IP in `.env`, the published-port bindings, and the DS Primary DNS setting
-  must all be the same address.
+- The DNS IP saved in the app (or `HOST_IP` in `.env` for Compose), the
+  published-port bindings, and the DS Primary DNS setting must all be the same
+  address.
 
 Docker Engine on Linux and current Docker Desktop releases publish ports bound
 to the selected LAN address. VPNs, endpoint-security tools, and host firewalls
@@ -181,12 +268,13 @@ Step by step: [docs/dsi-setup.md](docs/dsi-setup.md).
   - Windows PowerShell as administrator:
     `Get-Process -Id (Get-NetUDPEndpoint -LocalPort 53).OwningProcess`
   - macOS or Linux: `sudo lsof -nP -iUDP:53`
-- Container is unhealthy: run `docker compose logs -f`. Health requires a DNS
-  answer containing `HOST_IP` plus listeners on TCP 80, 443, and 29900.
+- Container is unhealthy: read the app's live logs, or run
+  `docker compose logs -f` for a manual install. Health requires a DNS answer
+  containing the selected host IP plus listeners on TCP 80, 443, and 29900.
 - DS cannot connect: recheck the physical interface/IP, firewall, 2.4 GHz
   compatibility, and client isolation. Temporarily disconnect VPN software.
-- Platform warning on Apple Silicon: run `docker compose pull`. The published
-  image supports both amd64 and arm64.
+- Platform warning on Apple Silicon: choose **Pull / Update image** in the app,
+  or run `docker compose pull`. The published image supports amd64 and arm64.
 
 ## Flash
 
