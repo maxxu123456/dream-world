@@ -12,7 +12,9 @@ assets. It does not download source or tools at runtime.
 > [!WARNING]
 > This restoration is unfinished. Your tucked-in Pokemon can wake and return,
 > but newly befriended Dream World Pokemon cannot yet transfer to the Entralink
-> or Entree Forest. Use a disposable Pokemon while testing.
+> or Entree Forest. Dream Point level-ups are also not implemented, so the
+> tucked-in Pokemon returns without gaining a level. Use a disposable Pokemon
+> while testing.
 >
 > New accounts currently receive 99 of all 64 berry types. This is an upstream
 > development placeholder, not original Dream World progression. The original
@@ -66,6 +68,12 @@ must be able to run Docker without `sudo`, then run
 
 Modern browsers and Ruffle do not run Dream World correctly. Follow the
 [Flash projector guide](docs/flash-setup.md).
+
+> [!WARNING]
+> Do not select **Exit and continue sleeping** in the standalone projector.
+> That option tries to return to the original browser wrapper and can load
+> forever. Close the projector and reopen the Flash URL to continue the same
+> session with the Pokemon still asleep.
 
 Closing the desktop app does not stop Docker. Select **Stop** first when you
 want to stop the server. Progress is stored in the `dream-world-data` Docker
@@ -192,6 +200,12 @@ Press Ctrl+C to stop. `--rm` removes the container, not the named data volume.
 - `Exit and continue sleeping` loads forever: close the projector manually.
   The server keeps the tucked-in Pokemon asleep, and reopening the Flash URL
   continues the same Dream World session.
+- C-Gear skins, Pokedex skins, and Musical shows: the files are bundled, but
+  the restored Customize page cannot save a selection or deliver it to the
+  game yet.
+- Tucked-in Pokemon does not level up: the original service awarded one level
+  after earning 500 Dream Points during a sleep session. This restoration does
+  not yet award Dream Points or that level.
 
 See [DS setup](docs/dsi-setup.md), [Flash setup](docs/flash-setup.md), and
 [feature status](docs/whats-working.md).

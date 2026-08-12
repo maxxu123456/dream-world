@@ -65,9 +65,18 @@ Read this file before changing the wrapper or debugging a console connection.
 - In the standalone projector, **Exit and continue sleeping** cannot return to
   the historical HTML wrapper and may load forever. It sends no state-changing
   API request; closing the projector leaves the player in the dreaming state.
+- C-Gear, Pokedex, and Musical DLC files are vendored, but the customization
+  flow is not working. `GET_profile_customize` returns hard-coded choices,
+  there is no handler that saves a choice, and `handle_retrieve_dlc_content`
+  builds a response buffer without returning it. Do not describe these items
+  as obtainable until the full site-to-DS path is implemented and tested.
 - The tucked-in Pokemon can wake and return with the save. The unfinished part
   is transferring newly befriended Dream World Pokemon to the Entralink or
   Entree Forest. Use a disposable Pokemon while testing.
+- The original service awarded one level when a player earned 500 Dream Points
+  between tuck-in and wake-up. This implementation initializes
+  `levels_gained` to zero, never increments it, and never increments
+  `experiment_point`, so the tucked-in Pokemon currently returns unchanged.
 - API requests and Game Sync records can contain private player identifiers.
   Do not paste raw logs into documentation, commits, issues, or chat. Never
   commit a user's LAN IP, Friend Code, profile ID, or player query parameters.
