@@ -17,9 +17,14 @@ else
   git clone --recursive https://github.com/minibug1021/dreamworld-reawakened.git server
 fi
 
-echo "Installing Python packages..."
-python3 -m pip install -r server/requirements.txt
-python3 -m pip install -r server/game_sync_server/requirements.txt
+# Use a dedicated virtualenv so the packages are found whether we run as you or
+# with sudo (the Game Sync server needs root for port 53), and so we do not fight
+# a system-managed Python (PEP 668).
+echo "Creating virtualenv at server/.venv and installing packages..."
+python3 -m venv server/.venv
+server/.venv/bin/python -m pip install --upgrade pip
+server/.venv/bin/python -m pip install -r server/requirements.txt
+server/.venv/bin/python -m pip install -r server/game_sync_server/requirements.txt
 
 echo
 echo "Setup done. Next steps:"

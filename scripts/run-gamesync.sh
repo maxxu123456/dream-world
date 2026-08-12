@@ -3,8 +3,8 @@
 # Run this BEFORE the Dream World server. It needs root because it uses port 53.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-DIR="$ROOT/server/game_sync_server"
-[ -d "$DIR" ] || { echo "Server not found. Run scripts/setup.sh first."; exit 1; }
-cd "$DIR"
+PY="$ROOT/server/.venv/bin/python"
+[ -x "$PY" ] || { echo "Run scripts/setup.sh first."; exit 1; }
+cd "$ROOT/server/game_sync_server"
 echo "Starting Game Sync server. It will print the DNS IP to type into your DS."
-exec sudo python3 server.py
+exec sudo -- "$PY" server.py

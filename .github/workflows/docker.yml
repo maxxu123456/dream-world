@@ -7,6 +7,10 @@ on:
       - Dockerfile
       - docker/**
       - .github/workflows/docker.yml
+  # Rebuild weekly so :latest tracks the upstream server, which is cloned at
+  # build time from its HEAD.
+  schedule:
+    - cron: "0 6 * * 1"
   workflow_dispatch:
 
 permissions:

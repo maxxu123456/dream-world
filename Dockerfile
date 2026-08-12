@@ -25,7 +25,8 @@ RUN python3 -m pip install --no-cache-dir \
 COPY docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-# 53/udp DNS, 80 + 443 Game Sync HTTP/TLS, 8080 Dream World site
-EXPOSE 53/udp 80 443 8080
+# 53/udp DNS, 80 + 443 Game Sync HTTP/TLS, 29900/tcp GameSpy login,
+# 8080 Dream World site. The DS needs 53, 80, 443, and 29900 on the LAN.
+EXPOSE 53/udp 80 443 29900 8080
 
 ENTRYPOINT ["/entrypoint.sh"]

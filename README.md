@@ -10,12 +10,37 @@ which is where all the server code and restored site files come from.
 
 ## Run with Docker
 
+The image is published to a private package. The simplest fix is to make it
+public once: open https://github.com/users/maxxu123456/packages/container/dream-world/settings
+and set the package to public. After that anyone (including you) can pull it with
+no login.
+
+To keep it private instead, sign in with a token that has `read:packages`:
+
 ```
-docker run --rm -e HOST_IP=<your LAN IP> -p 53:53/udp -p 80:80 -p 443:443 -p 8080:8080 ghcr.io/maxxu123456/dream-world:latest
+gh auth refresh -s read:packages
+gh auth token | docker login ghcr.io -u maxxu123456 --password-stdin
 ```
 
-Replace `<your LAN IP>` with your computer's address on your Wi-Fi network
-(`scripts/find-lan-ip.sh` prints it on a Mac).
+Then run it. Replace `<your LAN IP>` with your computer's address on your Wi-Fi
+network (`scripts/find-lan-ip.sh` prints it on a Mac):
+
+```
+docker run --rm \
+  -e HOST_IP=<your LAN IP> \
+  --mount type=volume,src=dream-world-data,dst=/opt/server/save_data \
+  -p 53:53/udp -p 80:80 -p 443:443 -p 29900:29900/tcp \
+  -p 127.0.0.1:8080:8080 \
+  ghcr.io/maxxu123456/dream-world:latest
+```
+
+The named volume keeps your saves, berries, and items between runs. Port 29900 is
+the GameSpy login step the DS needs, so do not drop it. Port 8080 is only for your
+own browser, so it stays on localhost.
+
+Docker on a Mac cannot always let a DS on the Wi-Fi reach these ports. If Game Sync
+will not connect, run without Docker instead (below), which is the reliable path
+for a real DS.
 
 ## Run without Docker
 
