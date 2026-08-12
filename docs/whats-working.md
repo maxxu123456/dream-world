@@ -9,6 +9,14 @@ Working in that setup:
 - Loading Dream World as that save
 - Persistent berries and items
 
+Partially working:
+
+- Berry gardening. Planting, watering, harvesting, and persistence work.
+  Growth is recalculated only when the web server starts, so wait the Berry's
+  full growth time, restart the container, and reopen the projector before
+  harvesting. Water consumption and yield are simplified. Additional garden
+  rows cannot unlock because Dream Points are not implemented.
+
 Not working:
 
 - Pokemon Bistro and Blow Out Candles
