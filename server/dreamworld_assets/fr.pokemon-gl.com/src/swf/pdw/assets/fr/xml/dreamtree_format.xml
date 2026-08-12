@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="fr">
+	<string id="b_ae_3" letterSpacing="1.0" />
+	<string id="b_ae_4" letterSpacing="1.0" />
+	<string id="k_af_1" letterSpacing="1.0" />
+	<string id="t_ac_1" letterSpacing="1.0" />
+	<string id="t_ac_2" letterSpacing="1.0" />
+	<string id="t_ac_3" letterSpacing="1.0" />
+	<string id="t_ac_4" letterSpacing="1.0" />
+	<string id="t_ac_5" letterSpacing="1.0" />
+	<string id="t_ac_6" letterSpacing="1.0" />
+	<string id="t_ac_7" letterSpacing="1.0" />
+	<string id="t_ac_8" letterSpacing="1.0" />
+	<string id="t_ac_9" letterSpacing="1.0" />
+	<string id="t_ac_10" letterSpacing="1.0" />
+	<string id="t_ad_1" letterSpacing="1.0" bold="true" />
+</data>

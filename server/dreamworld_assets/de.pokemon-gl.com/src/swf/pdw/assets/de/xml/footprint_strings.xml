@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="de">
+	<string id="f_af_1">Traumfreundschaftsanfrage</string>
+	<string id="f_af_2">Dieses Pokémon hat deine Traumfreundschaftsanfrage bestätigt.&amp;#xD;Willst du das Pokémon zu Hause besuchen?</string>
+	<string id="f_af_3">Spitzname:</string>
+	<string id="f_af_4">PGL-Spitzname</string>
+	<string id="f_af_6">Finder:</string>
+	<string id="f_af_7">Level:</string>
+	<string id="f_af_8">Typ:</string>
+	<string id="f_af_9">Geschlecht:</string>
+	<string id="f_af_10">Wesen:</string>
+	<string id="f_af_13" unofficial="true">Aktivitäten</string>
+	<string id="f_af_14">Traumfreundschaftsanfrage</string>
+	<string id="f_af_15" unofficial="true">Wässern</string>
+	<string id="f_af_16" unofficial="true">Tausch</string>
+	<string id="f_af_17">Ende</string>
+	<string id="f_af_18">Pokémon zu Hause besuchen</string>
+	<string id="m_ac_1" unofficial="true">Schau! Ein Fussabdruck!&amp;#xD;</string>
+	<string id="m_ac_2" unofficial="true">Wenn ein Pokémon ein Fussabdruck hinterlässt, kannst du es fragen dein Traumfreund zu werden. Besuch das Pokémon Zuhause und stell eine Freundschaftsanfrage.</string>
+	<string id="m_ac_3">Spitzname:</string>
+	<string id="m_ac_4">PGL-Spitzname:</string>
+	<string id="m_ac_6">Finder:</string>
+	<string id="m_ac_7">Level:</string>
+	<string id="m_ac_8">Typ:</string>
+	<string id="m_ac_9">Geschlecht:</string>
+	<string id="m_ac_10">Wesen:</string>
+	<string id="m_ac_12">Aktivitäten</string>
+	<string id="m_ac_16" unofficial="true">Pokémon zu Hause besuchen.</string>
+	<string id="m_ac_17">Schliessen</string>
+</data>

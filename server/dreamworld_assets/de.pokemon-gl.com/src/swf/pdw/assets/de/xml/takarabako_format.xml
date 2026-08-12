@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="de">
+	<string id="b_ad_1" size="18" letterSpacing="1.0" />
+	<string id="b_ad_2" size="12" letterSpacing="1.0" />
+	<string id="b_ad_3" size="12" letterSpacing="1.0" />
+	<string id="b_ad_6" size="12" letterSpacing="1.0" />
+	<string id="b_ad_7" size="12" letterSpacing="1.0" />
+	<string id="b_ae_1" size="12" letterSpacing="1.0" />
+	<string id="b_af_1" size="12" letterSpacing="1.0" />
+	<string id="b_az_1" size="12" letterSpacing="1.0" />
+</data>

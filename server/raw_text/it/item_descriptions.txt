@@ -1,0 +1,639 @@
+???
+La Ball dalle prestazioni migliori:\ncattura qualsiasi Pokémon selvatico\nsenza mai fallire.
+Ball dalle prestazioni eccellenti:\nfornisce maggiori probabilità di\ncattura rispetto alla Mega Ball.
+Ball dalle ottime prestazioni: fornisce\nmaggiori probabilità di cattura rispetto\nalla Poké Ball.
+Strumento dotato di capsula usato per\ncatturare Pokémon selvatici. Si lancia\ncontro il bersaglio come una palla.
+Poké Ball speciale, usata soltanto\nnella Gran Palude. È decorata con\nun motivo mimetico.
+Poké Ball un po' diversa. Risulta\nparticolarmente efficace sui Pokémon\ndi tipo Acqua e Coleottero.
+Poké Ball un po' diversa. Risulta\nparticolarmente efficace sui Pokémon\nche vivono in acqua.
+Poké Ball un po' diversa. Risulta\nparticolarmente efficace sui Pokémon\nselvatici più deboli.
+Poké Ball un po' diversa. Risulta\nparticolarmente efficace sulle specie\ndi Pokémon già catturate in precedenza.
+Poké Ball un po' diversa che diventa\nprogressivamente più efficace con\nl'aumentare dei turni in lotta.
+Poké Ball utile che rende più amichevoli\ni Pokémon selvatici catturati.
+Poké Ball poco comune realizzata\nappositamente per commemorare\nun particolare evento.
+Poké Ball un po' diversa che rende più\nfacile catturare Pokémon selvatici di\nnotte o in luoghi bui come le grotte.
+Poké Ball curativa che ridà PS\nal Pokémon catturato e risolve ogni\nproblema di stato.
+Poké Ball un po' diversa che facilita\nla cattura di un Pokémon selvatico\nse usata all'inizio della lotta.
+Poké Ball molto esclusiva creata per\ncommemorare un evento speciale.
+Rimedio spray per le ferite.\nRestituisce 20 PS ad un Pokémon.
+Rimedio spray.\nCura un Pokémon dall'avvelenamento.
+Rimedio spray.\nCura un Pokémon dalla scottatura.
+Rimedio spray.\nCura un Pokémon dal congelamento.
+Rimedio spray.\nSveglia un Pokémon addormentato.
+Rimedio spray.\nCura un Pokémon dalla paralisi.
+Rimedio che restituisce tutti i PS ad\nun Pokémon e risolve i suoi problemi\ndi stato.
+Rimedio spray per le ferite.\nRestituisce tutti i PS ad un Pokémon.
+Rimedio spray per le ferite.\nRestituisce 200 PS ad un Pokémon.
+Rimedio spray per le ferite.\nRestituisce 50 PS ad un Pokémon.
+Rimedio spray.\nRisolve tutti i problemi di stato\ndi un Pokémon.
+Rimedio che rianima un Pokémon esausto\ne gli restituisce metà dei suoi\nPS massimi.
+Rimedio che rianima un Pokémon esausto\nridandogli tutti i PS.
+Acqua ricca di sostanze minerali.\nRestituisce 50 PS ad un Pokémon.
+Bevanda frizzante.\nRestituisce 60 PS ad un Pokémon.
+Bevanda molto dolce.\nRestituisce 80 PS ad un Pokémon.
+Latte ricco di sostanze nutrienti.\nRestituisce 100 PS ad un Pokémon.
+Rimedio amarissimo in polvere.\nRestituisce 50 PS ad un Pokémon.
+Radice amarissima.\nRestituisce 200 PS ad un Pokémon.
+Rimedio amarissimo in polvere.\nRisolve tutti i problemi di stato\ndi un Pokémon.
+Erba medicinale amarissima.\nRianima un Pokémon esausto e gli\nrestituisce tutti i PS.
+Restituisce un massimo di 10 PP\na una mossa a scelta che è stata\nimparata dal Pokémon.
+Restituisce tutti i PP a una mossa\na scelta che è stata imparata\ndal Pokémon.
+Restituisce 10 PP a ciascuna delle\nmosse imparate dal Pokémon.
+Restituisce tutti i PP a ogni mossa\nimparata dal Pokémon.
+Specialità tipica di Cuordilava.\nRisolve tutti i problemi di stato\ndi un Pokémon.
+Bevanda a base di puro succo di Bacche.\nRestituisce 20 PS ad un Pokémon.
+Rianima tutti i Pokémon esausti,\nrestituendo loro anche tutti i PS.
+Bevanda nutriente per Pokémon.\nAumenta i PS di base.
+Bevanda nutriente per Pokémon.\nAumenta l'Attacco di base.
+Bevanda nutriente per Pokémon.\nAumenta la Difesa di base.
+Bevanda nutriente per Pokémon.\nAumenta la Velocità di base.
+Bevanda nutriente per Pokémon.\nAumenta l'Attacco Speciale di base.
+Caramella altamente energetica.\nFa salire un Pokémon di un livello.
+Aumenta di poco i PP massimi di una mossa\na scelta che è stata imparata dal\nPokémon.
+Bevanda nutriente per Pokémon.\nAumenta la Difesa Speciale di base.
+Porta al limite i PP massimi di una mossa\na scelta imparata da un Pokémon.
+Specialità segreta dell'Antico Château.\nCura tutti i problemi di stato di\nun Pokémon.
+Per cinque turni dopo l'uso, evita\nla riduzione delle statistiche dei\nPokémon della squadra dell'Allenatore.
+Brutti colpi molto più probabili.\nSi può usare una sola volta e l'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta l'Attacco di un Pokémon\nin una lotta. L'effetto svanisce se\nil Pokémon è sostituito.
+Aumenta la Difesa di un Pokémon\nin una lotta. L'effetto svanisce se\nil Pokémon è sostituito.
+Aumenta la Velocità di un Pokémon\nin una lotta. L'effetto svanisce se\nil Pokémon è sostituito.
+Aumenta la precisione di un Pokémon\nin una lotta. L'effetto svanisce se\nil Pokémon è sostituito.
+Aumenta l'Attacco Speciale di un\nPokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta la Difesa Speciale di un\nPokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Bambola che attrae i Pokémon. È utile\nper fuggire dalla lotta con un Pokémon\nselvatico.
+Strumento che attrae i Pokémon. È utile\nper fuggire dalla lotta con Pokémon\nselvatici.
+Flauto giocattolo fatto di vetro blu.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Flauto giocattolo fatto di vetro giallo.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Flauto giocattolo fatto di vetro rosso.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Flauto giocattolo fatto di vetro nero.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Flauto giocattolo fatto di vetro bianco.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Sale purissimo rinvenuto nella Grotta\nOndosa. Si può vendere a un prezzo\npiuttosto alto agli intenditori.
+Un bel guscio rinvenuto nella Grotta\nOndosa. Si può vendere a un prezzo\npiuttosto alto agli intenditori.
+Un piccolo coccio rosso che con ogni\nprobabilità è un frammento di un antico\nstrumento.
+Un piccolo coccio blu che con ogni\nprobabilità è un frammento di un antico\nstrumento.
+Un piccolo coccio giallo che con ogni\nprobabilità è un frammento di un antico\nstrumento.
+Un piccolo coccio verde che con ogni\nprobabilità è un frammento di un antico\nstrumento.
+Repellente che evita l'incontro con i\nPokémon selvatici deboli per 200 passi\ndopo l'utilizzo.
+Repellente che evita l'incontro con i\nPokémon selvatici deboli per 250 passi\ndopo l'utilizzo.
+Corda lunga e resistente che si usa\nper fuggire in un batter d'occhio\ndalle grotte o da certi luoghi chiusi.
+Strumento che evita l'incontro con i\nPokémon selvatici deboli per 100 passi\ndopo l'utilizzo.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nÈ rossa come il sole.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nÈ nera come il cielo di notte.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nÈ gialla ed arancione.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nRiporta l'immagine di un fulmine.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nHa delle macchioline azzurre.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nRiporta l'immagine di una foglia.
+Fungo piccolo e raro. È parecchio\napprezzato da alcuni intenditori.
+Fungo grande e raro. È molto\napprezzato da alcuni intenditori.
+Perla piuttosto piccola dai graziosi\nriflessi argentei. Si può vendere\na un prezzo piuttosto basso nei negozi.
+Perla piuttosto grande dai graziosi\nriflessi argentei. Si può vendere\na un prezzo piuttosto alto nei negozi.
+Bella sabbia rossa dalla consistenza\nleggera e farinosa. Si può vendere\na un prezzo piuttosto alto nei negozi.
+Frammento rosso acceso di una gemma.\nSi può vendere a un prezzo piuttosto\nalto nei negozi.
+Pepita d'oro puro dal luccichio\nsfavillante. Si può vendere a un prezzo\npiuttosto alto nei negozi.
+Squama graziosa, a forma di cuore e\nmolto rara. Riflette tutti i colori\ndell'iride.
+Miele dolce dall'aroma intenso che\nattrae i Pokémon selvatici. Usalo nelle\ngrotte, nell'erba o su alberi speciali.
+Usato per favorire la crescita delle\nBacche nelle regioni dove si coltivano.\nGli intenditori pagano caro per averlo.
+Usato per favorire la crescita delle\nBacche nelle regioni dove si coltivano.\nGli intenditori pagano caro per averlo.
+Usato per favorire la crescita delle\nBacche nelle regioni dove si coltivano.\nGli intenditori pagano caro per averlo.
+Usata per favorire la crescita delle\nBacche nelle regioni dove si coltivano.\nGli intenditori pagano caro per averla.
+Fossile di un antico Pokémon che\nviveva in mare. Sembra essere\nparte di una radice.
+Fossile di un antico Pokémon che\nviveva in mare. Sembra essere\nparte di un artiglio.
+Fossile di un Pokémon antico che\nviveva in mare. Sembra essere\nparte di una conchiglia.
+Fossile di un Pokémon antico che\nviveva in mare. Sembra essere\nparte di una corazza.
+Pezzo di ambra che contiene il materiale\ngenetico di un Pokémon antico. È chiaro\ne di colore giallastro.
+Fossile di un Pokémon preistorico che\nviveva sulla terraferma. Sembra far\nparte di un collare.
+Fossile di un Pokémon preistorico che\nviveva sulla terraferma. Sembra far\nparte di un teschio.
+Osso di grande valore per l'archeologia\nPokémon. Può essere venduto nei negozi\na un prezzo piuttosto alto.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nBrilla di una luce abbagliante.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nÈ scura come le tenebre.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nÈ luccicante come gli occhi.
+Pietra particolare che fa evolvere\ndeterminate specie di Pokémon.\nÈ a forma di uovo.
+Strumento importante che impedisce\nil crollo di un pozzo di pietra. A volte\ndal suo interno provengono delle voci.
+Poliedro splendente da far tenere a\nGiratina. Aumenta la potenza delle\nmosse di tipo Drago e Spettro.
+
+
+
+Modulo da far tenere a Genesect.\nTrasforma Tecnobotto in una mossa\ndi tipo Acqua.
+Modulo da far tenere a Genesect.\nTrasforma Tecnobotto in una mossa\ndi tipo Elettro.
+Modulo da far tenere a Genesect.\nTrasforma Tecnobotto in una mossa\ndi tipo Fuoco.
+Modulo da far tenere a Genesect.\nTrasforma Tecnobotto in una mossa\ndi tipo Ghiaccio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cioccolato molto dolce.\nRestituisce 20 PS ad un Pokémon.
+Sfera molto luminosa da far tenere\na Dialga. Potenzia le mosse di tipo\nDrago e Acciaio.
+Sfera splendente da far tenere\na Palkia. Potenzia le mosse di tipo\nDrago e Acqua.
+Carta da lettera ideale per presentarsi\na qualcuno. Un Pokémon può tenerla e\nconsegnarla.
+Carta da lettera ideale per comunicare\nciò che si preferisce. Un Pokémon può\ntenerla e consegnarla.
+Carta da lettera ideale per scrivere\nun invito a qualcuno. Un Pokémon può\ntenerla e consegnarla.
+Carta da lettera ideale per scrivere\ndei ringraziamenti. Un Pokémon può\ntenerla e consegnarla.
+Carta da lettera ideale per scrivere\nuna domanda a qualcuno. Un Pokémon\npuò tenerla e consegnarla.
+Carta da lettera ideale per consigliare\nqualcosa a qualcuno. Un Pokémon può\ntenerla e consegnarla.
+Carta da lettera ideale per scrivere\nuna risposta ad un messaggio.\nUn Pokémon può tenerla e consegnarla.
+Carta da lettera che riporta l'immagine\ndi un ponte che attraversa il cielo.\nUn Pokémon può tenerla e consegnarla.
+Carta da lettera che riporta l'immagine\ndi un ponte mobile di color rosso fuoco.\nUn Pokémon può tenerla e consegnarla.
+Carta da lettera che riporta l'immagine\ndi un ponte sospeso in acciaio.\nUn Pokémon può tenerla e consegnarla.
+Carta da lettera che riporta l'immagine\ndi un ponte fatto di mattoni.\nUn Pokémon può tenerla e consegnarla.
+Carta da lettera che riporta l'immagine\ndi un ponte ad archi.\nUn Pokémon può tenerla e consegnarla.
+Se tenuta da un Pokémon, lo cura\ndalla paralisi.
+Se tenuta da un Pokémon, lo risveglia\ndal sonno.
+Se tenuta da un Pokémon, lo guarisce\ndall'avvelenamento.
+Se tenuta da un Pokémon, lo guarisce\nda una scottatura.
+Se tenuta da un Pokémon, lo cura\ndal congelamento.
+Se tenuta da un Pokémon restituisce\n10 PP a una mossa.
+Se tenuta da un Pokémon gli restituisce\n10 PS.
+Se tenuta da un Pokémon, lo libera\ndalla confusione.
+Se tenuta da un Pokémon risolve\nqualsiasi problema di stato.
+Se tenuta da un Pokémon restituisce\nun po' di PS.
+Se tenuta da un Pokémon in difficoltà,\nrestituisce PS. Se al Pokémon non piace\nil suo sapore, può causare confusione.
+Se tenuta da un Pokémon in difficoltà,\nrestituisce PS. Se al Pokémon non piace\nil suo sapore, può causare confusione.
+Se tenuta da un Pokémon in difficoltà,\nrestituisce PS. Se al Pokémon non piace\nil suo sapore, può causare confusione.
+Se tenuta da un Pokémon in difficoltà,\nrestituisce PS. Se al Pokémon non piace\nil suo sapore, può causare confusione.
+Se tenuta da un Pokémon in difficoltà,\nrestituisce PS. Se al Pokémon non piace\nil suo sapore, può causare confusione.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Utilizzata su un Pokémon, lo rende più\namichevole, ma riduce i PS di base.
+Utilizzata su un Pokémon, lo rende più\namichevole, ma diminuisce l'Attacco\ndi base.
+Utilizzata su un Pokémon, lo rende più\namichevole, ma diminuisce la Difesa\ndi base.
+Utilizzata su un Pokémon, lo rende più\namichevole, ma diminuisce l'Attacco\nSpeciale di base.
+Utilizzata su un Pokémon, lo rende più\namichevole, ma diminuisce la Difesa\nSpeciale di base.
+Utilizzata su un Pokémon, lo rende più\namichevole, ma diminuisce la Velocità\ndi base.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Bacca molto rara a Unima.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Fuoco\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Acqua\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Elettro\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Erba\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Ghiaccio\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Lotta\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Veleno\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Terra\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Volante\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Psico\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo\nColeottero del nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Roccia\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Spettro\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Drago\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Buio\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco superefficace di tipo Acciaio\ndel nemico.
+Se tenuta da un Pokémon, indebolisce\nl'attacco di tipo Normale del nemico.
+Aumenta l'Attacco, se il Pokémon che\nla tiene si trova in difficoltà.
+Aumenta la Difesa, se il Pokémon che\nla tiene si trova in difficoltà.
+Aumenta la Velocità, se il Pokémon che\nla tiene si trova in difficoltà.
+Aumenta l'Attacco Speciale, se\nil Pokémon che la tiene si trova\nin difficoltà.
+Aumenta la Difesa Speciale, se\nil Pokémon che la tiene si trova\nin difficoltà.
+Brutti colpi più probabili se il Pokémon\nche la tiene si trova in difficoltà.
+Aumenta molto una statistica se\nil Pokémon che la tiene si trova\nin difficoltà.
+Ripristina i PS, se il Pokémon che\nla tiene è colpito da un attacco\nsuperefficace.
+Se il Pokémon che ce l'ha è in difficoltà,\naumenta la precisione della sua mossa\nsuccessiva.
+Se il Pokémon che ce l'ha è in difficoltà,\ngli consente di fare per primo la sua\nmossa. Funziona una sola volta.
+Se tenuta da un Pokémon, il nemico\nsubirà danni se il suo attacco fisico\nva a segno.
+Se tenuta da un Pokémon, il nemico\nsubirà danni se il suo attacco speciale\nva a segno.
+Strumento da far tenere a un Pokémon.\nEmette un bagliore insidioso che riduce\nla precisione dell'avversario.
+Strumento da far tenere a un Pokémon.\nRipristina le statistiche ridotte in\nlotta. Si può usare una sola volta.
+Strumento da far tenere a un Pokémon.\nAttrezzo pesante che riduce la Velocità\nma aiuta la crescita delle statistiche.
+Strumento da far tenere a un Pokémon.\nChi lo tiene ottiene Punti Esperienza\ndalla lotta anche se non vi partecipa.
+Strumento da far tenere a un Pokémon.\nLeggero e affilato, permette di fare\nla prima mossa ogni tanto.
+Strumento da far tenere a un Pokémon.\nCampanella dal suono rassicurante che\ncalma chi la usa rendendolo amichevole.
+Strumento monouso da far tenere a un\nPokémon. Annulla l'infatuazione di chi\nlo tiene.
+Strumento da far tenere a un Pokémon.\nQuesta benda aumenta l'Attacco, ma\npermette l'uso di una sola mossa.
+Strumento da far tenere a un Pokémon.\nSe chi lo usa arreca danni, può far\ntentennare il nemico.
+Strumento da far tenere a un Pokémon.\nPolvere argentea e brillante che\npotenzia le mosse di tipo Coleottero.
+Strumento da far tenere a un Pokémon.\nRaddoppia i guadagni nella lotta se\nchi lo tiene vi partecipa.
+Strumento da far tenere a un Pokémon.\nAiuta ad allontanare i Pokémon selvatici\nse chi lo tiene è il primo della squadra.
+Sfera miracolosa da far tenere a\nLatios o Latias. Aumenta l'Attacco\nSpeciale e la Difesa Speciale.
+Strumento da far tenere a Clamperl.\nDente dai bagliori argentei che aumenta\nl'Attacco Speciale.
+Strumento da far tenere a Clamperl.\nSquama dai bagliori rosei che aumenta\nla Difesa Speciale.
+Strumento da far tenere a un Pokémon.\nPermette a chi lo tiene di fuggire con\nsuccesso da un Pokémon selvatico.
+Strumento da far tenere a un Pokémon.\nChi tiene questa pietra particolare\nevita l'evoluzione.
+Strumento da far tenere a un Pokémon.\nChi lo tiene può evitare un potenziale\nKO e rimanere con un solo PS.
+Strumento da far tenere a un Pokémon.\nUovo pieno di felicità che aumenta\ni Punti Esperienza in lotta.
+Strumento da far tenere a un Pokémon.\nLente che aumenta le probabilità per chi\nla tiene di sferrare dei brutti colpi.
+Strumento da far tenere a un Pokémon.\nSpeciale pellicola metallica che\npotenzia le mosse di tipo Acciaio.
+Strumento da far tenere a un Pokémon.\nFa recuperare gradualmente i PS\ndurante la lotta.
+Squama spessa e dura.\nPuò essere tenuta da un Pokémon\ndi tipo Drago quando viene catturato.
+Strumento da far tenere a Pikachu.\nSfera insolita che aumenta l'Attacco e\nl'Attacco Speciale.
+Strumento da far tenere a un Pokémon.\nSabbia leggera e farinosa che potenzia\nle mosse di tipo Terra.
+Strumento da far tenere a un Pokémon.\nPietra indistruttibile che potenzia\nle mosse di tipo Roccia.
+Strumento da far tenere a un Pokémon.\nSeme intriso di vita che potenzia\nle mosse di tipo Erba.
+Strumento da far tenere a un Pokémon.\nInquietante paio di occhiali che\npotenzia le mosse di tipo Buio.
+Strumento da far tenere a un Pokémon.\nCintura che potenzia la determinazione\ne le mosse di tipo Lotta.
+Strumento da far tenere a un Pokémon.\nPotente magnete che potenzia le mosse\ndi tipo Elettro.
+Strumento da far tenere a un Pokémon.\nGemma a forma di goccia che potenzia\nle mosse di tipo Acqua.
+Strumento da far tenere a un Pokémon.\nBecco lungo e affilato che potenzia\nle mosse di tipo Volante.
+Strumento da far tenere a un Pokémon.\nAculeo piccolo e tossico che potenzia\nle mosse di tipo Veleno.
+Strumento da far tenere a un Pokémon.\nPezzo di ghiaccio che respinge il calore\ne potenzia le mosse di tipo Ghiaccio.
+Strumento da far tenere a un Pokémon.\nTarga sinistra e inquietante che\npotenzia le mosse di tipo Spettro.
+Strumento da far tenere a un Pokémon.\nCucchiaio dotato di potere telecinetico\nche potenzia le mosse di tipo Psico.
+Strumento da far tenere a un Pokémon.\nSostanza combustibile che potenzia\nle mosse di tipo Fuoco.
+Strumento da far tenere a un Pokémon.\nDente duro e affilato che potenzia\nle mosse di tipo Drago.
+Strumento da far tenere a un Pokémon.\nSciarpa raffinata che potenzia le mosse\ndi tipo Normale.
+Apparecchio trasparente pieno zeppo\ndi dati di ogni tipo. È un prodotto\ndella Silph SpA.
+Strumento da far tenere a un Pokémon.\nChi lo tiene recupera un po' di PS\nogni volta che infligge danni.
+Strumento da far tenere a un Pokémon.\nIncenso dal curioso aroma che potenzia\nle mosse di tipo Acqua.
+Strumento da far tenere a un Pokémon.\nIl suo aroma intenso riduce\nla precisione del nemico.
+Strumento da far tenere a Chansey.\nGuanti che aumentano di molto la\nprobabilità di sferrare brutti colpi.
+Strumento da far tenere a Ditto.\nStrana polvere finissima e al tempo\nstesso dura che migliora la Difesa.
+Strumento da far tenere a Cubone o\nMarowak. Osso duro che migliora\nl'Attacco.
+Strumento da far tenere a Farfetch'd.\nGambo di porro lungo che aumenta\ndi molto la probabilità di brutti colpi.
+Strumento da far tenere a un Pokémon.\nAumenta la “Classe" di chi lo tiene\nin una Gara.
+Strumento da far tenere a un Pokémon.\nAumenta la “Bellezza" di chi lo tiene\nin una Gara.
+Strumento da far tenere a un Pokémon.\nAumenta la “Grazia" di chi lo tiene\nin una Gara.
+Strumento da far tenere a un Pokémon.\nAumenta l'“Acume" di chi lo tiene\nin una Gara.
+Strumento da far tenere a un Pokémon.\nAumenta la “Grinta" di chi lo tiene\nin una Gara.
+Strumento da far tenere a un Pokémon.\nLente d'ingrandimento che aumenta\ndi poco la precisione delle mosse.
+Strumento da far tenere a un Pokémon.\nFascia che potenzia di poco gli attacchi\nfisici.
+Strumento da far tenere a un Pokémon.\nPaio di occhiali dalle lenti spesse che\npotenzia di poco le mosse speciali.
+Strumento da far tenere a un Pokémon.\nCintura consumata che potenzia di poco\nle mosse superefficaci.
+Strumento da far tenere a un Pokémon.\nAllunga la durata delle mosse barriera\ncome Schermoluce e Riflesso.
+Strumento da far tenere a un Pokémon.\nPotenzia le mosse, a scapito di alcuni\nPS per ogni colpo.
+Strumento monouso da far tenere a un\nPokémon. Permette l'uso immediato di\nuna mossa che al primo turno si carica.
+Strumento da far tenere a un Pokémon.\nSfera bizzarra che iperavvelena chi la\ntiene in lotta.
+Strumento da far tenere a un Pokémon.\nSfera bizzarra che procura una\nscottatura a chi la tiene in lotta.
+Strumento da far tenere a Ditto.\nQuesta strana polvere, fine e al\ncontempo dura, aumenta la Velocità.
+Strumento da far tenere a un Pokémon.\nSe chi lo tiene ha tutti i PS, eviterà\nun potenziale KO, rimanendo con un PS.
+Strumento da far tenere a un Pokémon.\nAumenta la precisione se chi lo tiene\nattacca dopo il nemico.
+Strumento da far tenere a un Pokémon.\nPotenzia una mossa usata di seguito.\nL'aumento svanisce al cambio di mossa.
+Riduce la Velocità e rende vulnerabili\nalle mosse terra se chi la tiene è di tipo\nVolante o ha l'abilità Levitazione.
+Strumento da far tenere a un Pokémon.\nÈ tremendamente pesante e rende chi\nlo tiene più lento del normale.
+Gomitolo di filo rosso sottile da dare\na un Pokémon. Se il Pokémon rimane\ninfatuato, contagia anche il nemico.
+Strumento da far tenere a un Pokémon:\nridà gradualmente PS ai Pokémon di\ntipo Veleno. Danneggia tutti gli altri.
+Strumento da far tenere a un Pokémon\nche allunga la durata della mossa\nGrandine se usata da chi lo tiene.
+Strumento da far tenere a un Pokémon\nche allunga la durata della mossa\nTerrempesta se usata da chi lo tiene.
+Strumento da far tenere a un Pokémon\nche allunga la durata della mossa\nGiornodisole se usata da chi lo tiene.
+Strumento da far tenere a un Pokémon\nche allunga la durata della mossa\nPioggiadanza se usata da chi lo tiene.
+Strumento da far tenere a un Pokémon\nche prolunga gli attacchi multiturno\ncome Avvolgibotta e Legatutto.
+Strumento da far tenere a un Pokémon.\nStola che aumenta la Velocità, ma\nconsente l'uso di una sola mossa.
+Strumento che danneggia chi lo tiene\nad ogni turno. Può attaccarsi al nemico\nche lancia un attacco fisico.
+Strumento da far tenere a un Pokémon.\nRiduce la Velocità in lotta, ma aumenta\nmolto l'Attacco di base.
+Strumento da far tenere a un Pokémon.\nRiduce la Velocità in lotta, ma aumenta\nmolto la Difesa di base.
+Strumento da far tenere a un Pokémon.\nRiduce la Velocità in lotta, ma aumenta\nmolto l'Attacco Speciale di base.
+Strumento da far tenere a un Pokémon.\nRiduce la Velocità in lotta, ma aumenta\nmolto la Difesa Speciale di base.
+Strumento da far tenere a un Pokémon.\nRiduce la Velocità in lotta, ma aumenta\nmolto la Velocità di base.
+Strumento da far tenere a un Pokémon.\nRiduce la Velocità in lotta, ma aumenta\nmolto i PS di base.
+Un Pokémon con questo robusto guscio\npuò sfuggire al nemico anche se questi\nha usato mosse o abilità intrappolanti.
+Strumento da far tenere a un Pokémon.\nPotenzia le mosse ruba-PS facendo\nrecuperare più PS a chi lo usa.
+Strumento da far tenere a un Pokémon.\nQuesti occhiali aumentano l'Att. Sp., ma\npermettono l'uso di una sola mossa.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Fuoco.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Acqua.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Elettro.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Erba.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Ghiaccio.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Lotta.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Veleno.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Terra.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Volante.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Psico.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Coleottero.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Roccia.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Spettro.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Drago.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Buio.
+Strumento da far tenere a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Acciaio.
+Strumento da far tenere a un Pokémon.\nIncenso dal profumo esotico che\npotenzia le mosse di tipo Psico.
+Strumento da far tenere a un Pokémon.\nIncenso dal profumo esotico che\npotenzia le mosse di tipo Roccia.
+Strumento da far tenere a un Pokémon.\nIncenso dal profumo esotico che\nrende gonfio e lento chi lo tiene.
+Strumento da far tenere a un Pokémon.\nIncenso dal curioso aroma che potenzia\nle mosse di tipo Acqua.
+Strumento da far tenere a un Pokémon.\nIncenso dal profumo esotico che\npotenzia le mosse di tipo Erba.
+Strumento da far tenere a un Pokémon.\nRaddoppia i guadagni nella lotta se\nchi lo tiene vi partecipa.
+Strumento da far tenere a un Pokémon.\nAiuta ad allontanare i Pokémon selvatici\nse chi lo tiene è il primo della squadra.
+Strumento protettivo, molto duro e\npesante, prediletto da un Pokémon\nin particolare.
+Scatola strapiena di energia elettrica.\nUn Pokémon in particolare adora questo\nstrumento.
+Scatola strapiena di energia lavica.\nUn Pokémon in particolare adora\nquesto strumento.
+Dispositivo trasparente strapieno\ndi dati di dubbia entità. Non se ne\nconosce il produttore.
+Panno intriso di un'energia spirituale\nterribilmente forte. Un Pokémon in\nparticolare adora questo strumento.
+Strumento da far tenere a un Pokémon.\nArtiglio che aumenta le probabilità per\nchi lo tiene di sferrare dei brutti colpi.
+Strumento da far tenere a un Pokémon.\nChi lo tiene può far tentennare il nemico\ncolpito.
+Chi la usa affila i propri artigli,\naumentando Attacco e precisione.
+Chi la usa attacca con artigli affilati\nche graffiano il nemico rapidamente e\ncon grande forza.
+Chi la usa attacca il bersaglio facendo\nmaterializzare un misterioso raggio\npsichico che provoca danni fisici.
+Chi la usa, meditando, placa il proprio\nspirito per aumentare l'Attacco\nSpeciale e la Difesa Speciale.
+Il bersaglio è costretto a lasciare\nil campo e viene sostituito. Mette fine\nalle lotte contro Pokémon selvatici.
+Iperavvelena il nemico con una potente\ntossina. Il danno peggiora ad ogni\nturno.
+Chi la usa provoca una grandinata di\ncinque turni. Danneggia tutti i Pokémon\ntranne quelli di tipo Ghiaccio.
+Chi la usa tende i muscoli per gonfiare\nil corpo, aumentando Difesa e Attacco.
+Lancia uno speciale liquido tossico sul\nbersaglio. Se questi è avvelenato, il\ndanno provocato raddoppia.
+Mossa singolare che cambia tipo e\npotenza a seconda del Pokémon che\nla usa.
+Chi la usa intensifica i raggi solari per\ncinque turni, potenziando le mosse di\ntipo Fuoco.
+Provoca il nemico, inducendolo ad usare\nsolo mosse d'attacco per tre turni.
+Il nemico è colpito da un raggio di\nenergia gelida che può anche\ncongelarlo.
+Colpisce i bersagli con una tremenda\ntempesta di ghiaccio che può anche\ncongelarli.
+Colpisce il nemico con un potente\nraggio. Chi la usa salta il turno\nsuccessivo per recuperare energia.
+Innalza una barriera di luce fantastica\nper ridurre i danni degli attacchi\nspeciali alla squadra per 5 turni.
+Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.
+Chi la usa provoca una forte pioggia per\ncinque turni, potenziando le mosse di\ntipo Acqua.
+Chi la usa fa galleggiare in aria il\nbersaglio, rendendolo facile da\ncolpire per tre turni.
+Chi la usa crea un campo protettivo che\ndifende tutta la squadra dai problemi di\nstato per cinque turni.
+Mossa che diventa tanto più potente\nquanto minore è il grado di affezione\ndel Pokémon per il proprio Allenatore.
+Chi la usa assorbe luce al primo turno\nper proiettare un raggio intenso al\nturno successivo.
+Chi la usa lancia una pietra o un\nproiettile. Può colpire anche un\nbersaglio in volo e farlo cadere.
+Il bersaglio viene colpito da una\npotente scarica elettrica che può\nanche paralizzarlo.
+Il nemico è colpito da un lampo molto\nviolento che può anche paralizzarlo.
+Chi la usa provoca un potente sisma che\ncolpisce gli altri Pokémon in campo.
+Mossa che diventa tanto più potente\nquanto maggiore è il grado di affezione\ndel Pokémon per il proprio Allenatore.
+Chi la usa scava al primo turno e\nattacca al successivo. Fuori dalla\nlotta fa uscire da alcuni luoghi.
+Il nemico viene colpito da una potente\nforza telecinetica che può anche\nridurne la Difesa Speciale.
+Lancia sul nemico una sfera nera.\nPuò anche ridurne la Difesa Speciale.
+Colpisce il nemico con una mano e può\nanche rompere barriere come Riflesso e\nSchermoluce.
+Chi la usa si muove in fretta e crea\ncopie illusorie di se stesso che\naumentano la capacità di elusione.
+Innalza una barriera di luce fantastica\nper ridurre i danni degli attacchi fisici\nalla squadra per cinque turni.
+Lancia un'onda di fango che attacca\ntutti i Pokémon nelle vicinanze.\nPuò anche avvelenarli.
+Il nemico viene colpito da intense\nfiammate che possono anche scottarlo.
+Chi la usa attacca lanciando fango\nsul bersaglio. Può anche avvelenarlo.
+Causa una tempesta di sabbia per cinque\nturni che danneggia tutti i tipi in campo\nesclusi Terra, Roccia e Acciaio.
+Investe il nemico con un'intensa\nfiammata che fa terra bruciata.\nPuò anche scottarlo.
+Colpisce il nemico con rocce. Inoltre,\nlo rallenta riducendone la Velocità.
+Chi la usa attacca il nemico a grande\nvelocità. Questa mossa è infallibile.
+Chi la usa tormenta e fa infuriare\nil nemico, impedendogli di usare\nla stessa mossa due volte di seguito.
+Mossa d'attacco che raddoppia\nla potenza se chi la usa è scottato,\navvelenato o paralizzato.
+Chi la usa si copre di fuoco e attacca\nil bersaglio. Concentrandosi aumenta,\ninoltre, la propria Velocità.
+Chi la usa dorme per due turni.\nRecupera, però, tutti i PS e risolve\ntutti i suoi problemi di stato.
+Se il nemico è del sesso opposto,\ns'infatua e attacca con meno\nprobabilità.
+Chi la usa attacca il bersaglio e può\nrubargli uno strumento, se non ne tiene\ngià uno.
+Chi la usa colpisce con un attacco\nfulmineo la parte inferiore del corpo\ndel bersaglio, riducendone la Velocità.
+Attacca il bersaglio con una melodia.\nSe usata durante lo stesso turno da\npiù Pokémon i danni inflitti aumentano.
+Attacca il bersaglio con la propria voce\necheggiante. Se usata a ripetizione da\nuno o più Pokémon il danno aumenta.
+Chi la usa sferra un potente attacco,\nma il contraccolpo riduce di molto\nil suo Attacco Speciale.
+Chi la usa si teletrasporta al posto\ndi un compagno in campo, grazie\nad un misterioso potere.
+Chi la usa si concentra e rilascia la sua\nforza. Può ridurre la Difesa Speciale del\nPokémon colpito.
+Chi la usa attinge energia dalla natura\ne la scaglia contro il nemico. Può anche\nridurne la Difesa Speciale.
+Chi la usa trattiene il colpo per\nimpedire al nemico di andare KO,\nlasciandolo con almeno un PS.
+Chi la usa attacca il bersaglio con un\ngetto d'acqua bollente che può anche\nscottarlo.
+Chi la usa lancia sul nemico lo strumento\nche tiene. La forza e l'effetto\ndipendono dallo strumento.
+Chi la usa lancia un fascio di elettricità\nmolto intensa. Può anche aumentare il\nsuo Attacco Speciale.
+Porta il bersaglio in cielo e lo scaglia a\nterra al turno successivo. Il bersaglio\ncatturato non può muoversi.
+Attacca il nemico con una fiammata.\nSe il nemico ha una Bacca, viene\ndivorata dalle fiamme.
+Chi la usa spinge via il bersaglio,\ncostringendolo ad agire per ultimo.
+Fiamme intense di colore viola causano\nuna scottatura al nemico.
+Attacca rapidamente il bersaglio.\nSe chi la usa non ha uno strumento,\ninfligge al nemico grossi danni.
+Impedisce al nemico di usare lo\nstrumento che tiene e al suo\nAllenatore di usarne altri sul Pokémon.
+Chi la usa esplode per infliggere danni\nagli altri Pokémon attorno, ma va KO.
+Chi la usa attacca con artigli d'ombra\nche colpiscono con gran forza.\nProbabile brutto colpo.
+Chi la usa accumula forza, poi attacca.\nLa potenza raddoppia se agisce dopo\nil Pokémon nemico.
+Vendica un compagno messo KO. Se ciò è\naccaduto al turno precedente, il danno\nè maggiore.
+Chi la usa carica il nemico usando\ntutta la sua forza, ma al turno\nsuccessivo deve riposare.
+Chi la usa leviga il proprio corpo per\nridurre l'attrito. Aumenta di molto\nla Velocità.
+Investe il nemico con un flash che ne\nriduce la precisione. Fuori dalla lotta\nserve per illuminare le grotte.
+Chi la usa colpisce il nemico dal\nbasso con pietre affilate. Probabile\nbrutto colpo.
+Chi usa questa mossa fa marcia indietro\nper farsi sostituire dopo aver sferrato\nl'attacco.
+Il nemico viene colpito da una debole\nscarica elettrica che, se va a segno,\nne causa la paralisi.
+Chi la usa colpisce il nemico con un\nvortice rapidissimo. Più lento è chi\nla usa, maggiore è il danno.
+Danza frenetica che incrementa lo\nspirito combattivo. Chi la usa aumenta\ndi molto il suo Attacco.
+Colpisce i nemici opponendo resistenza\ne riducendo il loro Attacco Speciale.
+Chi la usa s'ipnotizza per copiare ogni\nmodifica alle statistiche del bersaglio.
+Chi la usa calpesta il terreno e scatena\nun terremoto che danneggia i Pokémon\nnei paraggi, riducendone la Velocità.
+Chi la usa attacca il bersaglio con un\nsoffio d'aria gelida. Brutto colpo\nassicurato.
+I nemici vengono colpiti da grandi massi\nche possono anche farli tentennare.
+Chi la usa colpisce il nemico usando\nle sue falci o i suoi artigli come se\nfossero delle forbici.
+Chi la usa fa volar via il bersaglio in\nmodo che venga sostituito. Se il nemico\nè un Pokémon selvatico, la lotta finisce.
+Chi la usa si tira su di morale,\naumentando il proprio Attacco e\nl'Attacco Speciale.
+Il nemico è colpito da un tentacolo o da\nun arto intriso di una sostanza tossica,\nche può anche avvelenarlo.
+Attacco che funziona solo su un nemico\nche dorme. Chi lo usa riceve metà dei PS\npersi dal nemico.
+Chi la usa intrappola il nemico con\nl'erba e lo fa cadere. Danneggia\nmaggiormente i nemici più pesanti.
+Chi la usa provoca il bersaglio e lo\nconfonde, facendo aumentare però\ndi molto il suo Attacco.
+Chi la usa becca il bersaglio. Inoltre,\nse questi tiene una Bacca, gliela ruba\ne ne sfrutta gli effetti.
+Chi usa questa mossa si tira indietro\nper farsi sostituire dopo aver sferrato\nl'attacco.
+Chi la usa crea una copia di se stesso\nusando alcuni PS. La copia serve come\nesca per il nemico.
+Chi la usa attacca raccogliendo e\nrilasciando energia luminosa. Può anche\nridurre la Difesa Speciale del nemico.
+Chi la usa crea una dimensione in cui\ni Pokémon più lenti si muovono per primi\nper cinque turni.
+Attacca il nemico con artigli o falci\naffilate. Fuori dalla lotta si usa per\ntagliare piccoli alberi.
+Chi la usa si alza in volo per attaccare\nal turno seguente. Fuori dalla lotta fa\nvolare in città già visitate.
+Un'onda enorme sommerge il campo\ndi lotta. Fuori dalla lotta si usa\nper spostarsi sull'acqua.
+Colpisce il nemico con un'enorme\nenergia. Fuori dalla lotta si usa per\nspostare i massi.
+Carica il nemico a grande velocità e\npuò farlo tentennare. Fuori dalla lotta\nconsente di risalire le cascate.
+Chi la usa si tuffa in acqua per poi\nattaccare al turno seguente. Fuori\ndalla lotta pemette di immergersi.
+
+
+Utilissimo kit contenente strumenti per\nl'esplorazione. Permette di percorrere\ni tunnel sotterranei.
+Una sacca spaziosa e resistente\nusata per trasportare il bottino\nottenuto nella miniera.
+Elenca le regole per le lotte. Infatti,\nnelle lotte in link puoi scegliere diversi\nset di regole da utilizzare.
+Strumento con cui individuare i Pokémon\nnascosti nell'erba. La batteria si\nricarica mentre cammini.
+Scheda che elenca i Punti Lotta che hai\nottenuto.
+Diario in cui viene annotata la tua\navventura giorno per giorno.
+Contenitore per conservare i Bolli che\npossono essere applicati sulle Capsule\ndelle Poké Ball.
+Scatola bella ed elegante per stipare\ni gadget usati per agghindare i Pokémon\ndurante il Pokémon Musical.
+Sacchettino che può contenere dieci\nBolli per decorare le Poké Ball.
+Blocco appunti utile per registrare gli\namici, il loro codice amico e per tenere\nun resoconto dell'esperienza di gioco.
+Grande chiave usata per azionare la\nporta dell'Impianto Turbine. Prima ce\nl'aveva una Recluta del Team Galassia.
+Antico portafortuna fatto di ossa\ndi Pokémon da portare all'anziana\ndi Memoride.
+Chiave a scheda per disattivare i\nsistemi di sicurezza nella Sede Galassia.\nSe la si perde, si viene puniti.
+Catena mitica che pare essere\ncollegata al Pokémon leggendario\nche ha creato la regione di Sinnoh.
+Utilissima mappa, consultabile in ogni\nsituazione. Mostra anche la propria\nposizione in tempo reale.
+Apparecchio per trovare gli Allenatori\nche vogliono lottare. La batteria si\nricarica camminando.
+Contenitore ottenuto al Casinò che può\ncontenere fino a 50.000 Gettoni.
+Amo vecchio e rovinato. Si usa per\npescare Pokémon selvatici in qualsiasi\nspecchio d'acqua.
+Amo nuovo e di qualità. Si usa per\npescare Pokémon selvatici in qualsiasi\nspecchio d'acqua.
+Amo supertecnologico. Si usa per\npescare Pokémon selvatici in qualsiasi\nspecchio d'acqua.
+Annaffiatoio fatto a forma di Psyduck.\nFavorisce la crescita delle Bacche\npiantate nel terreno soffice.
+Contenitore per conservare i Poffin\ncucinati con le Bacche.
+Bici pieghevole, che permette di\nspostarsi più velocemente che\ncon le Scarpe da Corsa.
+Chiave di una suite vicino a un lago.\nPer ragioni misteriose, scompare\nspesso.
+Lettera da parte del Prof. Oak con\nla richiesta di dirigerti verso\nil Percorso 224.
+Piuma che brilla come la luna. Pare\nche possieda il potere di allontanare\ngli incubi.
+Scheda necessaria per entrare\nnella locanda di Canalipoli. L'ultimo\ntimbro risale a 50 anni fa.
+Flauto che emette una melodia che\nsembra appartenere ad un altro mondo.\nNon si sa chi l'abbia creato.
+Biglietto necessario per salire sulla\nM/N Acqua. C'è disegnata una nave.
+Tessera necessaria per partecipare\nalle Gare Pokémon. Riporta un disegno\ndi un fiocco.
+Pietra che si è formata in seguito\nad un'intensa colata lavica. Il magma\nè rimasto intrappolato al suo interno.
+Pacchetto che ti è stato affidato\nper essere consegnato al tuo amico\nd'infanzia cha ha lasciato Duefoglie.
+Coupon da scambiare con un PokéKron.\nNe servono tre.
+Coupon da scambiare con un PokéKron.\nNe servono tre.
+Coupon da scambiare con un PokéKron.\nNe servono tre.
+Chiave del misterioso deposito del Team\nGalassia situato ai confini di Rupepoli.
+Rimedio fantastico distribuito dalla\nfarmacia a Fiorlisopoli. Cura i problemi\ndi qualunque Pokémon.
+Fantastico dispositivo che registra le\nlotte tra amici o quelle che hanno luogo\nin alcuni edifici dedicati alla lotta.
+Un fiore, a volte raccolto in bouquet,\nche esprime gratitudine in occasioni\nparticolari, come i compleanni.
+Una sofisticata chiave da usare in un\ndeterminato luogo. Emette un impulso\nelettrico speciale per aprire una porta.
+Contenitore molto pratico dove\nconservare fino a 99 Ghicocche diverse.
+Quaderno dove si registrano tutte\nle forme di Unown catturate.
+Accessorio tascabile che permette\ndi coltivare Bacche in qualunque\nluogo e momento.
+Dispositivo ultramoderno che indica\nla direzione verso cui si trovano gli\nstrumenti invisibili emettendo suoni.
+Carta su cui accumulare i punti del\nprogramma “Password Show" di Buena.
+Coda di origine sconosciuta dal sapore\ndelizioso. Si vende piuttosto cara.
+Campana antica. Produce un suono\nche dona pace al cuore.
+Chiave a forma di scheda che apre le\nporte automatizzate della Torre Radio.
+Chiave che permette di aprire la porta\nall'interno del Fiortunnel.
+Strumento che serve a innaffiare.\nPermette un'ottima crescita delle\nBacche seminate nel Piantabacche.
+Una squama del Gyarados rosso apparso\nal Lago d'Ira. È rossa come il fuoco.
+Poké Bambola raffigurante Mime Jr.\nsmarrita da Copiona.
+Biglietto necessario per viaggiare\nsul supertreno. Utilizzabile a volontà.
+Pezzo rubato alla Centrale Elettrica,\nessenziale per il generatore.
+Misteriosa piuma che brilla di luce\nargentata.
+Piuma magica dai mille colori.
+Uovo dai disegni bizzarri che si riceve\nda Mr. Pokémon. Non si sa che contenga.
+Una Ghicocca di colore rosso.\nEmana un odore molto forte.
+Una Ghicocca di colore blu.\nEmana un odore un po' aspro.
+Una Ghicocca di colore giallo.\nEmana un profumo delicato.
+Una Ghicocca di colore verde.\nEmana un profumo intenso.
+Una Ghicocca di colore rosa.\nEmana un profumo dolce.
+Una Ghicocca di colore bianco.\nNon emana alcun odore.
+Una Ghicocca di colore nero.\nEmana un odore indefinibile.
+Poké Ball un po' originale che funziona\nbenissimo sui Pokémon bravi a scappare.
+Poké Ball un po' originale che funziona\nparticolarmente bene sui Pokémon\ndi livello inferiore al proprio.
+Poké Ball un po' originale che funziona\nparticolarmente bene sui Pokémon\npescati con un Amo.
+Poké Ball un po' originale che funziona\nparticolarmente bene sui Pokémon\npesanti.
+Poké Ball speciale che funziona meglio\nsui Pokémon di sesso opposto a quello\ndel proprio e della stessa specie.
+Poké Ball un po' originale che fa sì che\ni Pokémon selvatici con essa catturati\nsi affezionino più rapidamente.
+Poké Ball un po' originale che funziona\nparticolarmente bene sui Pokémon\nche si evolvono con una Pietralunare.
+Poké Ball speciale utilizzata solo nella\nGara Pigliamosche.
+Poké Ball speciale utilizzata solo\nall'interno del Parco Amici.
+Album dove si possono sistemare le foto\nscattate durante quest'avventura.
+Lettore di musica che permette di\nimmergersi in atmosfere rétro.\nUn solo pulsante per cambiare canzone.
+Campana antica. Produce un suono\nche dona pace al cuore.
+Caramella tipica di Mogania.\nSouvenir con un'ottima reputazione.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero totale di vittorie.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di ultimi posti.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di sprint dei tuoi Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di salti dei tuoi Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Corsostacoli.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Staffetta.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Bandierina.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Spaccalastra.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Piattello.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Neve Incrociata.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di punti accumulati.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di errori dei tuoi Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di punti persi.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di azioni dei tuoi Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di cadute dei tuoi Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Fuori dal Ring.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Trampoluci.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Spingicerchio.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie in link.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di ultimi posti in link.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie alle gare.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di ultimi posti alle gare.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di sostituzioni di Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di vittorie a Piazzagoal.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il\nnumero di premi individuali.
+Contiene i tuoi dati Pokéathlon. Su\nquesta Scheda è registrato il numero\ndi volte che hai toccato i Pokémon.
+Contiene i tuoi dati Pokéathlon.\nSu questa Scheda sono registrate\nle ore che hai passato a giocare.
+Sfera con riflessi verdi, che pare\nessere strettamente legata alle\nleggende della regione di Hoenn.
+Scrigno blindato che si apre solo con\nuna chiave speciale.
+Sfera con riflessi rossi, che pare\nessere strettamente legata alle\nleggende della regione di Hoenn.
+Sfera con riflessi blu, che pare\nessere strettamente legata alle\nleggende della regione di Hoenn.
+Cristallo appena estratto dal suolo.\nBellissimo malgrado sia ancora ricoperto\ndi resti di roccia e terra.
+Squama misteriosa che fa evolvere\ndeterminate specie di Pokémon.\nRiflette i colori dell'arcobaleno.
+Misteriosa sfera evolutiva. Aumenta la\nDifesa e la Difesa Speciale di un Pokémon\nche può ancora evolversi.
+Pietra leggerissima che riduce il peso\ndel Pokémon che la tiene.
+Se il Pokémon che lo tiene è colpito da\nun attacco fisico, anche l'avversario\nsubisce dei danni.
+Permette al Pokémon che lo tiene di\nfluttuare in aria. Scoppia se è colpito\nda un attacco.
+Cartellino dal potere misterioso.\nChi lo tiene fa ritirare dalla lotta\nil Pokémon che lo ha colpito.
+Se un Pokémon ha questo strumento, le\nmosse che di norma non hanno effetto\ncontro il suo tipo vanno a segno.
+Strumento da far tenere a un Pokémon\nche aumenta la potenza di mosse come\nAvvolgibotta e Legatutto.
+Bulbo monouso. Se il Pokémon che\nlo tiene subisce una mossa di tipo\nAcqua, il suo Attacco Speciale aumenta.
+Pila monouso. Se il Pokémon che la\ntiene subisce un attacco di tipo\nElettro, il suo Attacco aumenta.
+Se il Pokémon che lo tiene è colpito da\nun attacco, viene immediatamente\nsostituito da un compagno.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Fuoco.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Acqua.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Elettro.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Erba.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Ghiaccio.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Lotta.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Veleno.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Terra.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Volante.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Psico.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Coleottero.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Roccia.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Spettro.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Drago.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Buio.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Acciaio.
+Strumento da far tenere a un Pokémon.\nGioiello che potenzia una sola volta\nle mosse di tipo Normale.
+Strumento da usare su un Pokémon.\nNe aumenta di poco i PS di base.
+Strumento da usare su un Pokémon.\nNe aumenta di poco l'Attacco di base.
+Strumento da usare su un Pokémon.\nNe aumenta di poco la Difesa di base.
+Strumento da usare su un Pokémon.\nNe aumenta di poco l'Attacco Speciale\ndi base.
+Strumento da usare su un Pokémon.\nNe aumenta di poco la Difesa Speciale\ndi base.
+Strumento da usare su un Pokémon.\nNe aumenta di poco la Velocità di base.
+Piuma molto bella ma priva di qualsiasi\nutilità: non ha alcun effetto.
+Fossile di un Pokémon preistorico che\nviveva nel mare. Sembra essere parte\ndel suo dorso.
+Fossile di un Pokémon preistorico che\nsolcava i cieli. Sembra essere parte\ndella sua ala.
+Biglietto speciale per l'Isola Libertà.\nLa nave parte da Austropoli.
+Bilia misteriosa che racchiude l'energia\ndi Unima ed è in grado di lanciare\nil Passapotere.
+Ball onirica. Appare all'improvviso nella\nBorsa quando si è nel Bosco Intramondo.\nPuò acchiappare qualsiasi Pokémon.
+Strumento che attrae i Pokémon. Utile\nper fuggire dalla lotta con Pokémon\nselvatici.
+Scatola bella ed elegante per stipare\ni gadget usati per agghindare i Pokémon\ndurante il Pokémon Musical.
+Teschio di un Pokémon che volava libero\nqua e là senza temere nemmeno il mare\nin tempesta.
+Fungo raro che emana un profumo\ngradevolissimo. Si può vendere a un\nprezzo piuttosto alto agli intenditori.
+Grossa pepita d'oro puro dal luccichio\nsfavillante. Si può vendere a un prezzo\npiuttosto alto agli intenditori.
+Grossa perla dai riflessi argentei.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Scheggia di cometa caduta al suolo.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Moneta di rame di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Moneta di argento di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Moneta d'oro di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Vaso di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Braccialetto di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Statua di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Corona di circa 3000 anni fa.\nSi può vendere a un prezzo piuttosto\nalto agli intenditori.
+Il famoso gelato di Austropoli. Cura\ntutti i problemi di stato di un Pokémon.
+Rende i brutti colpi molto più probabili.\nUsato più volte, l'effetto si somma, ma\nsvanisce se il Pokémon è sostituito.
+Aumenta di molto la Velocità di\nun Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta di molto l'Attacco Speciale\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta di molto la Difesa Speciale\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta di molto la Difesa di\nun Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta di molto l'Attacco di\nun Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta di molto la precisione di\nun Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta moltissimo la Velocità\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta moltissimo l'Attacco Speciale\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta moltissimo la Difesa Speciale\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta moltissimo la Difesa\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta moltissimo l'Attacco\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta moltissimo la precisione\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta incredibilmente la Velocità\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta incredibilmente l'Att. Sp.\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta incredibilmente la Dif. Sp.\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta incredibilmente la Difesa\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta incredibilmente l'Attacco\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Aumenta incredibilmente la precisione\ndi un Pokémon in una lotta. L'effetto\nsvanisce se il Pokémon è sostituito.
+Usandolo su un Pokémon della squadra,\nne verrà attivata l'abilità.
+Usandolo un Pokémon della squadra\nlascerà il proprio strumento.
+Usandolo un Pokémon della squadra\nuserà immediatamente il proprio\nstrumento.
+Usandolo tutte le modifiche alle\nstatistiche di un Pokémon della\nsquadra saranno annullate.
+Aumenta moltissimo la probabilità di\nbrutti colpi. L'effetto si può sommare,\nma svanisce se il Pokémon è sostituito.
+Pietra in cui si è tramutato Reshiram\nquando ha perso la sua forma corporea.\nAttende la venuta di un eroe.
+Pietra in cui si è tramutato Zekrom\nquando ha perso la sua forma corporea.\nAttende la venuta di un eroe.
+Chi la usa si carica di elettricità per\npoi scagliarsi sul bersaglio, ma subisce\ndei danni per il contraccolpo.
+Il nemico viene colpito da un pugno in\ngrado di frantumare anche la roccia.\nPuò anche ridurne la Difesa.
+Chi la usa si mette a urlare per un po',\nriducendo l'Attacco Speciale dei nemici.
+Ricetrasmittente all'avanguardia che\npermette di fare videochiamate con\nun gruppo massimo di quattro persone.
+Una pietra magica.
+Un'importante lettera che Wingull\ndeve consegnare.
+Un'importante lettera che Wingull\ndeve consegnare.
+Un'importante lettera che Wingull\ndeve consegnare.
+Ricetrasmittente all'avanguardia che\npermette di fare videochiamate con\nun gruppo massimo di quattro persone.
+Apparecchio rettangolare usato per\ncustodire i Premi ottenuti e tutte le\ninformazioni che li riguardano.
+Cuneo che permette di fondere Kyurem\ncon il Pokémon al quale era unito in\norigine.
+Cuneo che permette di separare Kyurem\ndal Pokémon con cui era fuso.
+Tessera che permette di accedere a una\nRiserva Naturale conosciuta da pochi.
+Misterioso amuleto di forma sferica che\naumenta la probabilità di trovare Uova\nnella Pensione Pokémon.
+Misterioso amuleto luminoso che\naumenta la probabilità di incontrare\nPokémon cromatici.
+Carta magnetica necessaria per inserire\nla password sulla Fregata Plasma.
+Pezzo di stoffa perso al Bar Magazzino\ndi Zefiropoli da un cliente abituale.\nOdora leggermente di Pokémon.
+Prototipo imperfetto di un dispositivo\nspeciale ideato per risvegliare in modo\nforzato le capacità dei Pokémon.
+Interpoké rinvenuto nel parco giochi\ndi Sciroccopoli. Pare che appartenga\na un ragazzo.
+Interpoké rinvenuto nel parco giochi\ndi Sciroccopoli. Pare che appartenga\na una ragazza.
+Specchio misterioso che, riflettendo\nla verità, fa riacquistare ai Pokémon\nla loro forma originaria.

@@ -1,0 +1,639 @@
+???
+Der beste Ball!\nDamit fängst du garantiert\njedes wilde Pokémon.
+Ein Ball mit hoher Erfolgsquote.\nDem Superball in allen\nPunkten überlegen.
+Ein Ball mit guter Erfolgsquote.\nDem Pokéball in allen\nPunkten überlegen.
+Damit fängst du wilde Pokémon.\nDu wirfst ihn wie einen normalen Ball.\nDas Design ähnelt dem einer Kapsel.
+Ein Ball, der nur in der Safari-Zone\neingesetzt wird. Er besticht durch\nsein Tarnfarbenmuster.
+Ein Ball, der sich besonders gut eignet,\num Wasser- und Käfer-Pokémon\nzu fangen.
+Ein Ball, mit dem sich Pokémon,\ndie im Wasser leben, besser\nfangen lassen.
+Ein Ball, dessen Erfolgsquote\nbesonders bei schwächeren\nPokémon sehr hoch ist.
+Ein Ball, der besonders dann sehr gut\nist, wenn man ein Pokémon fangen will,\ndessen Art bereits gefangen wurde.
+Ein Ball, der mit zunehmender\nKampfdauer effektiver wird.
+Ein behaglicher Ball, der Pokémon\nveranlasst, nach dem Fang schneller\nfreundlicher zu werden.
+Ein eher seltener Ball, der als\nReminiszenz an irgendein\nEreignis hergestellt wurde.
+Ein mysteriöser Ball,\ngeeignet für Einsätze in der\nNacht oder an dunklen Orten.
+Ein wohltuender Ball. Er füllt alle KP\ndes gefangenen Pokémon auf und\nbehebt alle Statusprobleme.
+Ein ungewöhnlicher Ball, der\nzu Beginn eines Kampfes am\nwirkungsvollsten ist.
+Ein seltener Ball, der als\nReminiszenz an irgendein\nEreignis hergestellt wurde.
+Hilft bei Wunden. Die KP\neines Pokémon werden\num 20 Punkte aufgefüllt.
+Ein Spray, das Vergiftungen\neines Pokémon heilt.
+Ein Spray, das Verbrennungen\neines Pokémon heilt.
+Ein Spray, das ein eingefrorenes\nPokémon auftaut.
+Ein Spray, das ein schlafendes\nPokémon aufweckt.
+Ein Spray, das ein Pokémon\nvon Paralyse heilt.
+Dieses Item stellt alle KP eines\nPokémon wieder her und behebt\nalle Statusprobleme.
+Hilft bei Wunden. Füllt\ndie KP eines Pokémon\nvollständig wieder auf.
+Hilft bei Wunden. Füllt\ndie KP eines Pokémon\num 200 Punkte auf.
+Hilft bei Wunden. Es füllt\ndie KP eines Pokémon\num 50 Punkte auf.
+Ein Spray, das alle Statusprobleme\neines Pokémon behebt.
+Eine Medizin, die ein kampfunfähiges\nPokémon wiederbelebt. Die Hälfte der\nmaximalen KP wird wiederhergestellt.
+Eine Medizin, die ein kampfunfähiges\nPokémon wiederbelebt. Die KP werden\nvollständig wiederhergestellt.
+Ein stilles Wasser mit hohem\nMineralienanteil, das die KP eines\nPokémon um 50 Punkte auffüllt.
+Ein sprudelndes Mineralwasser,\ndas die KP eines Pokémon\num 60 Punkte auffüllt.
+Ein sehr süßes Getränk, das die KP\neines Pokémon um 80 Punkte auffüllt.
+Eine äußerst nährstoffreiche Milch, die\ndie KP eines Pokémon um 100 Punkte\nauffüllt.
+Ein bitteres medizinisches Pulver,\ndas die KP eines Pokémon um\n50 Punkte auffüllt.
+Eine bittere Wurzel. Sie füllt die\nKP eines Pokémon um 200 Punkte auf.
+Ein bitteres medizinisches Pulver,\ndas alle Statusprobleme eines\nPokémon aufhebt.
+Ein bitteres medizinisches Kraut, das\nkampfunfähige Pokémon belebt und\ndie KP vollständig auffüllt.
+Füllt die AP einer ausgewählten Attacke\neines Pokémon um 10 Punkte auf.
+Füllt die AP einer ausgewählten Attacke\neines Pokémon vollständig auf.
+Füllt die AP aller Attacken eines\nPokémon um 10 Punkte auf.
+Füllt alle AP aller Attacken eines\nPokémon vollständig auf.
+Eine Spezialität aus Bad Lavastadt,\ndie alle Statusprobleme eines\nPokémon heilt.
+100 %iger Fruchtsaft, aus Beeren\ngekeltert. Er stellt 20 KP eines\nPokémon wieder her.
+Belebt und erfrischt alle besiegten\nPokémon und füllt deren KP\nvollständig wieder auf.
+Ein gehaltvolles Getränk, das die\nBasis-KP-Anzahl eines Pokémon\ndauerhaft erhöht.
+Ein gehaltvolles Getränk, das den\nAngriffs-Wert eines Pokémon\ndauerhaft erhöht.
+Ein gehaltvolles Getränk, das den\nVerteidigungs-Wert eines Pokémon\ndauerhaft erhöht.
+Ein gehaltvolles Getränk, das den\nInitiative-Wert eines Pokémon\ndauerhaft erhöht.
+Ein gehaltvolles Getränk, das den\nSpezial-Angriff eines Pokémon\ndauerhaft erhöht.
+Ein energiereiches Bonbon, das\nden Level eines Pokémon dauerhaft\num eins erhöht.
+Erhöht die maximale Anzahl der AP\neiner Attacke eines Pokémon.
+Ein gehaltvolles Getränk, das die\nSpezial-Verteidigung eines Pokémon\ndauerhaft erhöht.
+Maximiert die Anzahl der AP\neiner Attacke eines Pokémon.
+Eine unbekannte Spezialität.\nSie behebt alle Statusprobleme\neines Pokémon.
+Eine mögliche Statusveränderung\nder Pokémon im Team wird für\n5 Runden verhindert.
+Hebt einmalig die Volltrefferquote des\nPokémon im Kampf stark an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Angriffs-Wert eines Pokémon\nim Kampf. Die Wirkung wird mit dem\nTausch des Pokémon beendet.
+Hebt den Verteidigungs-Wert eines\nPokémon im Kampf. Die Wirkung wird\nmit dem Austausch des Pokémon beendet.
+Hebt den Initiative-Wert eines Pokémon\nim Kampf. Die Wirkung wird mit dem\nAustausch des Pokémon beendet.
+Hebt die Genauigkeit eines Pokémon\nim Kampf. Die Wirkung wird mit dem\nAustausch des Pokémon beendet.
+Hebt den Spezial-Angriff eines Pokémon\nim Kampf. Die Wirkung wird mit dem\nAustausch des Pokémon beendet.
+Hebt die Spezial-Verteidigung eines\nPokémon im Kampf. Die Wirkung wird\nmit dem Austausch des Pokémon beendet.
+Eine hübsche Puppe. Sie ermöglicht\ndie Flucht im Kampf gegen wilde\nPokémon.
+Ein hübsches Item. Es ermöglicht\ndie Flucht im Kampf gegen wilde\nPokémon.
+Eine Spielzeugflöte aus blauem Glas.\nSammler geben ihr letztes Hemd dafür\nher.
+Eine Spielzeugflöte aus gelbem Glas.\nSammler geben ihr letztes Hemd dafür\nher.
+Eine Spielzeugflöte aus rotem Glas.\nSammler geben ihr letztes Hemd dafür\nher.
+Eine Spielzeugflöte aus schwarzem Glas.\nSammler geben ihr letztes Hemd dafür\nher.
+Eine Spielzeugflöte aus weißem Glas.\nSammler geben ihr letztes Hemd dafür\nher.
+Reine Salzkristalle, die sich in der sog.\nKüstenhöhle finden lassen. Sammler\ngeben ihr letztes Hemd dafür her.
+Eine hübsche Schale, die sich in der\nKüstenhöhle finden lässt. Sammler\ngeben ihr letztes Hemd dafür her.
+Eine rote Scherbe eines antiken\nWerkzeugs, das vor langer Zeit\nangefertigt wurde.
+Eine blaue Scherbe eines antiken\nWerkzeugs, das vor langer Zeit\nangefertigt wurde.
+Eine gelbe Scherbe eines antiken\nWerkzeugs, das vor langer Zeit\nangefertigt wurde.
+Eine grüne Scherbe eines antiken\nWerkzeugs, das vor langer Zeit\nangefertigt wurde.
+Hält 200 Schritte lang schwache,\nwilde Pokémon ab.
+Hält 250 Schritte lang schwache,\nwilde Pokémon ab.
+Ein langes, festes Seil, das die\nsofortige Flucht aus Höhlen oder\nÄhnlichem ermöglicht.
+Hält 100 Schritte lang schwache,\nwilde Pokémon ab.
+Dieser spezielle Stein löst bei\nbestimmten Pokémon die Entwicklung\naus. Er ist rot wie die Sonne.
+Dieser spezielle Stein löst bei\nbestimmten Pokémon die Entwicklung\naus. Er ist schwarz wie die Nacht.
+Dieser spezielle Stein löst bei\nbestimmten Pokémon die Entwicklung\naus. Er ist orange.
+Dieser spezielle Stein löst bei\nbestimmten Pokémon die Entwicklung\naus. Er hat ein Blitzmuster.
+Dieser spezielle Stein löst bei\nbestimmten Pokémon die Entwicklung\naus. Er ist hellblau.
+Dieser spezielle Stein löst bei\nbestimmten Pokémon die Entwicklung\naus. Er hat ein Blattmuster.
+Ein kleiner und seltener Pilz.\nSeine Fans sind ganz aus dem\nHäuschen, wenn sie einen finden.
+Ein großer und seltener Pilz. Liebhaber\ndieses Pilzes freuen sich ein Loch in\nden Bauch, wenn sie einen finden.
+Eine relativ kleine Perle, die in\nschönem Silber funkelt. Sie ist\nvon geringem Wert.
+Eine relativ große Perle, die in\nschönem Silber funkelt. Sie ist\nvon hohem Wert.
+Schöner, roter Sand, der sich\nseidenweich anfühlt. Er ist von\nhohem Wert.
+Teil eines hübschen Edelsteins, der in\nrötlicher Farbe schimmert. Erzielt einen\nhohen Preis, wenn man ihn verkauft.
+Ein Nugget aus purem Gold, das\neinen schimmernden Glanz besitzt.\nEs ist von großem Wert.
+Eine hübsche, herzförmige, sehr\nseltene Schuppe. Sie erstrahlt\nin den Farben des Regenbogens.
+Der Duft dieses Honigs lockt wilde\nPokémon an. Verwende ihn in hohem\nGras oder an besonderen Bäumen.
+In Regionen, wo man Beeren anbaut,\nmengt man ihn unter weiche Erde.\nSammler geben ihr letztes Hemd dafür.
+In Regionen, wo man Beeren anbaut,\nmengt man ihn unter weiche Erde.\nSammler geben ihr letztes Hemd dafür.
+In Regionen, wo man Beeren anbaut,\nmengt man ihn unter weiche Erde.\nSammler geben ihr letztes Hemd dafür.
+In Regionen, wo man Beeren anbaut,\nmengt man ihn unter weiche Erde.\nSammler geben ihr letztes Hemd dafür.
+Das Fossil eines uralten Pokémon,\ndas in der Tiefsee lebte. Es sieht\nwie eine Pflanzenwurzel aus.
+Das Fossil eines uralten Pokémon,\ndas in der Tiefsee lebte. Es sieht\nwie eine Klaue aus.
+Das Fossil eines uralten Pokémon,\ndas in der Tiefsee lebte. Es sieht\nwie ein Muschelstück aus.
+Das Fossil eines uralten Pokémon,\ndas in der Tiefsee lebte. Es sieht\nwie das Stück einer Muschel aus.
+Ein Stück Bernstein, in dem die Gene\neines uralten Pokémon enthalten\nsind. Es ist durchsichtig!
+Das Fossil eines uralten Pokémon,\ndas an Land lebte. Es sieht wie\nein Schlüsselbein aus.
+Das Fossil eines uralten\nPokémon, das an Land lebte.\nEs sieht wie ein Schädel aus.
+Dieser Knochen erfreut jeden\nPokémon-Archäologen. Er ist\nvon hohem Wert.
+Dieser besondere, hell leuchtende\nStein hilft manchen Pokémon bei\nihrer Evolution.
+Dieser besondere, düstere Stein\nhilft manchen Pokémon bei\nihrer Evolution.
+Dieser besondere, glitzernde Stein\nhilft manchen Pokémon bei\nihrer Evolution.
+Dieser besondere, eiförmige Stein\nhilft manchen Pokémon bei\nihrer Evolution.
+Ein wichtiges Item, mit dem\nein Steinturm repariert werden\nkann.
+Ein glühender Orb. Verstärkt\nAttacken vom Typ Drachen und\nGeist, wenn Giratina ihn trägt.
+-\n-\n-
+-\n-\n-
+-\n-\n-
+Gibt man es Genesect zum Tragen,\nwandelt es den Typ der Attacke\nTechblaster in Wasser um.
+Gibt man es Genesect zum Tragen,\nwandelt es den Typ der Attacke\nTechblaster in Elektro um.
+Gibt man es Genesect zum Tragen,\nwandelt es den Typ der Attacke\nTechblaster in Feuer um.
+Gibt man es Genesect zum Tragen,\nwandelt es den Typ der Attacke\nTechblaster in Eis um.
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+-\n-\n-
+Ein süßer Schokosnack, der die KP\neines Pokémon um 20 Punkte auffüllt.
+Ein hell leuchtender Orb.\nVerstärkt Attacken vom Typ Drachen\nund Stahl, wenn Dialga ihn trägt.
+Ein hell leuchtender Orb.\nVerstärkt Attacken vom Typ Drachen\nund Wasser, wenn Palkia ihn trägt.
+Briefpapier, mit dem man sich\nbei jemandem vorstellen kann.\nGib es einem Pokémon zum Tragen.
+Briefpapier, mit dem man jemandem\nverraten kann, was man gern mag.\nGib es einem Pokémon zum Tragen.
+Briefpapier, mit dem man eine andere\nPerson zu etwas einladen kann.\nGib es einem Pokémon zum Tragen.
+Briefpapier, mit dem man sich\nbei jemandem bedanken kann.\nGib es einem Pokémon zum Tragen.
+Briefpapier, mit dem man jemandem\neine Frage stellen kann.\nGib es einem Pokémon zum Tragen.
+Briefpapier, mit dem man jemandem\neinen Tipp geben kann.\nGib es einem Pokémon zum Tragen.
+Briefpapier, mit dem man einen\nanderen Brief beantworten kann.\nGib es einem Pokémon zum Tragen.
+Das Briefpapier hat eine weit in den\nHimmel ragende Brücke als Hintergrund.\nGib es einem Pokémon zum Tragen.
+Das Briefpapier hat eine knallrote\nZugbrücke als Hintergrund.\nGib es einem Pokémon zum Tragen.
+Das Briefpapier hat eine stählerne\nHängebrücke als Hintergrund.\nGib es einem Pokémon zum Tragen.
+Das Briefpapier hat eine Brücke\naus Ziegelsteinen als Hintergrund.\nGib es einem Pokémon zum Tragen.
+Das Briefpapier hat eine geschwungene\nBrücke als Hintergrundmotiv.\nGib es einem Pokémon zum Tragen.
+Gibst du die Beere einem Pokémon zum\nTragen, heilt diese es von Paralyse.
+Gibst du die Beere einem Pokémon\nzum Tragen, erwacht es dadurch\naus dem Schlaf.
+Gibst du die Beere einem Pokémon zum\nTragen, heilt diese es von Vergiftung.
+Gibst du die Beere einem Pokémon\nzum Tragen, heilt diese es von\nVerbrennung.
+Gibst du die Beere einem Pokémon zum\nTragen, heilt diese es von Frost.
+Gibst du die Beere einem Pokémon\nzum Tragen, füllt sie die AP einer\nAttacke um 10 Punkte auf.
+Gibst du die Beere einem Pokémon\nzum Tragen, füllt sie seine KP\num 10 Punkte auf.
+Gibst du die Beere einem Pokémon zum\nTragen, heilt diese es von Verwirrung.
+Gibst du die Beere einem Pokémon\nzum Tragen, hebt sie alle seine\nStatusprobleme auf.
+Gibst du die Beere einem Pokémon\nzum Tragen, füllt diese seine KP\nein wenig auf.
+Als getragenes Item füllt die Beere die\nKP eines Pokémon auf, doch ihr Aroma\nverwirrt jene, die es nicht mögen.
+Als getragenes Item füllt die Beere die\nKP eines Pokémon auf, doch ihr Aroma\nverwirrt jene, die es nicht mögen.
+Als getragenes Item füllt die Beere die\nKP eines Pokémon auf, doch ihr Aroma\nverwirrt jene, die es nicht mögen.
+Als getragenes Item füllt die Beere die\nKP eines Pokémon auf, doch ihr Aroma\nverwirrt jene, die es nicht mögen.
+Als getragenes Item füllt die Beere die\nKP eines Pokémon auf, doch ihr Aroma\nverwirrt jene, die es nicht mögen.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Isst ein Pokémon diese Beere,\nstärkt dies eure Freundschaft,\nverringert aber seine Basis-KP.
+Isst ein Pokémon diese Beere,\nstärkt dies eure Freundschaft,\nverringert aber seinen Angriffs-Wert.
+Isst ein Pokémon diese Beere,\nstärkt dies eure Freundschaft,\nverringert aber seinen Vert.-Wert.
+Isst ein Pokémon diese Beere,\nstärkt dies eure Freundschaft, ver-\nringert aber seinen Spez.-Angr.-Wert.
+Isst ein Pokémon diese Beere,\nstärkt dies eure Freundschaft, ver-\nringert aber seinen Spez.-Vert.-Wert.
+Isst ein Pokémon diese Beere,\nstärkt dies eure Freundschaft, ver-\nringert aber seinen Initiative-Wert.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Eine Beere, die nur äußerst selten\nin der Einall-Region zu finden ist.\nKenner geben ihr letztes Hemd dafür.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Feuer.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Wasser.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Elektro.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Pflanze.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Eis.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Kampf.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Gift.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Boden.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Flug.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Psycho.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Käfer.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Gestein.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Geist.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Drachen.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Unlicht.
+Als getragenes Item schwächt diese\nBeere besonders effektive Attacken\ndes Angreifers vom Typ Stahl.
+Als getragenes Item schwächt diese\nBeere Attacken des Angreifers vom\nTyp Normal.
+Als getragenes Item erhöht diese Beere\nden Angriffs-Wert eines Pokémon, sobald\nes in einer Notlage steckt.
+Als getragenes Item erhöht diese Beere\nden Verteidigungs-Wert eines Pokémon,\nsobald es in einer Notlage steckt.
+Als getragenes Item erhöht diese Beere\nden Initiative-Wert eines Pokémon,\nsobald es in einer Notlage steckt.
+Als getragenes Item erhöht diese Beere\nden Spezial-Angriff eines Pokémon,\nsobald es in einer Notlage steckt.
+Als getragenes Item erhöht diese Beere\ndie Spezial-Verteidigung eines Pokémon,\nsobald es in einer Notlage steckt.
+Als getragenes Item erhöht diese Beere\ndie Volltrefferquote eines Pokémon,\nsobald es in einer Notlage steckt.
+Als getragenes Item erhöht diese Beere\neinen Statuswert des Pokémon stark,\nsobald es in einer Notlage steckt.
+Als getragenes Item füllt die Beere die\nKP eines Pokémon auf, wenn es von sehr\neffektiven Attacken getroffen wird.
+Als getragenes Item erhöht diese Beere\ndie Genauigkeit eines Pokémon, sobald\nes in einer Notlage steckt.
+Als getragenes Item ermöglicht\ndiese Beere dem Träger in einer\nNotlage den Erstschlag.
+Als getragenes Item bewirkt die Beere\nSchaden bei denen, die den Träger\nmit einer physischen Attacke treffen.
+Als getragenes Item bewirkt die Beere\nSchaden bei denen, die den Träger\nmit einer Spezial-Attacke treffen.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nsenkt die Genauigkeit des Gegners.
+Ein Item, das einem Pokémon zum Tragen\ngegeben werden kann. Es hebt einmalig\njede negative Statusveränderung auf.
+Ein Item, das ein Pokémon tragen\nkann. Der Initiative-Wert sinkt zwar,\naber es wird dafür umso stärker.
+Ein Item, das einem Pokémon zum Tragen\ngegeben werden kann. Es teilt die\nErfahrungs-Punkte aus einem Kampf auf.
+Ein Item, das einem Pokémon zum Tragen\ngegeben werden kann. Es hebt gelegent-\nlich die Erstschlagquote.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nbesänftigt und fördert Sympathie.
+Ein Item, das einem Pokémon zum Tragen\ngegeben werden kann. Hilft einmalig bei\neingeschränktem Handlungsspielraum.
+Ein Item, das ein Pokémon tragen\nkann. Es stärkt den Angriffs-Wert,\naber nur eine Attacke ist einsetzbar.
+Gibst du es einem Pokémon zum Tragen,\nlässt es mit seinem Angriff das Ziel\ngelegentlich zurückschrecken.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nverbessert Attacken vom Typ Käfer.
+Ein Item, das ein Pokémon trägt und\ndas doppeltes Preisgeld bringt, wenn\nder Träger am Kampf teilnimmt.
+Ein Item zum Tragen. Reduziert\nBegegnungen mit wilden Pokémon, wenn\nder Träger an erster Stelle steht.
+Ein Item, das von Latios oder Latias\ngetragen werden kann. Es hebt Spezial-\nAngriff und Spezial-Verteidigung.
+Ein Item, das von Perlu getragen\nwerden kann. Es schimmert silbern\nund hebt den Spezial-Angriff.
+Ein Item, das von Perlu getragen\nwerden kann. Es schimmert pink\nund hebt die Spezial-Verteidigung.
+Ein Pokémon kann dieses Item tragen.\nEs ermöglicht die garantierte Flucht\naus dem Kampf mit einem wilden Pokémon.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nbewirkt einen Entwicklungsstopp.
+Ein Item, das die Kampfunfähigkeit\nverhindern kann, da dem Träger\n1 KP bleibt.
+Ein getragenes Item, das mit Glück\ngefüllt ist und für zusätzliche\nE.-Punkte im Kampf sorgt.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nerhöht die Volltrefferquote.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nverstärkt Attacken vom Typ Stahl.
+Ein Item, das einem Pokémon zum\nTragen gegeben werden kann. Es\nfüllt im Kampf stetig KP auf.
+Eine dicke und starke Haut.\nDrachen-Pokémon tragen\ndieses Item gern bei sich.
+Ein Item, das von Pikachu getragen\nwerden kann. Es erhöht den Angriffs-\nWert und Spezial-Angriff.
+Ein Item zum Tragen. Samtiger\nSand, der Attacken vom Typ\nBoden verstärkt.
+Ein Item zum Tragen. Ein unzer-\nbrechlicher Stein, der Attacken\nvom Typ Gestein verstärkt.
+Ein Item zum Tragen. Ein Samen\nvoller Lebenskraft, der Attacken\nvom Typ Pflanze verstärkt.
+Ein Item zum Tragen. Eine\ndunkle Brille, die Attacken\nvom Typ Unlicht verstärkt.
+Ein Item zum Tragen. Der Gürtel\nverstärkt die Entschlossenheit\nund Attacken vom Typ Kampf.
+Ein Item zum Tragen, dessen\nmagnetische Kraft Attacken\nvom Typ Elektro verstärkt.
+Ein Item zum Tragen. Ein tränen-\nförmiger Edelstein, der Attacken\nvom Typ Wasser verstärkt.
+Ein Item zum Tragen. Ein langer,\nscharfer Schnabel verstärkt\nAttacken vom Typ Flug.
+Ein Item zum Tragen. Ein schmaler und\ngiftiger Widerhaken, der Attacken vom\nTyp Gift verstärkt.
+Ein Item zum Tragen. Ein Stück Eis,\ndas Hitze fernhält und Attacken\nvom Typ Eis verstärkt.
+Ein Item zum Tragen. Ein fieser,\nunheimlicher Sticker, der Attacken\nvom Typ Geist verstärkt.
+Ein Item zum Tragen. Ein Löffel voller\ntelekinetischer Energie, der Attacken\nvom Typ Psycho verstärkt.
+Ein Item zum Tragen. Ein Brennstoff,\nder Attacken vom Typ Feuer verstärkt.
+Ein Item zum Tragen. Ein harter und\nscharfer Reißzahn, der Attacken vom\nTyp Drachen verstärkt.
+Ein Item zum Tragen. Ein kostbarer\nSchal, der Attacken vom Typ Normal\nverstärkt.
+Ein durchsichtiges Gerät. Es\nenthält alle möglichen Daten.\nHergestellt von Silph Co.
+Ein Item zum Tragen. Es stellt einige\nKP des Trägers immer dann wieder her,\nwenn dieser dem Ziel Schaden zufügt.
+Ein Item zum Tragen. Sein\nausgefallenes Aroma verstärkt\nAttacken vom Typ Wasser.
+Ein Item zum Tragen. Das\nverwirrende Aroma senkt die\nGenauigkeit des Gegners.
+Ein Item, das von Chaneira getragen\nwerden kann. Diese Handschuhe erhöhen\ndie Volltrefferquote von Chaneira.
+Ein Item, das von Ditto getragen\nwerden kann. Es erhöht seinen\nVerteidigungs-Wert.
+Ein harter Knochen, der den Angriffs-\nWert von Tragosso oder Knogga\nerhöht, wenn sie ihn tragen.
+Ein Item, das von Porenta getragen\nwerden kann. Diese lange Lauchstange\nerhöht die Volltrefferquote stark.
+Ein Item zum Tragen. Trainer erhöhen\ndamit in Wettbewerben die „Coolness“\nihres Pokémon.
+Ein Item zum Tragen. Trainer erhöhen\ndamit in Wettbewerben die „Schönheit“\nihres Pokémon.
+Ein Item zum Tragen. Trainer erhöhen\ndamit in Wettbewerben die „Anmut“\nihres Pokémon.
+Ein Item zum Tragen. Trainer erhöhen\ndamit in Wettbewerben die „Klugheit“\nihres Pokémon.
+Ein Item zum Tragen. Trainer erhöhen\ndamit in Wettbewerben die „Stärke“\nihres Pokémon.
+Ein Item zum Tragen.\nDieses Vergrößerungsglas\nerhöht die Genauigkeit etwas.
+Ein Item zum Tragen.\nDieses Stirnband verstärkt\nphysische Attacken etwas.
+Ein Item zum Tragen. Diese\ndicke Brille verstärkt auf Spezial-\nAngriff basierende Attacken.
+Ein Item zum Tragen.\nDieser alte Gürtel verstärkt\nsehr effektive Attacken.
+Ein Item zum Tragen.\nVerlängert die Dauer von\nLichtschild, Reflektor etc.
+Ein Item zum Tragen.\nVerstärkt Attacken, aber jede\nAttacke kostet den Träger KP.
+Ein getragenes Item. Der Träger kann\ndadurch eine Attacke sofort einsetzen,\ndie sonst aufgeladen werden muss.
+Ein Item zum Tragen. Dieser\nbizarre Orb vergiftet seinen\nTräger im Kampf schwer.
+Ein Item zum Tragen.\nDieser bizarre Orb fügt seinem\nTräger Verbrennungen zu.
+Ein Item, das Ditto zum Tragen gegeben\nwerden kann. Fein und doch hart,\nerhöht es den Initiative-Wert.
+Ein Item zum Tragen. Bei vollen KP\nreduziert eine K.O.-Attacke die\nKP nur auf 1.
+Ein Item zum Tragen. Agiert das\nZiel zuerst, erhöht sich die\nGenauigkeit des Trägers.
+Ein Item zum Tragen. Verstärkt eine\nAttacke, je öfter sie ununterbrochen\nausgeführt wird.
+Ein Item zum Tragen, das Flug-Pokémon\nanfällig für Attacken vom Typ Boden\nmacht. Senkt den Initiative-Wert.
+Ein Item zum Tragen. Es ist immens\nschwer und senkt die Geschwindigkeit\ndes Trägers.
+Ein Item zum Tragen. Wird\nder Träger betört, gilt\ndies auch für den Angreifer.
+Ein Item zum Tragen, das einem\nGift-Pokémon KP zurückgibt, anderen\nPokémon aber Schaden zufügt.
+Ein Item zum Tragen. Verlängert\ndie Dauer von Hagelsturm, wenn\nvon Träger eingesetzt.
+Ein Item zum Tragen. Verlängert\ndie Dauer von Sandsturm, wenn\nvon Träger eingesetzt.
+Ein Item zum Tragen. Verlängert\ndie Dauer von Sonnentag, wenn\nvon Träger eingesetzt.
+Ein Item zum Tragen. Verlängert\ndie Dauer von Regentanz, wenn\nvon Träger eingesetzt.
+Ein Item zum Tragen.\nVerlängert die Dauer von\nKlammergriff, Wickel etc.
+Ein Item zum Tragen. Der Schal\nerhöht den Initiative-Wert, aber nur\neine Attacke ist einsetzbar.
+Schadet dem Träger in jeder Runde,\nkann aber an Angreifern haften\nbleiben, die ihn berühren.
+Ein Item zum Tragen. Erhöht\nbei Levelaufstieg den Angriffs-\nWert, senkt aber die Initiative.
+Ein Item zum Tragen. Erhöht bei\nLevelaufstieg den Verteidigungs-\nWert, senkt aber die Initiative.
+Ein Item zum Tragen. Erhöht\nbei Levelaufstieg den Spezial-\nAngriff, senkt aber die Initiative.
+Ein Item zum Tragen. Erhöht bei Level-\naufstieg die Spezial-Verteidigung,\nsenkt aber die Initiative.
+Ein Item zum Tragen. Erhöht bei\nLevelaufstieg den Initiative-Wert,\nsenkt aber die Initiative allgemein.
+Ein Item zum Tragen. Erhöht bei\nLevelaufstieg die maximalen\nKP, senkt aber die Initiative.
+Ein Item zum Tragen. Dieser harte\nPanzer ermöglicht den Austausch des\nTrägers gegen ein wartendes Pokémon.
+Ein Item zum Tragen. Verstärkt\nKP-stehlende Attacken.
+Ein Item zum Tragen. Die Brille\nerhöht den Spezial-Angriff, aber\nnur eine Attacke ist einsetzbar.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Feuer.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Wasser.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Elektro.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Pflanze.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Eis.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Kampf.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Gift.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Boden.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Flug.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Psycho.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Käfer.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Gestein.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Geist.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Drachen.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Unlicht.
+Ein Item zum Tragen. Diese Steintafel\nverstärkt Attacken vom Typ Stahl.
+Ein Item zum Tragen. Dieses\nexotische Duftkraut verstärkt\nAttacken vom Typ Psycho.
+Ein Item zum Tragen. Dieses\nexotische Duftkraut verstärkt\nAttacken vom Typ Gestein.
+Ein Item zum Tragen. Dieses exotische\nDuftkraut macht den Träger benommen\nund langsam.
+Ein Item zum Tragen. Sein\nausgefallenes Aroma verstärkt\nAttacken vom Typ Wasser.
+Ein Item zum Tragen. Dieses\nexotische Duftkraut verstärkt\nAttacken vom Typ Pflanze.
+Ein Item, das ein Pokémon trägt und\ndas doppelte Preisgeld bringt, wenn\nder Träger am Kampf teilnimmt.
+Ein Item zum Tragen. Reduziert\nBegegnungen mit wilden Pokémon, wenn\nder Träger an erster Stelle steht.
+Ein schützendes Item. Steif\nund schwer. Das Lieblingsstück\neines bestimmten Pokémon.
+Eine Schachtel mit elektrischer\nEnergie. Das Lieblingsstück\neines bestimmten Pokémon.
+Eine Schachtel mit Magmaenergie.\nDas Lieblingsstück eines bestimmten\nPokémon.
+Eine Scheibe mit seltsamen Daten.\nIhr Ursprung ist unbekannt.
+Ein Stoffumhang mit geistiger\nEnergie. Das Lieblingsstück\neines bestimmten Pokémon.
+Ein Item zum Tragen.\nDie scharfe Klaue erhöht die\nVolltrefferquote des Trägers.
+Ein Item zum Tragen.\nVerursacht der Träger Schaden,\nerschrickt das Ziel eventuell.
+Der Anwender wetzt seine Klauen,\num sie zu schärfen. Angriff und\nGenauigkeit werden erhöht.
+Das Ziel wird mit langen,\nscharfen Krallen brutal attackiert.
+Anwender erzeugt eine seltsame\nEnergiewelle, die dem Ziel\nphysischen Schaden zufügt.
+Der Anwender konzentriert und beruhigt\nsich. So werden Spezial-Angriff und\nSpezial-Verteidigung verstärkt.
+Der Brüller schlägt das Ziel in\ndie Flucht. Ein Kampf gegen ein\nwildes Pokémon wird beendet.
+Das Ziel wird schwer vergiftet.\nDer Schaden durch das Gift wird\nin jeder Runde stärker.
+Der verursachte Hagelsturm hält\n5 Runden an und schadet allen\nPokémon, außer denen vom Typ Eis.
+Der Anwender spannt seine Muskeln an\nund steigert damit den Angriffs- und\nden Verteidigungs-Wert.
+Überschüttet das Ziel mit einer spe-\nziellen toxischen Flüssigkeit. Doppelt\nso stark gegen vergiftete Ziele.
+Die Stärke und der Typ dieser Attacke\nhängen vom jeweiligen Pokémon ab.
+Die Sonne brennt unbarmherzig 5\nRunden lang. Dadurch werden Attacken\nvom Typ Feuer verstärkt.
+Das Ziel wird so gereizt, dass es\nüber 3 Runden hinweg nur\nAngriffsattacken einsetzt.
+Das Ziel wird von einem eiskalten\nEnergiestrahl getroffen. Dieser friert\nes eventuell ein.
+Eine ungnädige Eis- und Schnee-Attacke,\ndie Pokémon in der Nähe des Anwenders\ntrifft und eventuell einfrieren kann.
+Eine äußerst starke Attacke, die viel\nSchaden anrichtet. Anwender muss\nsich in der nächsten Runde ausruhen.
+Eine Wand aus Licht wird über 5 Runden\nerrichtet. Sie senkt den durch Spezial-\nAngriffe herbeigeführten Schaden.
+Garantierter Schutz in der Runde,\nin der die Attacke eingesetzt wird.\nKönnte bei häufigem Einsatz versagen.
+Schwerer Niederschlag setzt für 5\nRunden ein. Attacken vom Typ Wasser\nwerden verstärkt.
+Bringt Ziel durch Psycho-Kräfte zum\nSchweben. Dieses lässt sich so über\n3 Runden besonders leicht treffen.
+Ein Schild schützt das Team\n5 Runden vor Statusproblemen\njeglicher Art.
+Je unbeliebter der Trainer bei\nseinem Pokémon ist, desto größer\nist die Wirkung.
+Eine Attacke über 2 Runden.\nZunächst wird Sonnenlicht absorbiert,\nanschließend erfolgt der Angriff.
+Greift das Ziel mit Steinen und Wurfge-\nschossen an. Fliegende Ziele fallen\nvom Himmel und landen auf dem Boden.
+Das Ziel wird von einem verheerenden\nStromschlag getroffen. Kann eventuell\nParalyse bewirken.
+Das Ziel wird von einem mächtigen\nDonnerschlag, der Paralyse bewirken\nkann, heimgesucht.
+Ein starkes Beben wird verursacht, das\nden anderen Pokémon in der Umgebung\ndes Angreifers Schaden zufügt.
+Je beliebter der Trainer bei\nseinem Pokémon ist, desto\ngrößer ist die Wirkung.
+Eine Attacke über 2 Runden.\nZunächst gräbt sich der Angreifer ein,\nanschließend erfolgt der Angriff.
+Ein mächtiger Strahl telekinetischer\nEnergie trifft das Ziel. Die Spezial-\nVerteidigung des Zieles sinkt evtl.
+Das Ziel wird mit einem dunklen\nKlumpen attackiert, der eventuell die\nSpezial-Verteidigung senkt.
+Das Ziel wird mit der Faust angegriffen.\nBarrieren wie Lichtschild oder Reflektor\nwerden zerstört.
+Der Angreifer ist so schnell, dass\nvirtuelle Abbilder generiert werden,\ndie den Fluchtwert erhöhen.
+Eine Wand aus Licht wird für 5 Runden\nerrichtet, die den Schaden physischer\nAttacken reduziert.
+Greift Pokémon in der Nähe des\nAnwenders mit einer Schlammwelle an.\nDiese werden eventuell vergiftet.
+Das Ziel wird in ein Flammenmeer\ngehüllt. Verursacht eventuell\nVerbrennungen.
+Das Ziel versinkt im Giftschlamm.\nKann eventuell Vergiftungen\nhervorrufen.
+Ein Sandsturm trifft für 5 Runden\nalle Pokémon, außer denen vom\nTyp Boden, Gestein und Stahl.
+Dem Ziel wird ordentlich eingeheizt.\nKann eventuell Verbrennungen\nhervorrufen.
+Das Ziel wird mit Felsen\nbeworfen. Kann Initiative-\nWert senken.
+Der Anwender irritiert das Ziel durch\nSchnelligkeit, bevor er angreift.\nDiese Attacke trifft immer ihr Ziel.
+Der Anwender bringt das Ziel in Rage.\nDieses ist nicht mehr in der Lage, eine\nAttacke zweimal anzuwenden.
+Ist der Anwender vergiftet, paralysiert\noder leidet er unter Verbrennung,\nverdoppelt sich die Kraft der Attacke.
+Anwender hüllt sich in Flammen u. greift\ndas Ziel an. Er sammelt seine Kräfte\nund erhöht so die eigene Initiative.
+Anwender wird vollkommen\ngeheilt und schläft die\nfolgenden zwei Runden.
+Gehört das Ziel dem anderen\nGeschlecht an, verliebt es sich\nund greift eventuell nicht an.
+Der Anwender greift an und stiehlt dem\nZiel gleichzeitig ein Item, sofern er\nselbst gerade kein Item trägt.
+Anwender greift mit blitzschnellen\nBewegungen die Beine des Zieles\nan und senkt dessen Initiative.
+Angriff mit Gesang. Singt der Anwender\nmit allen im Kanon, kann er die Attacke\nmehrfach auslösen u. die Stärke steigt.
+Angriff mit widerhallender Stimme. Wird\ndieser in jeder Runde von jemandem\nwiederholt, steigt die Stärke.
+Angriff mit maximaler Kraft und\nfeuriger Energie, der gleichzeitig den\nSpezial-Angriff des Angreifers senkt.
+Wundersame Kräfte teleportieren\nden Anwender an den Platz eines\nMitstreiters und umgekehrt.
+Ein Angriff mit aller Macht.\nDie Spezial-Verteidigung des\nZieles sinkt eventuell.
+Entfesselt die Kraft der Natur\ngegen das Ziel. Dessen Spezial-\nVerteidigung sinkt eventuell.
+Eine zurückhaltende Attacke, die\neine Kampfunfähigkeit des Zieles\nverhindert, dem mindestens 1 KP bleibt.
+Heizt dem Ziel mit einem Schwall siedend\nheißen Kochwassers ein. Dieses\nerleidet eventuell Verbrennungen.
+Der Anwender wirft sein Item auf\ndas Ziel. Die Kraft und die Wirkung\nhängen vom jeweiligen Item ab.
+Greift mit einer elektrischen\nEntladung an. Der Spezial-Angriff\ndes Angreifers steigt eventuell.
+Das entführte Ziel wird in Runde 2 vom\nHimmel fallen gelassen. In der Luft\nkann das Ziel nicht attackieren.
+Eine Feuer-Attacke. Trägt das Ziel eine\nBeere bei sich, wird diese von den\nFlammen verzehrt und geht verloren.
+Anwender stemmt sich gegen das Ziel\nund bewirkt, dass dieses erst zuletzt\nangreift.
+Feuert eine fiese, blauweiße Flamme\nauf das Ziel ab, um eine Verbrennung\nzu verursachen.
+Ein graziler Angriff auf das Ziel. Trägt\nder Anwender kein Item bei sich,\nrichtet die Attacke großen Schaden an.
+Verhindert, dass das Ziel Items\neinsetzt. Dies wirkt sich auch auf\nden Trainer des Zieles aus.
+Diese besondere Attacke verletzt\nPokémon in der Nähe des Anwenders,\nder dabei jedoch kampfunfähig wird.
+Eine Klaue aus Schatten greift\ndas Ziel an. Die Volltrefferquote\nist dabei sehr hoch.
+Der Anwender lädt die Attacke auf.\nHandelt das Ziel vor dem Anwender,\nverdoppelt sich die Kraft der Attacke.
+Anwender rächt einen besiegten\nMitstreiter. Wurde in der vor. Runde ein\nMitstreiter besiegt, steigt die Kraft.
+Ein harter Angriff mit aller Energie.\nDanach muss der Anwender sich\nausruhen und neue Energie sammeln.
+Der Anwender poliert seinen Körper.\nKann Initiative-Wert deutlich erhöhen.
+Ein flackerndes Licht reduziert\ndie Genauigkeit des Zieles.\nKann auch Höhlen erleuchten.
+Angriff mit spitzen Steinen.\nBesitzt eine hohe Volltrefferquote.
+Nach der Attacke eilt der Anwender\nzurück und tauscht den Platz mit\neinem anderen Pokémon.
+Das Ziel wird mit einem schwachen\nelektrischen Schlag angegriffen. Wird\nes getroffen, wird es paralysiert.
+Eine verzerrte Drehattacke. Je\nlangsamer der Anwender, desto\nmehr Schaden fügt er zu.
+Ein wilder Tanz, der den Kampfgeist\nerhöhen soll. Der Angriffs-Wert des\nAnwenders steigt deutlich.
+Anwender leistet Widerstand und\ngreift an. Der Spezial-Angriff des\nZieles sinkt.
+Der Anwender hypnotisiert sich selbst,\num die Statusveränderungen des\nZieles zu kopieren.
+Anwender greift an, indem er den Boden\num sich herum platt walzt. Die Initiative\naller Pokémon in der Umgebung sinkt.
+Anwender greift an, indem er dem\nZiel eisigen Atem entgegenhaucht.\nVolltreffergarantie.
+Der Anwender schleudert große\nFelsbrocken auf das Ziel. Dieses\nerschrickt eventuell.
+Der Anwender greift mit gekreuzten\nScheren oder Klauen an, als wären\ndiese eine normale Schere.
+Fegt das Ziel vom Feld und wechselt\nes mit einem anderen Pokémon aus.\nBeendet Kämpfe gegen wilde Pokémon.
+Anwender erhält einen Kraftschub, der\nseinen Angriff und Spezial-Angriff\nerhöht.
+Der Anwender greift mit giftigen\nTentakeln oder Armen an. Das Ziel\nwird dabei eventuell vergiftet.
+Wirkt nur auf schlafende\nZiele. Angreifer erhält 50 %\ndes Schadens als KP.
+Gras lässt das Ziel straucheln.\nJe schwerer das Ziel, desto\nmehr Schaden wird verursacht.
+Reizt das Ziel und verursacht\nVerwirrung. Dies erhöht jedoch\ndessen Angriffs-Wert.
+Hält das Ziel eine Beere,\nstiehlt der Angreifer sie und\ngenießt ihre Auswirkungen.
+Direkt nach der Attacke tauscht\nder Angreifer mit einem wartenden\nPokémon den Platz.
+Der Angreifer erschafft aus\nein paar eigenen KP einen\nKlon, der als Ablenkung dient.
+Entfesselt konzentrierte Lichtenergie.\nDie Spezial-Verteidigung des Zieles\nsinkt eventuell.
+Verzerrt die Raumzeit für 5 Runden.\nLangsamere Pokémon greifen\nzuerst an.
+Das Ziel wird mit scharfen Klingen\nattackiert. Außerhalb des Kampfes\nwerden damit kleine Bäume gefällt.
+In Runde 1 fliegt der Angreifer empor\nund attackiert in Runde 2. Man kann\ndamit zu jedem bekannten Ort fliegen.
+Eine riesige Flutwelle ergießt sich über\ndas nähere Umfeld des Anwenders.\nErmöglicht das Surfen auf dem Wasser.
+Das Ziel trifft ein energiegeladener\nKraftschlag. Außerdem lassen sich mit\nder Attacke schwere Felsen bewegen.
+Eine mächtige Attacke, die das Ziel mit\nrasender Geschwindigkeit angreift.\nSie macht Wasserfälle bezwingbar.
+Taucht in Runde 1 ab und greift in\nRunde 2 aus der Tiefe an. Ermöglicht\nTauchgänge zum Meeresgrund.
+-\n-\n-
+-\n-\n-
+Ein Sack voller hilfreicher Items für\nErkundungsgänge. Öffnet den\nUntergrund.
+Ein fester Sack. Wird verwendet,\num Beute aus der Kohlemine\nzu transportieren.
+Enthält die Kampfregeln.\nBei Link-Kämpfen kannst du daraus\ndie gewünschten Regeln wählen.
+Findet Pokémon, die sich im Gras\nverstecken. Die Batterie lädt sich\nbeim Reisen auf.
+Auf dieser Karte werden deine bisher\ngesammelten Gewinnpunkte festgehalten.
+In diesem Tagebuch steht, was du\nin den letzten Tagen erlebt hast.
+In diesem Koffer kannst du die Sticker\nfür die Ballkapseln der Pokébälle\naufbewahren.
+Ein schicker Koffer mit Platz für alle\nim Musical benötigten Deko-Artikel\ndeiner Pokémon. Da knittert nichts.
+Ein kleines Tütchen. Es bietet Platz\nfür bis zu 10 Sticker für die Pokébälle.
+In diesem praktischen Buch\nkannst du die Freundescodes\ndeiner Freunde aufbewahren.
+Ein großer Schlüssel, der zum\nWindkraftwerk gehört. Einer der Rüpel\nvon Team Galaktik hatte ihn im Besitz.
+Ein antiker Glücksbringer. Soll der\nÄltesten in Elyses überbracht werden.
+Dieser Türöffner deaktiviert\ndie Sicherheitssysteme im\nHauptquartier von Team Galaktik.
+Diese mythische Kette ist angeblich\ndie Verbindung zu einem Legendären\nPokémon.
+Eine praktische Karte, die jederzeit\naufgerufen werden kann. Dein aktueller\nStandort wird auch angezeigt.
+Ein Gerät, das rückkampfwillige\nTrainer ausfindig macht. Die\nBatterie lädt sich beim Reisen auf.
+Im Korb finden bis zu 50 000 Münzen\nder Spielhalle Platz.
+Eine alte, abgenutzte Angel. Damit\nkannst du in jedem Gewässer nach\nPokémon angeln.
+Eine recht gute Angel. Damit kannst\ndu in jedem Gewässer nach Pokémon\nangeln.
+Eine wundervoll gefertigte Angel.\nDie beste Angel, um Pokémon zu angeln.
+Eine Gießkanne in Form von\nEnton. Gieße gepflanzte Beeren,\ndamit sie besser wachsen.
+Eine Box für leckere Knurspe.
+Ein Klapprad, mit dem man schneller\nals mit Turbotretern ist.
+Schlüssel zu einer Hotelsuite.\nVerschwindet seltsamerweise\nimmer wieder mal.
+Ein Brief von Prof. Eich. Er bittet dich,\nzur Route 224 zu gehen.
+Diese Feder leuchtet wie der Mond.\nKann angeblich Alpträume vertreiben.
+Eine Eintrittskarte für den Gasthof\nin Fleetburg. Sie ist über 50 Jahre\nalt...
+Eine Flöte, deren Töne nicht von\ndieser Welt zu sein scheinen.\nIhr Erschaffer ist nicht bekannt.
+Ein Ticket, um auf der M.S. Aqua\nzu fahren. Eine Zeichnung der\nFähre ist auf dem Ticket zu sehen.
+Ausweis zur Teilnahme an Pokémon-\nWettbewerben. Die Zeichnung\neines Bandes ist aufgedruckt.
+Ein Stein aus gehärtetem Magma.\nSein innerer Kern ist noch flüssig\nund heiß.
+Ein Paket, das dir anvertraut wurde.\nDu sollst es deinem besten Freund\ngeben, der Zweiblattdorf verließ.
+Einer der drei Kupons, die du\nfür den Pokétch benötigst.
+Einer der drei Kupons, die du\nfür den Pokétch benötigst.
+Einer der drei Kupons, die du\nfür den Pokétch benötigst.
+Der Schlüssel zur Lagerhalle des\nTeams Galaktik am Rande von Schleiede.
+Eine fantastische Medizin aus\nAnemonia City. Heilt und kuriert\nein Pokémon vollständig.
+Ein tolles Gerät, um Kämpfe zwischen\nFreunden oder Kämpfe in einer speziel-\nlen Kampfeinrichtung aufzuzeichnen.
+Mit dieser Blume, manchmal auch als Teil\neines Bouquets, kann man an speziellen\nTagen seine Dankbarkeit ausdrücken.
+Ein besonderer Schlüssel, der an\neinem speziellen Ort Türen durch\nein elektrisches Signal öffnet.
+Eine praktische Tragebox, in der\ndu bis zu 99 Aprikokos jeder\nSorte transportieren kannst.
+Ein Heft, in dem automatisch\nDaten zu bereits gefangenen\nIcognito aufgezeichnet werden.
+Ein tragbares Utensil, das die Aufzucht\nvon Pflanzen aus Beeren ermöglicht,\nwo immer du auch gerade bist.
+Scannt die Umgebung nach unsichtbaren\nItems. Es blinkt und piept, sobald es\netwas findet.
+Eine Karte, auf der die Punkte\nfür „Passwort mit Buena“\nfestgehalten werden.
+Die Rute eines unbestimmten\nWesens. Extrem schmackhaft.\nLässt sich teuer verkaufen.
+Eine altehrwürdige Glocke,\nderen Läuten alle besänftigt,\ndie es hören.
+Eine Schlüsselkarte, die eine\nTür im Radioturm öffnet.
+Ein Schlüssel, der eine Tür\nin der Dukatia-Passage\nvon Dukatia City öffnet.
+Eine Gießkanne, durch deren\nWasser Beeren im Pflanzset\numso rascher wachsen.
+Eine Schuppe des roten Garados,\ndas im See des Zorns erschienen ist.\nSie glänzt rot wie Feuer.
+Eine Pantimimi-Puppe, welche die\nNachahmerin verloren hat.
+Eine Fahrkarte, die einem die\nReise mit dem Magnetzug ermöglicht.\nGilt für beliebig viele Fahrten.
+Ein unentbehrliches Maschinenteil, das\naus dem Kraftwerk entwendet wurde.
+Eine silberne Feder, die von\neinem seltsamen Leuchten\nerfüllt ist.
+Eine mystische Feder, die\nvon einem regenbogenfarbenen\nLeuchten erfüllt ist.
+Ein seltsam gemustertes Ei, das\ndu von Mr. Pokémon erhalten hast.\nSein Inhalt liegt im Dunkeln.
+Eine rote Aprikoko. Besitzt einen\nstechenden Geruch.
+Eine blaue Aprikoko. Ein frischer\nGeruch geht von ihr aus.
+Eine gelbe Aprikoko.\nSie riecht ein wenig unreif.
+Eine grüne Aprikoko. Sie verströmt\neinen seltsam aromatischen Duft.
+Eine pinkfarbene Aprikoko. Sie duftet\nsüß und appetitanregend.
+Eine weiße Aprikoko.\nRiecht nach überhaupt nichts.
+Eine schwarze Aprikoko. Sie riecht\nirgendwie unbeschreiblich.
+Ein Ball, der sich besonders gut eignet,\num flinke Pokémon zu fangen.
+Ein Ball, mit dem sich Pokémon umso\nleichter fangen lassen, je niedriger ihr\nLevel im Vergleich zu deinem Team ist.
+Ein Ball, der sich besonders gut\neignet, um Pokémon zu fangen,\ndie an deiner Angel hängen.
+Ein Ball, der sich besonders gut eignet,\num Pokémon mit hohem Körpergewicht\nzu fangen.
+Ein Ball, der sich besonders gut eignet,\num Pokémon zu fangen, die ein anderes\nGeschlecht haben als dein Pokémon.
+Ein besonderer Ball, der die\nSympathie von gefangenen Pokémon\nschneller ansteigen lässt.
+Ein Ball, der sich besonders gut eignet,\num Pokémon zu fangen, die sich durch\neinen Mondstein weiterentwickeln.
+Ein Ball, der nur beim Käferturnier\neingesetzt wird.
+Ein Ball, der nur im Park der Freunde\neingesetzt wird.
+Ein Album, in dem du Erinnerungsfotos\naufbewahren kannst, die du auf\ndeinen Reisen geschossen hast.
+Ein Abspielgerät, das Musik aus einer\nlängst vergangenen Zeit spielt. Lässt\nsich durch simplen Knopfdruck bedienen.
+Eine altehrwürdige Glocke,\nderen Läuten alle besänftigt,\ndie es hören.
+Eine Spezialität aus Mahagonia City.\nSie wird gern als Souvenir gekauft.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du ein Turnier\ngewonnen hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du bei einem\nTurnier Letzter geworden bist.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie viele Sprints\ndu schon hinter dir hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du\ngesprungen bist.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nHürdenlauf den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nStaffellauf den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim Flaggen-\nschnappen den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nZiegelbrechen den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nDiskusfangen den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du den 1. Platz\nbei der Schneeschlacht belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft deine Pokémon\nim Wettkampf Punkte geholt haben.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie viele Schnitzer\ndu dir geleistet hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie viele Punktabzüge\ndein Team kassiert hat.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie viele Angriffe\ndu schon ausgeführt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft deine Pokémon\nschon aus dem Ring gefallen sind.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nRingrangeln den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim Lampion-\nspringen den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nDrängelkreis den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie viele Konnex-\nWettkämpfe du gewonnen hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, bei wie vielen Konnex-\nWettkämpfen du schon Letzter warst.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du in einer\nDisziplin den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du in einer\nDisziplin den letzten Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du deine\nPokémon ausgewechselt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du beim\nTorschießen den 1. Platz belegt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft eines deiner\nPokémon den Einzelpreis gewonnen hat.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie oft du deine\nPokémon mit dem Touchpen berührt hast.
+Speichert deine Pokéathlon-Rekorde.\nDie Karte zeigt, wie viel Zeit du\nbeim Pokéathlon verbracht hast.
+Eine grün schimmernde Kugel,\nvon der in den Legenden der\nHoenn-Region berichtet wird.
+Eine äußerst robuste Kapsel, die sich\nnur mit einem ganz speziellen\nSchlüssel öffnen lässt.
+Eine rot schimmernde Kugel,\nvon der in den Legenden der\nHoenn-Region berichtet wird.
+Eine blau schimmernde Kugel,\nvon der in den Legenden der\nHoenn-Region berichtet wird.
+Eine kristallene Kugel, die aus der Erde\ngeborgen wurde. Schmutz und Gestein\nkonnten ihrer Schönheit nichts anhaben.
+Eine seltsame Schuppe, durch die sich\nbestimmte Pokémon entwickeln. Sie\nfunkelt in den Farben des Regenbogens.
+Ein mysteriöser Klumpen, der die Vert.\nu. Spez.-Vert. von Pokémon erhöht,\ndie sich noch entwickeln können.
+Ein federleichter Stein, der das\nGewicht des Trägers verringert.
+Wird der Träger von einer physischen\nAttacke getroffen, erhält der\nAngreifer ebenfalls Schaden.
+Gibt man es einem Pokémon zum Tragen,\nfängt es an zu schweben. Wird es\ngetroffen, platzt das Item.
+Eine Karte mit mysteriösen Kräften.\nWird der Träger getroffen, wird der\nAngreifer des Platzes verwiesen.
+Attacken, die aufgrund der Wechsel-\nwirkungen zwischen den Typen keine\nWirkung haben, treffen den Träger.
+Ein Band, das die Stärke aller\nKlammerattacken des Trägers\nerhöht.
+Eine einmalig einsetzbare Knolle.\nErhöht den Spez.-Angr. des Trägers,\nwenn ihn eine Wasser-Attacke trifft.
+Ein einmalig aufladbarer Akku.\nErhöht den Angriff des Trägers, wenn\nihn eine Elektro-Attacke trifft.
+Wird der Träger getroffen, flieht er\naus dem Kampf und wird mit einem\nTeam-Pokémon ausgetauscht.
+Ein Juwel vom Typ Feuer. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Feuer.
+Ein Juwel vom Typ Wasser. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Wasser.
+Ein Juwel vom Typ Elektro. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Elektro.
+Ein Juwel vom Typ Pflanze. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Pflanze.
+Ein Juwel vom Typ Eis. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Eis.
+Ein Juwel vom Typ Kampf. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Kampf.
+Ein Juwel vom Typ Gift. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Gift.
+Ein Juwel vom Typ Boden. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Boden.
+Ein Juwel vom Typ Flug. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Flug.
+Ein Juwel vom Typ Psycho. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Psycho.
+Ein Juwel vom Typ Käfer. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Käfer.
+Ein Juwel vom Typ Gestein. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Gestein.
+Ein Juwel vom Typ Geist. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Geist.
+Ein Juwel vom Typ Drachen. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Drachen.
+Ein Juwel vom Typ Unlicht. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Unlicht.
+Ein Juwel vom Typ Stahl. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Stahl.
+Ein Juwel vom Typ Normal. Es\nerhöht einmalig die Stärke\neiner Attacke vom Typ Normal.
+Schenkt man einem Pokémon dieses\nItem, wird dessen Basis-KP-Anzahl\ndauerhaft erhöht.
+Schenkt man einem Pokémon dieses\nItem, wird dessen Angriffs-Wert\ndauerhaft erhöht.
+Schenkt man einem Pokémon dieses\nItem, wird dessen Verteidigungs-Wert\ndauerhaft erhöht.
+Schenkt man einem Pokémon dieses\nItem, wird dessen Spezial-Angriff\ndauerhaft erhöht.
+Schenkt man einem Pokémon dieses\nItem, wird dessen Spezial-Verteidigung\ndauerhaft erhöht.
+Schenkt man einem Pokémon dieses\nItem, wird dessen Initiative-Wert\ndauerhaft erhöht.
+Eine ganz normale Feder, die\nrein gar nichts bewirkt.
+Das Fossil eines uralten Pokémon,\ndas in der Tiefsee lebte. Offenbar\nhandelt sich um einen Teil des Rückens.
+Das Fossil eines uralten Pokémon, von\ndem man annimmt, dass es der Urahn der\nVogel-Pokémon sei. Ein Teil des Flügels.
+Ein besonderes Ticket für die Überfahrt\nvon Stratos City zur Insel des\nFreiheitsgartens.
+Ein mysteriöser Orb, der die Kraft\nder Einall-Region enthält und zur\nErzeugung von Transferkraft dient.
+Ein Ball wie aus einem Traum, der im\nKontaktebenenhain plötzlich im Beutel\nauftaucht. Fängt jedes Pokémon.
+Ein hübscher Wedel. Er ermöglicht die\nFlucht im Kampf gegen wilde Pokémon.
+Eine ganz tolle Box, in der jede Menge\nbunte Deko-Artikel für Pokémon-Musicals\nPlatz haben.
+Der Schädel eines Pokémon, das einst\nwütendem Seegang zum Trotz frei\num die Welt flog.
+Ein seltener Pilz, der ein angenehmes\nAroma verbreitet. Kenner geben ihr\nletztes Hemd dafür.
+Ein großes Nugget aus purem Gold, das\neinen schimmernden Glanz besitzt.\nSammler zahlen einen hohen Preis dafür.
+Eine sehr große Perle mit einem\nwunderschönen, silbernen Glanz.\nSammler geben ihr letztes Hemd dafür.
+Ein Kometensplitter, der aus dem All\nherabgefallen ist. Sammler geben ihr\nletztes Hemd dafür.
+Eine alte Kupfermünze. Die Währung\neiner gut 3 000 Jahre alten Kultur.\nSammler geben ihr letztes Hemd dafür.
+Eine alte Silbermünze. Die Währung\neiner gut 3 000 Jahre alten Kultur.\nSammler geben ihr letztes Hemd dafür.
+Eine alte Goldmünze. Die Währung\neiner gut 3 000 Jahre alten Kultur.\nSammler geben ihr letztes Hemd dafür.
+Eine Vase, angefertigt von einer\ngut 3 000 Jahre alten Kultur. Sammler\ngeben ihr letztes Hemd dafür.
+Ein Armreif, angefertigt von einer\ngut 3 000 Jahre alten Kultur. Sammler\ngeben ihr letztes Hemd dafür.
+Eine Statue, angefertigt von einer gut\n3 000 Jahre alten Kultur. Sammler\ngeben ihr letztes Hemd dafür.
+Die Krone eines Königs, angefertigt von\neiner gut 3 000 Jahre alten Kultur.\nSammler geben ihr letztes Hemd dafür.
+Dieses Eis ist eine Spezialität\naus Stratos City. Es behebt alle\nStatusprobleme eines Pokémon.
+Erhöht die Volltrefferquote. Effektiver\nbei mehrfacher Anwendung. Wirksam, bis\ndas Pokémon ausgewechselt wird.
+Hebt den Initiative-Wert eines Pokémon\nim Kampf leicht an. Die Wirkung endet\nmit dem Austausch des Pokémon.
+Hebt den Spezial-Angriff eines Pokémon\nim Kampf leicht an. Die Wirkung endet\nmit dem Austausch des Pokémon.
+Hebt die Spezial-Verteidigung eines\nPokémon im Kampf leicht an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Verteidigungs-Wert eines\nPokémon im Kampf leicht an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Angriffs-Wert eines Pokémon\nim Kampf leicht an. Die Wirkung endet\nmit dem Austausch des Pokémon.
+Hebt die Genauigkeit eines Pokémon\nim Kampf leicht an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Initiative-Wert eines Pokémon\nim Kampf stark an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt den Spezial-Angriff eines Pokémon\nim Kampf stark an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt die Spezial-Verteidigung eines\nPokémon im Kampf stark an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Verteidigungs-Wert eines\nPokémon im Kampf stark an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Angriffs-Wert eines Pokémon\nim Kampf stark an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt die Genauigkeit eines Pokémon\nim Kampf stark an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt den Initiative-Wert eines Pokémon\nim Kampf enorm an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt den Spezial-Angriff eines Pokémon\nim Kampf enorm an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt die Spezial-Verteidigung eines\nPokémon im Kampf enorm an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Verteidigungs-Wert eines\nPokémon im Kampf enorm an. Die Wirkung\nendet mit dem Austausch des Pokémon.
+Hebt den Angriffs-Wert eines Pokémon\nim Kampf enorm an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Hebt die Genauigkeit eines Pokémon im\nKampf enorm an. Die Wirkung endet mit\ndem Austausch des Pokémon.
+Aktiviert bei Gebrauch die Fähigkeit\ndes Mitstreiters.
+Der Mitstreiter lässt bei Gebrauch das\nvon ihm getragene Item fallen.
+Der Mitstreiter setzt bei Gebrauch\nsofort das von ihm getragene Item ein.
+Hebt bei Gebrauch Statusveränderungen\ndeines Mitstreiters auf.
+Erhöht die Volltrefferquote stark. Bei\nmehrfachem Gebrauch effektiver. Wirkt,\nbis das Pokémon ausgewechselt wird.
+Nach dem Zerfall seines Körpers nahm\nReshiram diese Form an. Man sagt,\nes warte auf die Ankunft eines Helden.
+Nach dem Zerfall seines Körpers nahm\nZekrom diese Gestalt an. Man sagt,\nes warte auf die Ankunft eines Helden.
+Anwender erzeugt Spannung und greift\nan, indem er auf Kollisionskurs geht. Er\nerleidet selbst leichten Schaden.
+Steinbrechende Attacke, die\nden Verteidigungs-Wert des\nZieles senken kann.
+Gibt Gegnern mit einer nicht enden\nwollenden Standpauke was auf die Ohren\nund senkt dabei deren Spezial-Angriff.
+Ein hochmodernes Gerät, mit dem bis zu\n4 Personen miteinander kommunizieren\nkönnen. Es ermöglicht sogar Video-Chat!
+Ein mysteriöser Stein.
+Eine wichtige Briefpost,\nüberbracht von Wingull.
+Eine wichtige Briefpost,\nüberbracht von Wingull.
+Eine wichtige Briefpost,\nüberbracht von Wingull.
+Ein hochmodernes Gerät, mit dem bis zu\n4 Personen miteinander kommunizieren\nkönnen. Es ermöglicht sogar Video-Chat!
+Ein Gerät in Form einer Box, in der\nMedaillen aufbewahrt und Informationen\ndazu gespeichert werden.
+Ein Keil, der Kyurem und ein gewisses\nanderes Pokémon, die vermeintlich\neinst eins gewesen sind, vereinigt.
+Ein Keil, der Kyurem und ein gewisses\nanderes Pokémon, die vereinigt wurden,\nvoneinander trennt.
+Eine Genehmigung in Form einer Karte,\ndie den Zutritt ins Naturschutzgebiet\nermöglicht. Nur Wenige kennen den Ort.
+Ein mysteriöser, ovaler Glücksbringer,\nder die Wahrscheinlichkeit erhöht, in\nder Pension Eier zu finden.
+Ein mysteriöser, schillernder Glücks-\nbringer, der die Wahrscheinlichkeit\nerhöht, Schillernde Pokémon zu finden.
+Ein Kartenschlüssel, der bei der\nEingabe des Passworts an Bord der\nPlasma-Fregatte benötigt wird.
+Ein Taschentuch, das ein Stammkunde\nim Café Lagerhaus in Septerna City ver-\nloren hat. Riecht leicht nach Pokémon.
+Eine Vorrichtung, die verborgene Kräfte\nin den Pokémon weckt. Es handelt sich\ndabei um einen unfertigen Prototyp.
+Ein Viso-Caster, der im Vergnügungspark\nvon Rayono City gefunden wurde.\nEr scheint einem Jungen zu gehören.
+Ein Viso-Caster, der im Vergnügungspark\nvon Rayono City gefunden wurde.\nEr scheint einem Mädchen zu gehören.
+Ein mysteriöser Spiegel, der Pokémon\nin ihre eigentliche Form verwandelt,\nindem er die Wahrheit widerspiegelt.

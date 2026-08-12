@@ -1,0 +1,5 @@
+{
+    "host_name": "local",
+    "clear_player_dream_info_on_wake": true,
+    "allow_wfc_registration_through_login": true
+}

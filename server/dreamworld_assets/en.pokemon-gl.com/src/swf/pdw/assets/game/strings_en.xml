@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data locale="ja">
+
+<string id="DIALOG_TUTORIAL_TITLE">How to play Frozen Treat Sweep</string>
+
+<string id="DIALOG_TUTORIAL_INFO0">Click on a square of ice
+to slide to that square.
+Collect many desserts in the
+time limit  for a high score!</string>
+<string id="DIALOG_TUTORIAL_INFO1">If you spend too much time on
+a square, the ice will break.
+Falling into the water will
+cost you some time. Watch out!</string>
+
+<string id="DIALOG_BUTTON_START">Start</string>
+<string id="DIALOG_BUTTON_START_S">Start</string>
+
+
+<string id="BUTTON_TOP_EXIT">Quit game</string>
+
+<string id="MESSAGE_WINDOW_PLAY_FIRST">Click on a square and you'll slide there!</string>
+<string id="MESSAGE_WINDOW_IIOKASHI">Lots of yummy desserts are dropping!</string>
+<string id="MESSAGE_WINDOW_GANBARE10">Try harder! Only 10 seconds left!</string>
+
+<string id="DIALOG_EXIT_INFO">Want to quit this game?
+If you quit, you can't befriend {BUDDY_NAME}.</string>
+
+<string id="DIALOG_BUTTON_YES">Yes</string>
+<string id="DIALOG_BUTTON_YES_S">Yes</string>
+<string id="DIALOG_BUTTON_NO">No</string>
+<string id="DIALOG_BUTTON_NO_S">No</string>
+
+<string id="DIALOG_RESULT_TITLE">Results</string>
+
+
+<string id="DIALOG_RESULT_KO_0"/>
+<string id="DIALOG_RESULT_KO_1"/>
+<string id="DIALOG_RESULT_KO_2"/>
+<string id="DIALOG_RESULT_KO_3"/>
+<string id="DIALOG_RESULT_POINT_0">pts.</string>
+<string id="DIALOG_RESULT_POINT_1">pts.</string>
+<string id="DIALOG_RESULT_POINT_2">pts.</string>
+<string id="DIALOG_RESULT_POINT_3">pts.</string>
+<string id="DIALOG_RESULT_POINT_4">pts.</string>
+<string id="DIALOG_RESULT_POINT_5">pts.</string>
+
+<string id="DIALOG_RESULT_BONUS">Winning Bonus</string>
+<string id="DIALOG_RESULT_TOTAL">Total</string>
+<string id="DIALOG_BUTTON_CLOSE">OK</string>
+<string id="DIALOG_BUTTON_CLOSE_S">OK</string>
+
+<string id="ICON_ME">You</string>
+
+<string id="POKEMON_NAME_NPC_0">Minccino</string>
+<string id="POKEMON_NAME_NPC_1">Panpour</string>
+<string id="POKEMON_NAME_NPC_2">Kirlia</string>
+<string id="POKEMON_NAME_NPC_3">Shinx</string>
+<string id="POKEMON_NAME_NPC_4">Marill</string>
+<string id="POKEMON_NAME_NPC_5">Buneary</string>
+<string id="POKEMON_NAME_NPC_6">Mudkip</string>
+<string id="POKEMON_NAME_NPC_7">Smoochum</string>
+<string id="POKEMON_NAME_NPC_8">Riolu</string>
+<string id="POKEMON_NAME_NPC_9">Spheal</string>
+<string id="POKEMON_NAME_NPC_10">Swinub</string>
+<string id="POKEMON_NAME_NPC_11">Snorunt</string>
+
+<string id="POKEMON_NAME_PC_0">Mime Jr.</string>
+<string id="POKEMON_NAME_PC_1">Oshawott</string>
+<string id="POKEMON_NAME_PC_2">Pichu</string>
+<string id="POKEMON_NAME_PC_3">Scraggy</string>
+
+
+
+<string id="MESSAGE_WINDOW">{STR}</string>
+<string id="POKEMON_STATUS_NAME_ME">{STR}</string>
+<string id="POKEMON_STATUS_NAME_ENEMY">{STR}</string>
+<string id="ICON_ENCOUNT">{BUDDY_NAME}</string>
+
+</data>

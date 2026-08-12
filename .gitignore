@@ -1,7 +1,11 @@
-# the upstream server checkout (fetched by scripts/setup.sh)
-server/
+# runtime bits inside the vendored server (do not ignore server/ itself)
+server/.venv/
+server/save_data/
+server/patches/ffdec.zip
+server/patches/ffdec/
+server/patches/scripts/
+**/__pycache__/
 
 .DS_Store
 *.log
 *.pid
-__pycache__/

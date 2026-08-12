@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="de">
+	<string id="b_ae_3">Ja</string>
+	<string id="b_ae_4">Nein</string>
+	<string id="k_af_1">Anzahl deiner Beeren</string>
+	<string id="t_ac_1">Pokémon-Spitzname:</string>
+	<string id="t_ac_2">PGL-Spitzname:</string>
+	<string id="t_ac_3">Pokémon</string>
+	<string id="t_ac_4">Finder:</string>
+	<string id="t_ac_5">Lv.:</string>
+	<string id="t_ac_6">Typ:</string>
+	<string id="t_ac_7">Geschlecht:</string>
+	<string id="t_ac_8">Wesen:</string>
+	<string id="t_ac_9">t_ac_9</string>
+	<string id="t_ac_10">Gefangen mit:</string>
+	<string id="t_ad_1">Einen Wunsch an die Traumreiche richten? Das kostet 1 Beere.</string>
+</data>

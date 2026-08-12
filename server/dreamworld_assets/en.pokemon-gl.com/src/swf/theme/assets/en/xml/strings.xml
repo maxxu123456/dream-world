@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="en">
+	<string id="pg_ama_1">Back</string>
+	<string id="pg_ama_4">Pokémon Global Link Temporary Registration</string>
+	<string id="pg_ama_5">To use Pokémon Dream World, you must access the Pokémon Global Link after you have tucked your Pokémon into bed in Pokémon Black Version or Pokémon White Version.</string>
+	<string id="pg_amb_1">To use Pokémon Dream World, please register your Game Sync ID on Pokémon Global Link.</string>
+	<string id="pg_amb_2">You will receive your Game Sync ID for Pokémon Black Version or Pokémon White Version once you have progressed far enough in your adventure and obtained the C-Gear.&amp;#xD;Access GAME SYNC from the ONLINE screen of your C-Gear to receive your Game Sync ID.&amp;#xD;Once you have received it, you may register it with Pokémon Global Link. To do so, head to the profile page and click "Register ID."</string>
+	<string id="pg_amb_3">Close</string>
+	<string id="pg_amb_4">Register</string>
+	<string id="pg_ame_1">An unexpected error has occurred.</string>
+	<string id="pg_amf_1">Communication with the server has timed out. Please restart Pokémon Dream World.</string>
+	<string id="pg_amg_1">Unable to store local data. Please restart Pokémon Dream World.</string>
+	<string id="pg_ay_2">Ok</string>
+	<string id="pg_opa_1">Waiting...</string>
+</data>

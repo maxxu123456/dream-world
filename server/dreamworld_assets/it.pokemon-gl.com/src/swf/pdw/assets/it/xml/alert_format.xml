@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="it">
+	<string id="da_aa_1" size="16" letterSpacing="1.0" bold="true" />
+	<string id="da_aa_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_aa_3" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_aa_4" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_aa_5" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_aa_6" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_ab_1" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_ab_2" size="12" letterSpacing="1.15" bold="true" />
+	<string id="da_ab_3" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_ab_4" size="12" letterSpacing="1.0" />
+	<string id="da_ad_1" size="16" letterSpacing="1.0" bold="true" />
+	<string id="da_ad_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_ad_6" size="12" letterSpacing="1.0" bold="true" />
+	<string id="da_af_1" size="16" letterSpacing="1.0" bold="true" />
+	<string id="da_af_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_aa_1" size="16" letterSpacing="1.0" bold="true" />
+	<string id="dc_aa_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_aa_3" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_aa_4" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_aa_5" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_aa_6" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_ac_1" size="16" letterSpacing="1.0" bold="true" />
+	<string id="dc_ac_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_ac_3" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_ac_4" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_ae_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="dc_af_2" size="12" letterSpacing="1.0" bold="true" />
+	<string id="o_abb_1" size="12" letterSpacing="1.0" bold="true" />
+	<string id="o_az_1" size="12" letterSpacing="1.0" bold="true" />
+	<string id="pg_ade_1" size="12" letterSpacing="1.0" />
+	<string id="pg_ade_2" size="12" letterSpacing="1.0" />
+	<string id="pg_ade_3" size="12" letterSpacing="1.0" />
+	<string id="pg_ade_4" size="12" letterSpacing="1.0" bold="true" />
+	<string id="pg_ade_5" size="12" letterSpacing="1.0" bold="true" />
+	<string id="pg_adi_1" size="12" letterSpacing="1.0" />
+	<string id="pg_adi_2" size="12" letterSpacing="1.0" />
+	<string id="pg_adi_3" size="12" letterSpacing="1.0" />
+	<string id="pg_adi_4" size="12" letterSpacing="1.0" />
+	<string id="pg_adi_5" size="12" letterSpacing="1.0" />
+	<string id="pg_adi_6" size="12" letterSpacing="1.0" />
+	<string id="pg_adi_7" size="12" letterSpacing="1.0" />
+	<string id="pg_alc_1" size="16" />
+	<string id="pg_alc_2" size="12" />
+	<string id="pg_ald_1" size="16" />
+	<string id="pg_ald_2" size="12" bold="true" />
+	<string id="pg_ale_1" size="12" />
+	<string id="pg_ale_2" size="12" bold="true" />
+	<string id="pg_alf_1" size="16" />
+	<string id="pg_alf_2" size="12" />
+	<string id="pg_alf_3" size="12" bold="true" />
+	<string id="pg_alg_1" size="12" letterSpacing="1.0" />
+	<string id="pg_alg_2" size="12" letterSpacing="1.0" />
+	<string id="pg_alg_3" size="12" letterSpacing="1.0" />
+	<string id="pg_amc_1" size="12" letterSpacing="1.0" />
+	<string id="pg_amc_2" size="12" letterSpacing="1.0" />
+	<string id="pg_amc_3" size="12" letterSpacing="1.0" />
+	<string id="pg_amd_1" size="12" letterSpacing="1.0" />
+	<string id="pg_amd_2" size="12" letterSpacing="1.0" />
+	<string id="pg_amd_3" size="12" letterSpacing="1.0" />
+	<string id="pg_ame_1" size="12" letterSpacing="1.0" />
+	<string id="pg_amh_1" letterSpacing="1.0" color="00000000" bold="true" />
+	<string id="pg_amh_2" letterSpacing="1.0" color="0x403D3B" bold="true" />
+	<string id="pg_amh_3" letterSpacing="1.0" leading="5" color="0x6F6A63" />
+	<string id="pg_amh_4" size="14" letterSpacing="1.0" color="0xFFFFFF" bold="true" />
+	<string id="pg_amk_1" size="12" letterSpacing="1.0" />
+	<string id="pg_ay_2" bold="true" />
+</data>

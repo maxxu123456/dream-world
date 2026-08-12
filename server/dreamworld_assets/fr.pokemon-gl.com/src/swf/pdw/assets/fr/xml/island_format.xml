@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="fr">
+	<string id="s_aa_2" letterSpacing="1.0" bold="true" />
+	<string id="t_aa_1" letterSpacing="1.0" />
+	<string id="y_aa_1" letterSpacing="1.0" />
+	<string id="y_aa_2" letterSpacing="1.0" />
+	<string id="y_aa_6" letterSpacing="1.0" bold="true" />
+	<string id="y_aa_13" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_4" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_8" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_11" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_14" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_16" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_19" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_21" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_23" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_25" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_27" letterSpacing="1.0" bold="true" />
+	<string id="y_ad_31" letterSpacing="1.0" bold="true" />
+	<string id="y_af_1" letterSpacing="1.0" />
+	<string id="y_af_2" letterSpacing="1.0" />
+	<string id="y_af_3" letterSpacing="1.0" />
+	<string id="y_af_4" letterSpacing="1.0" />
+	<string id="y_af_5" letterSpacing="1.0" />
+	<string id="y_af_6" letterSpacing="1.0" />
+	<string id="y_af_7" letterSpacing="1.0" bold="true" />
+	<string id="y_ag_1" letterSpacing="1.0" bold="true" />
+	<string id="y_ag_3" size="12" letterSpacing="1.0" bold="true" />
+	<string id="y_ag_5" letterSpacing="1.0" bold="true" />
+	<string id="y_ag_7" letterSpacing="1.0" bold="true" />
+	<string id="y_ag_9" letterSpacing="1.0" bold="true" />
+	<string id="y_ag_16" letterSpacing="1.0" bold="true" />
+	<string id="y_ah_1" letterSpacing="1.0" bold="true" />
+	<string id="y_ai_1" letterSpacing="1.0" bold="true" />
+	<string id="y_aj_1" letterSpacing="1.0" bold="true" />
+</data>

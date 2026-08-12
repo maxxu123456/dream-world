@@ -1,0 +1,98 @@
+<root>
+  <poice_list>
+    <poice no="1" tex_id01="ice_texA03" tex_id02="ice_texB04" tex_id03="ice_texC05" />
+    <poice no="2" tex_id01="ice_texA03" tex_id02="ice_texC05" tex_id03="ice_texB04" />
+    <poice no="3" tex_id01="ice_texB04" tex_id02="ice_texA03" tex_id03="ice_texC05" />
+    <poice no="4" tex_id01="ice_texB04" tex_id02="ice_texC05" tex_id03="ice_texA03" />
+    <poice no="5" tex_id01="ice_texC05" tex_id02="ice_texA03" tex_id03="ice_texB04" />
+    <poice no="6" tex_id01="ice_texB04" tex_id02="ice_texC05" tex_id03="ice_texE01" />
+    <poice no="7" tex_id01="ice_texB01" tex_id02="ice_texC02" tex_id03="ice_texD03" />
+    <poice no="8" tex_id01="ice_texB02" tex_id02="ice_texC03" tex_id03="ice_texD04" />
+    <poice no="9" tex_id01="ice_texB03" tex_id02="ice_texC04" tex_id03="ice_texD05" />
+    <poice no="10" tex_id01="ice_texA04" tex_id02="ice_texB05" tex_id03="ice_texD01" />
+    <poice no="11" tex_id01="ice_texA05" tex_id02="ice_texC01" tex_id03="ice_texD02" />
+    <poice no="12" tex_id01="ice_texA05" tex_id02="ice_texD02" tex_id03="ice_texC01" />
+    <poice no="13" tex_id01="ice_texC01" tex_id02="ice_texA05" tex_id03="ice_texD02" />
+    <poice no="14" tex_id01="ice_texC01" tex_id02="ice_texD02" tex_id03="ice_texA05" />
+    <poice no="15" tex_id01="ice_texD02" tex_id02="ice_texA05" tex_id03="ice_texC01" />
+    <poice no="16" tex_id01="ice_texA01" tex_id02="ice_texB02" tex_id03="ice_texC03" />
+    <poice no="17" tex_id01="ice_texA01" tex_id02="ice_texC03" tex_id03="ice_texB02" />
+    <poice no="18" tex_id01="ice_texB02" tex_id02="ice_texA01" tex_id03="ice_texC03" />
+    <poice no="19" tex_id01="ice_texB02" tex_id02="ice_texC03" tex_id03="ice_texA01" />
+    <poice no="20" tex_id01="ice_texC03" tex_id02="ice_texA01" tex_id03="ice_texB02" />
+    <poice no="21" tex_id01="ice_texB05" tex_id02="ice_texD01" tex_id03="ice_texE02" />
+    <poice no="22" tex_id01="ice_texB05" tex_id02="ice_texE02" tex_id03="ice_texD01" />
+    <poice no="23" tex_id01="ice_texD01" tex_id02="ice_texB05" tex_id03="ice_texE02" />
+    <poice no="24" tex_id01="ice_texD01" tex_id02="ice_texE02" tex_id03="ice_texB05" />
+    <poice no="25" tex_id01="ice_texE02" tex_id02="ice_texB05" tex_id03="ice_texD01" />
+    <poice no="26" tex_id01="ice_texE02" tex_id02="ice_texD01" tex_id03="ice_texB05" />
+    <poice no="27" tex_id01="ice_texC03" tex_id02="ice_texB02" tex_id03="ice_texA01" />
+    <poice no="28" tex_id01="ice_texA01" tex_id02="ice_texB02" tex_id03="ice_texC03" />
+    <poice no="29" tex_id01="ice_texA01" tex_id02="ice_texC03" tex_id03="ice_texB02" />
+    <poice no="30" tex_id01="ice_texB02" tex_id02="ice_texA01" tex_id03="ice_texC03" />
+    <poice no="31" tex_id01="ice_texA02" tex_id02="ice_texB03" tex_id03="ice_texC04" />
+    <poice no="32" tex_id01="ice_texA02" tex_id02="ice_texC04" tex_id03="ice_texB03" />
+    <poice no="33" tex_id01="ice_texB03" tex_id02="ice_texA02" tex_id03="ice_texC04" />
+    <poice no="34" tex_id01="ice_texB03" tex_id02="ice_texC04" tex_id03="ice_texA02" />
+    <poice no="35" tex_id01="ice_texC04" tex_id02="ice_texA02" tex_id03="ice_texB03" />
+    <poice no="36" tex_id01="ice_texC01" tex_id02="ice_texD02" tex_id03="ice_texE03" />
+    <poice no="37" tex_id01="ice_texC01" tex_id02="ice_texE03" tex_id03="ice_texD02" />
+    <poice no="38" tex_id01="ice_texD02" tex_id02="ice_texC01" tex_id03="ice_texE03" />
+    <poice no="39" tex_id01="ice_texD02" tex_id02="ice_texE03" tex_id03="ice_texC01" />
+    <poice no="40" tex_id01="ice_texE03" tex_id02="ice_texC01" tex_id03="ice_texD02" />
+    <poice no="41" tex_id01="ice_texE03" tex_id02="ice_texD02" tex_id03="ice_texC01" />
+    <poice no="42" tex_id01="ice_texC01" tex_id02="ice_texD02" tex_id03="ice_texE03" />
+    <poice no="43" tex_id01="ice_texC01" tex_id02="ice_texE03" tex_id03="ice_texD02" />
+    <poice no="44" tex_id01="ice_texD02" tex_id02="ice_texC01" tex_id03="ice_texE03" />
+    <poice no="45" tex_id01="ice_texD02" tex_id02="ice_texE03" tex_id03="ice_texC01" />
+    <poice no="46" tex_id01="ice_texE03" tex_id02="ice_texC01" tex_id03="ice_texD02" />
+    <poice no="47" tex_id01="ice_texE03" tex_id02="ice_texD02" tex_id03="ice_texC01" />
+    <poice no="48" tex_id01="ice_texC01" tex_id02="ice_texD02" tex_id03="ice_texE03" />
+    <poice no="49" tex_id01="ice_texC01" tex_id02="ice_texE03" tex_id03="ice_texD02" />
+    <poice no="50" tex_id01="ice_texD02" tex_id02="ice_texC01" tex_id03="ice_texE03" />
+    <poice no="51" tex_id01="ice_texD02" tex_id02="ice_texE03" tex_id03="ice_texC01" />
+    <poice no="52" tex_id01="ice_texE03" tex_id02="ice_texC01" tex_id03="ice_texD02" />
+    <poice no="53" tex_id01="ice_texC02" tex_id02="ice_texD03" tex_id03="ice_texE04" />
+    <poice no="54" tex_id01="ice_texC02" tex_id02="ice_texE04" tex_id03="ice_texD03" />
+    <poice no="55" tex_id01="ice_texD03" tex_id02="ice_texC02" tex_id03="ice_texE04" />
+    <poice no="56" tex_id01="ice_texD03" tex_id02="ice_texE04" tex_id03="ice_texC02" />
+    <poice no="57" tex_id01="ice_texE04" tex_id02="ice_texC02" tex_id03="ice_texD03" />
+    <poice no="58" tex_id01="ice_texC04" tex_id02="ice_texD05" tex_id03="ice_texE03" />
+    <poice no="59" tex_id01="ice_texC04" tex_id02="ice_texE03" tex_id03="ice_texD05" />
+    <poice no="60" tex_id01="ice_texC03" tex_id02="ice_texD04" tex_id03="ice_texE05" />
+    <poice no="61" tex_id01="ice_texD03" tex_id02="ice_texC05" tex_id03="ice_texE04" />
+    <poice no="62" tex_id01="ice_texD03" tex_id02="ice_texE04" tex_id03="ice_texC05" />
+    <poice no="63" tex_id01="ice_texC05" tex_id02="ice_texD03" tex_id03="ice_texE04" />
+    <poice no="64" tex_id01="ice_texC05" tex_id02="ice_texE04" tex_id03="ice_texD03" />
+    <poice no="65" tex_id01="ice_texZ00" tex_id02="ice_texZ00" tex_id03="ice_texZ00" />
+  </poice_list>
+
+  <tex_list>
+    <tex name="ice_texA01" file="ice_texA01.swf" type="1" fric_top="1" fric_side="0.33" mag="10" />
+    <tex name="ice_texA02" file="ice_texA02.swf" type="2" fric_top="24" fric_side="8.0" mag="10" />
+    <tex name="ice_texA03" file="ice_texA03.swf" type="3" fric_top="36" fric_side="12.0" mag="10" />
+    <tex name="ice_texA04" file="ice_texA04.swf" type="4" fric_top="48" fric_side="16.0" mag="10" />
+    <tex name="ice_texA05" file="ice_texA05.swf" type="5" fric_top="60" fric_side="20.0" mag="10" />
+    <tex name="ice_texB01" file="ice_texB01.swf" type="6" fric_top="1" fric_side="0.33" mag="15" />
+    <tex name="ice_texB02" file="ice_texB02.swf" type="7" fric_top="24" fric_side="8.0" mag="15" />
+    <tex name="ice_texB03" file="ice_texB03.swf" type="8" fric_top="36" fric_side="12.0" mag="15" />
+    <tex name="ice_texB04" file="ice_texB04.swf" type="9" fric_top="48" fric_side="16.0" mag="15" />
+    <tex name="ice_texB05" file="ice_texB05.swf" type="10" fric_top="60" fric_side="20.0" mag="15" />
+    <tex name="ice_texC01" file="ice_texC01.swf" type="11" fric_top="1" fric_side="0.33" mag="20" />
+    <tex name="ice_texC02" file="ice_texC02.swf" type="12" fric_top="24" fric_side="8.0" mag="20" />
+    <tex name="ice_texC03" file="ice_texC03.swf" type="13" fric_top="36" fric_side="12.0" mag="20" />
+    <tex name="ice_texC04" file="ice_texC04.swf" type="14" fric_top="48" fric_side="16.0" mag="20" />
+    <tex name="ice_texC05" file="ice_texC05.swf" type="15" fric_top="60" fric_side="20.0" mag="20" />
+    <tex name="ice_texD01" file="ice_texD01.swf" type="16" fric_top="1" fric_side="0.33" mag="25" />
+    <tex name="ice_texD02" file="ice_texD02.swf" type="17" fric_top="24" fric_side="8.0" mag="25" />
+    <tex name="ice_texD03" file="ice_texD03.swf" type="18" fric_top="36" fric_side="12.0" mag="25" />
+    <tex name="ice_texD04" file="ice_texD04.swf" type="19" fric_top="48" fric_side="16.0" mag="25" />
+    <tex name="ice_texD05" file="ice_texD05.swf" type="20" fric_top="60" fric_side="20.0" mag="25" />
+    <tex name="ice_texE01" file="ice_texE01.swf" type="21" fric_top="1" fric_side="0.33" mag="26" />
+    <tex name="ice_texE02" file="ice_texE02.swf" type="22" fric_top="24" fric_side="8.0" mag="26" />
+    <tex name="ice_texE03" file="ice_texE03.swf" type="23" fric_top="36" fric_side="12.0" mag="26" />
+    <tex name="ice_texE04" file="ice_texE04.swf" type="24" fric_top="48" fric_side="16.0" mag="26" />
+    <tex name="ice_texE05" file="ice_texE05.swf" type="25" fric_top="60" fric_side="20.0" mag="26" />
+    <tex name="ice_texZ00" file="ice_texZ00.swf" type="26" />
+  </tex_list>
+</root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="ja">
+	<string id="pg_ade_1" size="14" letterSpacing="-0.2" color="00000000" />
+	<string id="pg_ade_2" size="14" letterSpacing="-0.2" color="00000000" />
+	<string id="pg_ade_3" size="14" letterSpacing="-0.2" color="00000000" />
+	<string id="pg_ade_4" size="14" letterSpacing="-0.2" color="0xFFFFFF" />
+	<string id="pg_ade_5" size="14" letterSpacing="-0.2" color="0xFFFFFF" />
+</data>

@@ -1,0 +1,1702 @@
+{
+  "3": {
+    "area_name": "Pleasant Forest", 
+    "req_points": {"bw": 0, "b2w2": 3000}, 
+    "req_badges": {"bw": 0, "b2w2": 8}, 
+    "favored_types": ["Bug", "Electric", "Grass", "Poison"], 
+    "pokemon": [
+      {
+        "natdex": 19, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 29, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": null, "f": [3] }
+      }, 
+      {
+        "natdex": 32, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": null }
+      }, 
+      {
+        "natdex": 37, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [3, 9], "f": [3, 9] }
+      }, 
+      {
+        "natdex": 43, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 54, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 58, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 60, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [1, 11], "f": [1, 11] }
+      }, 
+      {
+        "natdex": 69, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 77, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 83, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 84, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 7], "f": [3, 7] }
+      }, 
+      {
+        "natdex": 102, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 2], "f": [3, 2] }
+      }, 
+      {
+        "natdex": 108, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 114, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 2], "f": [4, 2] }
+      }, 
+      {
+        "natdex": 115, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": null, "f": [1] }
+      }, 
+      {
+        "natdex": 123, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 128, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": null }
+      }, 
+      {
+        "natdex": 161, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 174, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 177, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [2, 7], "f": [2, 7] }
+      }, 
+      {
+        "natdex": 179, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 183, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1, 4], "f": [1, 4] }
+      }, 
+      {
+        "natdex": 185, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 187, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 191, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 203, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 234, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3, 7] }
+      }, 
+      {
+        "natdex": 239, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 241, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": null, "f": [1, 9] }
+      }, 
+      {
+        "natdex": 261, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 7], "f": [3, 7] }
+      }, 
+      {
+        "natdex": 263, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 270, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [2] }
+      }, 
+      {
+        "natdex": 276, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 283, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4, 11] }
+      }, 
+      {
+        "natdex": 300, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 309, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 351, 
+        "form": "normal", 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [4], "f": [2] }
+      }, 
+      {
+        "natdex": 399, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 11], "f": [2, 11] }
+      }, 
+      {
+        "natdex": 403, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 417, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 427, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [3, 11], "f": [3, 11] }
+      }, 
+      {
+        "natdex": 431, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 535, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 545, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 546, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [11], "f": [11] }
+      }, 
+      {
+        "natdex": 548, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": null, "f": [9] }
+      }, 
+      {
+        "natdex": 588, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 616, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }
+    ], 
+    "items": [
+      [3, 7500], 
+      [4, 0], 
+      [6, 0], 
+      [8, 0], 
+      [14, 0], 
+      [26, 0], 
+      [33, 7500], 
+      [38, 7500], 
+      [86, 7500], 
+      [87, 10000], 
+      [149, 0], 
+      [151, 0], 
+      [155, 0], 
+      [158, 0], 
+      [159, 0], 
+      [243, 7500], 
+      [244, 7500], 
+      [259, 10000], 
+      [265, 10000], 
+      [279, 7500], 
+      [575, 0]
+    ]
+  }, 
+  "4": {
+    "area_name": "Sparkling Sea", 
+    "req_points": {"bw": 5000, "b2w2": 0}, 
+    "req_badges": {"bw": 8, "b2w2": 0}, 
+    "favored_types": ["Water"], 
+    "pokemon": [
+      {
+        "natdex": 72, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 79, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [2] }
+      }, 
+      {
+        "natdex": 86, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 3], "f": [1, 3] }
+      }, 
+      {
+        "natdex": 90, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 98, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 116, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 11], "f": [3, 11] }
+      }, 
+      {
+        "natdex": 118, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 119, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [2] }
+      }, 
+      {
+        "natdex": 120, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 129, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 131, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [3], "f": [9] }
+      }, 
+      {
+        "natdex": 138, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 11], "f": [3, 11] }
+      }, 
+      {
+        "natdex": 140, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 11], "f": [3, 11] }
+      }, 
+      {
+        "natdex": 147, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [3], "f": [9] }
+      }, 
+      {
+        "natdex": 170, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 194, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 4], "f": [2, 4] }
+      }, 
+      {
+        "natdex": 211, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 1], "f": [1, 1] }
+      }, 
+      {
+        "natdex": 222, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 223, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 9], "f": [2, 9] }
+      }, 
+      {
+        "natdex": 226, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 9], "f": [2, 9] }
+      }, 
+      {
+        "natdex": 318, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1, 4], "f": [1, 4] }
+      }, 
+      {
+        "natdex": 320, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 9], "f": [1, 9] }
+      }, 
+      {
+        "natdex": 339, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 341, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [2, 9], "f": [2, 9] }
+      }, 
+      {
+        "natdex": 345, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 347, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [3, 1], "f": [3, 1] }
+      }, 
+      {
+        "natdex": 349, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1, 4], "f": [1, 4] }
+      }, 
+      {
+        "natdex": 366, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 369, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 1], "f": [4, 1] }
+      }, 
+      {
+        "natdex": 370, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 11], "f": [3, 11] }
+      }, 
+      {
+        "natdex": 418, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 9], "f": [1, 9] }
+      }, 
+      {
+        "natdex": 422, 
+        "form": "west", 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 422, 
+        "form": "east", 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 456, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 4], "f": [2, 4] }
+      }, 
+      {
+        "natdex": 550, 
+        "form": "red", 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 550, 
+        "form": "blue", 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 564, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [11], "f": [11] }
+      }, 
+      {
+        "natdex": 594, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [11], "f": [11] }
+      }, 
+      {
+        "natdex": 618, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }
+    ], 
+    "items": [
+      [7, 0], 
+      [26, 0], 
+      [27, 0], 
+      [28, 7500], 
+      [88, 7500], 
+      [89, 10000], 
+      [93, 7500], 
+      [150, 0], 
+      [152, 0], 
+      [160, 0], 
+      [161, 0], 
+      [238, 7500], 
+      [245, 7500], 
+      [296, 7500], 
+      [575, 0]
+    ]
+  }, 
+  "5": {
+    "area_name": "Windswept Sky", 
+    "req_points": {"bw": 2500, "b2w2": 1500}, 
+    "req_badges": {"bw": 4, "b2w2": 4}, 
+    "favored_types": ["Flying"], 
+    "pokemon": [
+      {
+        "natdex": 12, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 16, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [2, 12] }
+      }, 
+      {
+        "natdex": 21, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 41, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 8], "f": [3, 8] }
+      }, 
+      {
+        "natdex": 142, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 163, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 165, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 12], "f": [1, 12] }
+      }, 
+      {
+        "natdex": 187, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 2, 12], "f": [1, 12] }
+      }, 
+      {
+        "natdex": 193, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3, 8] }
+      }, 
+      {
+        "natdex": 198, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 207, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 12], "f": [3, 12] }
+      }, 
+      {
+        "natdex": 225, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [1] }
+      }, 
+      {
+        "natdex": 227, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [4, 12], "f": [4, 12] }
+      }, 
+      {
+        "natdex": 276, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 8], "f": [4, 8] }
+      }, 
+      {
+        "natdex": 278, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 333, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 357, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [4, 12], "f": [4, 12] }
+      }, 
+      {
+        "natdex": 397, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 8], "f": [4, 8] }
+      }, 
+      {
+        "natdex": 425, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 441, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 519, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [12], "f": [12] }
+      }, 
+      {
+        "natdex": 561, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 580, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 587, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [3], "f": [3] }
+      }
+    ], 
+    "items": [
+      [2, 7500], 
+      [15, 0], 
+      [25, 0], 
+      [90, 7500], 
+      [91, 10000], 
+      [153, 0], 
+      [156, 0], 
+      [162, 0], 
+      [163, 0], 
+      [169, 0], 
+      [170, 0], 
+      [171, 0], 
+      [172, 0], 
+      [173, 0], 
+      [174, 0], 
+      [222, 7500], 
+      [265, 10000], 
+      [277, 7500], 
+      [575, 0]
+    ]
+  }, 
+  "6": {
+    "area_name": "Rugged Mountain", 
+    "req_points": {"bw": 0, "b2w2": 3000}, 
+    "req_badges": {"bw": 0, "b2w2": 8}, 
+    "favored_types": ["Fire", "Fighting", "Ground", "Rock", "Steel"], 
+    "pokemon": [
+      {
+        "natdex": 56, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 66, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 81, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 3], "f": [4, 3] }
+      }, 
+      {
+        "natdex": 109, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [12] }
+      }, 
+      {
+        "natdex": 111, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 216, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 218, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [1] }
+      }, 
+      {
+        "natdex": 231, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 236, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [8], "f": null }
+      }, 
+      {
+        "natdex": 240, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [4, 8], "f": [4, 8] }
+      }, 
+      {
+        "natdex": 246, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 296, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 322, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 324, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [1, 7] }
+      }, 
+      {
+        "natdex": 327, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 328, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 8], "f": [2, 8] }
+      }, 
+      {
+        "natdex": 331, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [3] }
+      }, 
+      {
+        "natdex": 359, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 371, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [8], "f": [8, 12] }
+      }, 
+      {
+        "natdex": 374, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 412, 
+        "form": "trash", 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 447, 
+        "req_game": "bw", 
+        "req_points": 10000, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 449, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 451, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 453, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [2, 1], "f": [2, 1] }
+      }, 
+      {
+        "natdex": 553, 
+        "req_game": "b2w2", 
+        "req_points": 10000, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 556, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 558, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 631, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [12], "f": [12] }
+      }, 
+      {
+        "natdex": 632, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [8], "f": [8] }
+      }
+    ], 
+    "items": [
+      [9, 0], 
+      [10, 0], 
+      [50, 7500], 
+      [80, 10000], 
+      [81, 10000], 
+      [82, 7500], 
+      [83, 7500], 
+      [84, 7500], 
+      [85, 7500], 
+      [107, 10000], 
+      [108, 10000], 
+      [109, 7500], 
+      [110, 7500], 
+      [167, 0], 
+      [168, 0], 
+      [175, 0], 
+      [176, 0], 
+      [229, 0], 
+      [233, 0], 
+      [237, 0], 
+      [241, 0], 
+      [249, 0], 
+      [250, 7500], 
+      [288, 7500], 
+      [539, 0], 
+      [575, 0], 
+      [583, 10000]
+    ]
+  }, 
+  "7": {
+    "area_name": "Spooky Manor", 
+    "req_points": {"bw": 0, "b2w2": 1500}, 
+    "req_badges": {"bw": 0, "b2w2": 4}, 
+    "favored_types": ["Dark", "Ghost", "Psychic"], 
+    "pokemon": [
+      {
+        "natdex": 52, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 63, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [7], "f": [7, 2] }
+      }, 
+      {
+        "natdex": 92, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7, 1], "f": [7, 1] }
+      }, 
+      {
+        "natdex": 96, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 122, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 167, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7, 2], "f": [7, 2] }
+      }, 
+      {
+        "natdex": 200, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7, 4], "f": [7, 8] }
+      }, 
+      {
+        "natdex": 202, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 209, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 228, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 235, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 238, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": null, "f": [7] }
+      }, 
+      {
+        "natdex": 280, 
+        "req_game": "bw", 
+        "req_points": 10000, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 302, 
+        "req_game": "bw", 
+        "req_points": 10000, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 303, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 307, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 313, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": null }
+      }, 
+      {
+        "natdex": 314, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": null, "f": [4] }
+      }, 
+      {
+        "natdex": 325, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3, 8] }
+      }, 
+      {
+        "natdex": 353, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 355, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [8] }
+      }, 
+      {
+        "natdex": 358, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 434, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7, 8], "f": [7, 8] }
+      }, 
+      {
+        "natdex": 436, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 442, 
+        "req_game": "bw", 
+        "req_points": 10000, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 479, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 578, 
+        "req_game": "b2w2", 
+        "req_points": 10000, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 596, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 605, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [7] }
+      }, 
+      {
+        "natdex": 622, 
+        "req_game": "b2w2", 
+        "req_points": 10000, 
+        "minigames": { "m": [8], "f": [8] }
+      }, 
+      {
+        "natdex": 624, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [7], "f": [7] }
+      }
+    ], 
+    "items": [
+      [39, 0], 
+      [40, 0], 
+      [45, 0], 
+      [46, 0], 
+      [47, 0], 
+      [48, 0], 
+      [49, 0], 
+      [50, 7500], 
+      [52, 0], 
+      [54, 0], 
+      [157, 0], 
+      [164, 0], 
+      [165, 0], 
+      [166, 0], 
+      [224, 10000], 
+      [247, 7500], 
+      [248, 7500], 
+      [325, 10000], 
+      [542, 10000], 
+      [575, 0]
+    ]
+  }, 
+  "8": {
+    "area_name": "Icy Cave", 
+    "req_points": {"bw": 0, "b2w2": 0}, 
+    "req_badges": {"bw": 0, "b2w2": 0}, 
+    "favored_types": ["Ground", "Ice", "Rock", "Steel"], 
+    "pokemon": [
+      {
+        "natdex": 27, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [9, 12], "f": [9, 12] }
+      }, 
+      {
+        "natdex": 50, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 74, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 2], "f": [3, 2] }
+      }, 
+      {
+        "natdex": 95, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 12], "f": [4, 1] }
+      }, 
+      {
+        "natdex": 100, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 12], "f": [4, 12] }
+      }, 
+      {
+        "natdex": 104, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [9, 12], "f": [9, 12] }
+      }, 
+      {
+        "natdex": 173, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 206, 
+        "req_game": "bw", 
+        "req_points": 5000, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 213, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 215, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [9, 12], "f": [9, 12] }
+      }, 
+      {
+        "natdex": 220, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 293, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 2], "f": [3, 2] }
+      }, 
+      {
+        "natdex": 299, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 304, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 11], "f": [2, 11] }
+      }, 
+      {
+        "natdex": 337, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 4], "f": [1, 4] }
+      }, 
+      {
+        "natdex": 338, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 4], "f": [1, 4] }
+      }, 
+      {
+        "natdex": 343, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 12], "f": [4, 12] }
+      }, 
+      {
+        "natdex": 361, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 363, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 408, 
+        "req_game": "bw", 
+        "req_points": 0, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 410, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [3], "f": [3] }
+      }, 
+      {
+        "natdex": 443, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [2, 11], "f": [2, 11] }
+      }, 
+      {
+        "natdex": 459, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [9, 11], "f": [9, 11] }
+      }, 
+      {
+        "natdex": 525, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 529, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 583, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [9, 2], "f": [9, 2] }
+      }, 
+      {
+        "natdex": 600, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 610, 
+        "req_game": "b2w2", 
+        "req_points": 10000, 
+        "minigames": { "m": [9], "f": [9] }
+      }, 
+      {
+        "natdex": 621, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [9], "f": [9] }
+      }
+    ], 
+    "items": [
+      [13, 0], 
+      [28, 0], 
+      [50, 10000], 
+      [72, 7500], 
+      [73, 7500], 
+      [74, 7500], 
+      [75, 7500], 
+      [93, 5000], 
+      [106, 7500], 
+      [154, 0], 
+      [181, 0], 
+      [182, 0], 
+      [183, 0], 
+      [246, 10000], 
+      [269, 10000], 
+      [278, 10000], 
+      [282, 10000], 
+      [283, 10000], 
+      [284, 10000], 
+      [285, 10000], 
+      [548, 0], 
+      [549, 0], 
+      [550, 0], 
+      [551, 0], 
+      [552, 0], 
+      [553, 0], 
+      [554, 0], 
+      [555, 0], 
+      [556, 0], 
+      [557, 0], 
+      [558, 0], 
+      [559, 0], 
+      [560, 0], 
+      [561, 0], 
+      [562, 0], 
+      [563, 0], 
+      [564, 0], 
+      [575, 0]
+    ]
+  }, 
+  "9": {
+    "area_name": "Dream Park", 
+    "req_points": {"bw": 0, "b2w2": 0}, 
+    "req_badges": {"bw": 0, "b2w2": 0}, 
+    "favored_types": ["Normal"], 
+    "pokemon": [
+      {
+        "natdex": 15, 
+        "req_game": "bw", 
+        "req_points": 1500, 
+        "minigames": { "m": [4], "f": [4] }
+      }, 
+      {
+        "natdex": 23, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [10], "f": [10] }
+      }, 
+      {
+        "natdex": 46, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [10, 2], "f": [2, 2] }
+      }, 
+      {
+        "natdex": 48, 
+        "req_game": "bw", 
+        "req_points": 1500, 
+        "minigames": { "m": [10], "f": [10] }
+      }, 
+      {
+        "natdex": 88, 
+        "req_game": "bw", 
+        "req_points": 1500, 
+        "minigames": { "m": [2], "f": [2] }
+      }, 
+      {
+        "natdex": 113, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": null, "f": [8, 10] }
+      }, 
+      {
+        "natdex": 127, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [10, 12], "f": [10, 12] }
+      }, 
+      {
+        "natdex": 133, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [12, 10], "f": [12, 10] }
+      }, 
+      {
+        "natdex": 143, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [3, 7], "f": [7, 3] }
+      }, 
+      {
+        "natdex": 175, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [10], "f": [10] }
+      }, 
+      {
+        "natdex": 190, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [4, 9], "f": [4, 9] }
+      }, 
+      {
+        "natdex": 204, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [3, 3], "f": [7, 7] }
+      }, 
+      {
+        "natdex": 214, 
+        "req_game": null, 
+        "req_points": 10000, 
+        "minigames": { "m": [3, 7], "f": [7, 3] }
+      }, 
+      {
+        "natdex": 265, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [4, 3], "f": [4, 3] }
+      }, 
+      {
+        "natdex": 273, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 10], "f": [1, 10] }
+      }, 
+      {
+        "natdex": 285, 
+        "req_game": null, 
+        "req_points": 5000, 
+        "minigames": { "m": [9, 4], "f": [9, 4] }
+      }, 
+      {
+        "natdex": 287, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [8, 1], "f": [3, 4] }
+      }, 
+      {
+        "natdex": 290, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [7, 3], "f": [7, 3] }
+      }, 
+      {
+        "natdex": 311, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [9, 10], "f": [9, 2] }
+      }, 
+      {
+        "natdex": 312, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [9, 10], "f": [9, 10] }
+      }, 
+      {
+        "natdex": 315, 
+        "req_game": null, 
+        "req_points": 7500, 
+        "minigames": { "m": [10, 8], "f": [10, 8] }
+      }, 
+      {
+        "natdex": 316, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 2], "f": [1, 2] }
+      }, 
+      {
+        "natdex": 335, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 336, 
+        "req_game": "bw", 
+        "req_points": 7500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 352, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [10, 2], "f": [1, 2] }
+      }, 
+      {
+        "natdex": 401, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [1, 8], "f": [1, 8] }
+      }, 
+      {
+        "natdex": 415, 
+        "req_game": "bw", 
+        "req_points": 1500, 
+        "minigames": { "m": [1], "f": [1] }
+      }, 
+      {
+        "natdex": 420, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 4], "f": [4, 4] }
+      }, 
+      {
+        "natdex": 455, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [2, 4], "f": [8, 4] }
+      }, 
+      {
+        "natdex": 531, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [11], "f": [11] }
+      }, 
+      {
+        "natdex": 533, 
+        "req_game": "b2w2", 
+        "req_points": 5000, 
+        "minigames": { "m": [11], "f": [11] }
+      }, 
+      {
+        "natdex": 538, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [12], "f": null }
+      }, 
+      {
+        "natdex": 539, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [10], "f": null }
+      }, 
+      {
+        "natdex": 559, 
+        "req_game": "b2w2", 
+        "req_points": 0, 
+        "minigames": { "m": [10], "f": [10] }
+      }
+    ], 
+    "items": [
+      [50, 7500], 
+      [76, 0], 
+      [77, 7500], 
+      [79, 0], 
+      [94, 5000], 
+      [177, 0], 
+      [178, 0], 
+      [179, 0], 
+      [180, 0], 
+      [231, 10000], 
+      [234, 10000], 
+      [256, 10000], 
+      [295, 5000], 
+      [541, 5000], 
+      [565, 0], 
+      [566, 0], 
+      [567, 0], 
+      [568, 0], 
+      [569, 0], 
+      [570, 0], 
+      [571, 0], 
+      [575, 0]
+    ]
+  }, 
+  "50": {
+    "area_name": "Pokémon Café Forest", 
+    "req_points": {"bw": 0, "b2w2": 0}, 
+    "req_badges": {"bw": 0, "b2w2": 0}, 
+    "favored_types": [], 
+    "pokemon": [
+      {
+        "natdex": 61, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [5], "f": [5] }
+      }, 
+      {
+        "natdex": 133, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [5], "f": [5] }
+      }, 
+      {
+        "natdex": 235, 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [5], "f": [5] }
+      }, 
+      {
+        "natdex": 412, 
+        "form": "plant", 
+        "req_game": null, 
+        "req_points": 0, 
+        "minigames": { "m": [5], "f": [5] }
+      }
+    ], 
+    "items": [
+      [30, 0], 
+      [31, 0], 
+      [32, 0], 
+      [33, 0], 
+      [50, 0], 
+      [82, 0], 
+      [83, 0], 
+      [84, 0], 
+      [134, 0], 
+      [157, 0], 
+      [221, 0]
+    ]
+  }
+}

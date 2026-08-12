@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="es">
+	<string id="b_ae_3">Sí</string>
+	<string id="b_ae_4">No</string>
+	<string id="k_af_1">Tus Bayas</string>
+	<string id="t_ac_1">Apodo del Pokémon</string>
+	<string id="t_ac_2">Apodo en PGL</string>
+	<string id="t_ac_3">Pokémon</string>
+	<string id="t_ac_4">Entrenador Original</string>
+	<string id="t_ac_5">Nv.</string>
+	<string id="t_ac_6">Tipo</string>
+	<string id="t_ac_7">Sexo</string>
+	<string id="t_ac_8">Naturaleza</string>
+	<string id="t_ac_9">t_ac_9</string>
+	<string id="t_ac_10">Poké Ball usada</string>
+	<string id="t_ad_1">¿Quieres pedir un deseo? Necesitas una Baya.</string>
+</data>

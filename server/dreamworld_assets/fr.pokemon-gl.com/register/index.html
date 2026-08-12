@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Pok&eacute;mon Global Link</title>
+	<script type="text/javascript" src="/theme/assets/js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="/theme/assets/js/swfobject.js"></script>
+	<script type="text/javascript" src="/theme/assets/js/theme.js?rev=2"></script>
+	<script type="text/javascript">
+		$.each(['/theme/assets/css/theme.css', '/theme/assets/' + theme.language + '/css/lang.css'], function (index, path) {
+			var link = document.createElement('link');
+			link.href = 'http://' + theme.get_page_asset_host() + '/src/swf' + path;
+			link.type = 'text/css';
+			link.rel = 'stylesheet';
+			document.getElementsByTagName('head').item(0).appendChild(link);
+		});
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-17682532-2']);
+		_gaq.push(['_setDomainName', '.pokemon-gl.com']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<style type="text/css">body { margin-top: 56px; }</style>
+</head>
+<body oncontextmenu="return false" ondragstart="return false">
+<iframe id="gus" src="http://gus.pokemon.com/fr/" border="0" frameborder="0" allowtransparency="true" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<div id="wrapper">
+	<div id="wrapper-bg"><div id="wrapper-bg-inner"></div></div>
+	<div id="content-block">
+		<div id="content-block-bg"></div>
+		<div id="content">
+			<div id="header">
+				<h1><a href="/"><span>Pok&eacute;mon GLOBAL LINK</span></a></h1>
+				<div id="header-pglname"></div>
+				<div id="header-romname"></div>
+				<div id="header-volume"></div>
+				<a id="header-toplink" href="/"></a>
+			</div>
+
+			<link rel="stylesheet" type="text/css" href="assets/css/register.css" />
+			<link rel="stylesheet" type="text/css" href="assets/fr/css/lang.css" />
+			<script type="text/javascript" src="/theme/assets/js/jquery.corner.js"></script>
+			<script type="text/javascript" src="/theme/assets/js/jquery.blockUI.js"></script>
+			<script type="text/javascript" src="assets/js/register.js"></script>
+			<div  style="width:900px;margin:0 auto;">
+				<h2 style="margin:30px 0;"><img src="assets/fr/images/title.png" width="900" height="40"/></h2>
+				<div style="width:800px;margin:0 auto;">
+					<div id="steps">
+						<div id="steps-item1"></div>
+						<div id="steps-item2"></div>
+						<div id="steps-item3"></div>
+					</div>
+					<div id="step1">
+						<div id="step1-1" class="corner">
+							<p>● Pour profiter du PGL, vous avez besoin d'un Surnom PGL différent de celui de votre compte au Club des Dresseurs Pokémon.</p>
+							<p>● Le PGL utilisera les informations de sexe, anniversaire et lieu de résidence de votre compte au Club des Dresseurs Pokémon.</p>
+							<p>● Tous les contenus du Pokémon Global Link en rapport avec les jeux vidéo Pokémon auront besoin des sauvegardes respectives de vos jeux.</p>
+						</div>
+						<div id="step1-2" class="corner">
+							<p>Pour profiter pleinement du Pokémon Global Link, il vous faut y enregistrer votre ID 
+de Synchro-Jeu. Vous pourrez vérifier cet ID de Synchro-Jeu dans le menu principal sous PARAMÈTRES SYNCHRO-JEU une fois que vous aurez atteint 
+un certain point dans l'aventure de Pokémon Version Noire ou Pokémon Version Blanche.</p>
+							<p>Vous ne pouvez associer à un compte du Club des Dresseurs Pokémon qu'un seul ID de Synchro-Jeu pour chaque version du jeu.</p>
+							<p style="color:#F00;">* Une fois l'ID de Synchro-Jeu enregistré, il ne pourra plus être changé.</p>
+							<p style="color:#F00;">Vous pouvez enregistrer un ID de Synchro-Jeu de Pokémon Version Noire et Pokémon Version Blanche en anglais, français, italien, allemand ou espagnol sur les sites Web du Pokémon Global Link en anglais, français, italien, allemand ou espagnol. Vous ne pouvez cependant pas enregistrer un ID de Synchro-Jeu de la version japonaise ou coréenne du jeu sur ces versions du Pokémon Global Link.</p>
+						</div>
+						<div id="step1-3" class="corner">
+							<div class="item corner">
+								<p><span>● Surnom PGL</span> <span style="font-size:85%;">(euillez inscrire entre 4 et 15 caractères alphanumériques : A-Z a-z 0-9.)</span></p>
+								<p><span style="color:#F5392F;">Ce champ est obligatoire.</span></p>
+								<input type="text" name="pgl_name" maxlength="15"/>
+							</div>
+							<div class="separator"></div>
+							<div class="item corner">
+								<p><span>● ID de Synchro-Jeu</span></p>
+								<p><span style="color:#EA9835;"><span>Vous pourrez enregistrer ces informations plus tard.</span> <a style="font-size:85%;color:#EA9835;" href="/help/204/">Pour plus de détails :</a></span></p>
+								<input type="text" name="gscd" maxlength="10"/>
+							</div>
+							<div class="about-gsid"><img src="assets/images/about-gsid.png"/> <a href="/help/611/">Si vous avez du mal à lire votre ID de Synchro-Jeu</a></div>
+						</div>
+						<div style="padding:15px 0 30px;">
+							<a id="step1-next-button" class="buttons" style="width:250px;height:44px;margin:0 auto;"></a>
+						</div>
+					</div>
+					<div id="step2">
+						<div id="step2-1" class="corner">
+							<div style="font-size:20px;margin-bottom:10px;">Les informations suivantes seront enregistrées.</div>
+							<div style="font-size:14px;margin-bottom:50px;">Vérifiez qu'elles sont exactes puis appuyez sur le bouton "Enregistrer".</div>
+							<div class="item corner">
+								<p><span>● Surnom PGL</span> <span style="font-size:85%;">(euillez inscrire entre 4 et 15 caractères alphanumériques : A-Z a-z 0-9.)</span></p>
+								<div id="pgl_name_preview" class="preview"></div>
+							</div>
+							<div class="separator"></div>
+							<div class="item corner">
+								<p><span>● ID de Synchro-Jeu</span></p>
+								<div id="gscd_preview" class="preview"></div>
+							</div>
+						</div>
+						<div style="padding:15px 0 30px;margin:0 auto;width:224px;height:88px;position:relative;">
+							<a id="step2-prev-button" class="buttons" style="width:112px;height:43px;background-position:-250px 0;position:absolute;left:0;top:0;"></a>
+							<a id="step2-next-button" class="buttons" style="width:112px;height:43px;background-position:-362px 0;position:absolute;left:112px;top:0;"></a>
+						</div>
+					</div>
+					<div id="step3">
+						<div id="step3-1">
+							<p class="for-level-0">Merci de votre inscription. Votre Surnom PGL est désormais enregistré.</p>
+							<p class="for-level-1">Merci de votre inscription.</p>
+							<p class="for-level-2">Merci de votre coopération. L'enregistrement des données est terminé.</p>
+						</div>
+						<div id="step3-2">
+							<p class="corner for-level-0">Vous jouez en ce moment à la version d'essai du Pokémon Global Link.</p>
+							<p class="corner for-level-1">Inscription provisoire au Pokémon Global Link.</p>
+						</div>
+						<div id="step3-3" class="corner">
+							<div class="for-level-0">
+								<p>Vous pouvez jouer à la version d'essai du Pokémon Global Link même si vous ne possédez pas Pokémon Version Noire ou Pokémon Version Blanche. Vous aurez accès à d'autres contenus en enregistrant l'ID de Synchro-Jeu obtenu dans ces jeux sur le site du Pokémon Global Link.</p>
+
+<p>Vous recevrez votre ID de Synchro-Jeu grâce au C-Gear après avoir atteint la ville d'Ogoesse. Choisissez PARAMÈTRES </p>
+<p>SYNCHRO-JEU dans le menu de démarrage ou INTERNET puis SYNCHRO-JEU dans le C-Gear, et connectez-vous avec la </p>
+<p>CWF Nintendo pour recevoir cet ID de Synchro-Jeu. Vous pourrez par la suite le consulter à tout moment dans PARAMÈTRES SYNCHRO-JEU dans le menu de démarrage.</p>
+
+<p>Vous pourrez enregister cet ID de Synchro-Jeu en allant dans votre profil, puis en cliquant sur Enregistrer ID de Synchro-Jeu. Veuillez endormir un Pokémon avant de procéder à cet enregistrement.</p>
+							</div>
+							<div class="for-level-1">
+								<p>Vous avez enregistré l'ID de Synchro-Jeu suivant :</p>
+								<p class="your-gscd" style="font-size:20px;"></p>
+								<p>Pour profiter pleinement du Pokémon Global Link, vous devez d'abord endormir un Pokémon dans Pokémon Version Noire ou Pokémon Version Blanche, puis revenir accéder au site du Pokémon Global Link pour profiter de contenus liés à votre sauvegarde.</p>
+							</div>
+							<div class="for-level-2">
+								<p>Visitez pokemon.fr pour vérifier votre profil.</p>
+<p>Visitez pokemon.fr maintenant : <a href="http://www.pokemon.fr">http://www.pokemon.fr</a></p>
+								<p>Vos paramètres de confidentialité pour le PGL sont définis dans votre profil sur pokemon.fr. Pour voir ou changer vos paramètres, veuillez vous rendre sur pokemon.fr.</p>
+<p>Visitez pokemon.fr maintenant : <a href="http://www.pokemon.fr">http://www.pokemon.fr</a></p>
+<p>N'oubliez pas que vous pouvez enregistrer sur votre profil PGL un ID de Synchro-Jeu pour un exemplaire de Pokémon Version Noire et un exemplaire de Pokémon Version Blanche.</p>
+							</div>
+						</div>
+						<div style="padding:15px 0 30px;">
+							<a id="step3-next-button" class="buttons" style="width:112px;height:43px;background-position:-474px 0;margin:0 auto;"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div id="footer-block">
+		<div id="footer">
+			<div id="footer-menu-row">
+				<script type="text/javascript">
+					document.write('<img src="http://' + theme.get_page_asset_host() + '/src/swf/theme/assets/' + theme.language + '/images/footer-menu.png" width="700" height="31" usemap="#footer-menu-map"/>');
+				</script>
+				<map name="footer-menu-map" id="footer-menu-map">
+					<area shape="rect" coords="0,1,52,14" href="/about/" />
+					<area shape="rect" coords="60,1,134,14" href="/maintenance/" />
+					<area shape="rect" coords="142,1,275,14" href="http://www.pokemon.com/fr/terms-of-use/" />
+					<area shape="rect" coords="280,1,407,14" />
+					<area shape="rect" coords="0,18,149,31" href="http://www.pokemon.com/fr/privacy-policy/" />
+					<area shape="rect" coords="159,18,247,31" href="http://www.pokemon.com/fr/about/legal/" />
+					<area shape="rect" coords="254,18,374,31" href="http://www.pokemon.com/fr/pgl/requirements/" />
+					<area shape="rect" coords="384,18,477,31" href="http://support-fr.pokemon.com" />
+				</map>
+				<a id="footer-about-campaign-link" class="footer-buttons" href="http://support-fr.pokemon.com/"></a>
+				<a id="footer-manual-link" class="footer-buttons" href="/help/"></a>
+				<a id="footer-language-selector" class="footer-buttons" href="http://www.pokemon-gl.com/languages/"></a>
+			</div>
+			<div id="footer-copy-row">
+				<p>© 2011 Pokémon. © 1995-2011 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, les noms des Pokémon et Nintendo DS sont des marques de Nintendo.</p>
+			</div>
+			<div id="footer-badges-row">
+				<script type="text/javascript">
+					document.write('<img src="http://' + theme.get_page_asset_host() + '/src/swf/theme/assets/' + theme.language + '/images/footer-badges.png" width="973" height="101" usemap="#footer-badges-map"/>');
+				</script>
+				<map name="footer-badges-map" id="footer-badges-map">
+					<area shape="rect" coords="106,30,251,56" href="http://www.pokemon.com/" />
+					<area shape="rect" coords="263,30,348,56" target="_blank" href="http://www.nintendo.fr/" />
+					<area shape="rect" coords="359,29,471,58" target="_blank" href="http://www.nintendo.fr/" />
+					<area shape="circle" coords="512,43,32" target="_blank" href="http://www.nintendo.fr/NOE/fr_FR/connexion_wi-fi_nintendo_5025.html" />
+					<area shape="rect" coords="558,4,616,79" href="http://www.pokemon.com/fr/privacy-policy/#kids" />
+					<area shape="rect" coords="635,8,799,77" target="_blank" href="http://www.esrb.org/index-js.jsp" />
+					<area shape="rect" coords="814,8,868,78" target="_blank" href="http://www.pegi.info" />
+				</map>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data locale="it">
+  <string id="IDS_START_001">Cerca {STRAY_NAME}!</string>
+  <string id="IDS_START_002">Via!</string>
+  <string id="IDS_START_003">Istruzioni</string>
+
+  <string unofficial="true" id="IDS_HELP_001">Istruzioni</string>
+  <string id="IDS_HELP_002">Click to check the&#xD;place that's rustling.</string>
+  <string id="IDS_HELP_003">If you can hear a voice,&#xD;you're close to the Pokémon.</string>
+  <string id="IDS_HELP_004">If you find an item the Pokémon&#xD;lost, check the area carefully.</string>
+  <string id="IDS_HELP_005">Via!</string>
+  <string unofficial="true" id="IDS_HELP_006">Indietro</string>
+  <string unofficial="true" id="IDS_HELP_007">Indietro</string>
+
+  <string id="IDS_HUD_001">Tu</string>
+  <string id="IDS_HUD_003">Interrompi</string>
+  <string id="IDS_HUD_004">Tempo</string>
+  <string id="IDS_CLICK_001">Peccato!&#xD;Era un altro Pokémon.</string>
+  <string id="IDS_CLICK_003">{STRAY_NAME} riconosce&#xD;questa bacca.</string>
+  <string id="IDS_CLICK_004">Trovato!</string>
+
+  <string id="IDS_STRAIN_001">Hai teso l'orecchio.</string>
+  <string id="IDS_STRAIN_002">Hai teso l'orecchio..</string>
+  <string id="IDS_STRAIN_003">Hai teso l'orecchio...</string>
+  <string id="IDS_STRAIN_004">Hai teso l'orecchio....</string>
+  <string id="IDS_STRAIN_005">Qui non si sente&#xD;la voce di {STRAY_NAME}.</string>
+  <string id="IDS_STRAIN_006">Si sente la sua voce.&#xD;{STRAY_NAME} non è lontano!</string>
+  <string id="IDS_STRAIN_007">Si sente la sua voce.&#xD;{STRAY_NAME} è qui vicino!</string>
+  <string unofficial="true" id="IDS_STRAIN_008">Si sente la sua voce.&#xD;{STRAY_NAME} deve essere qui!</string> <!-- there are only two videos of doing this minigame in Italian, no one clicked "Ascolta" when the Pokémon is on the screen-->
+  <string id="IDS_STRAIN_009">Chiudi</string>
+
+  <string id="IDS_CLEAR_001">Gioco completato</string>
+  <string id="IDS_CLEAR_002">{BUDDY_NAME} è felice di&#xD;aver incontrato {STRAY_NAME}!</string>
+  <string id="IDS_CLEAR_003">Avanti</string>
+  <string id="IDS_CLEAR_004">Hai ridato la Bacca a {STRAY_NAME},&#xD;che ti ringrazia.</string>
+
+  <string id="IDS_RESULT_001">Risultato</string>
+  <string id="IDS_RESULT_002">Tempo</string>
+  <string id="IDS_RESULT_003">Oggetto perso</string>
+  <string id="IDS_RESULT_004">Punti</string>
+  <string id="IDS_RESULT_005">Chiudi</string>
+
+  <string unofficial="true" id="IDS_QUIT_001">Vuoi interrompere il minigioco?</string>
+  <string id="IDS_QUIT_002">Sì</string>
+  <string id="IDS_QUIT_003">No</string>
+
+  <string id="IDS_TIMEUP_002">Non hai trovato {STRAY_NAME}...</string>
+  <string id="IDS_TIMEUP_003">Chiudi</string>
+</data>

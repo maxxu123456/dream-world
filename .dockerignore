@@ -1,6 +1,11 @@
 .git
-server/
-docs/
-scripts/
-README.md
+.github
+docs
+scripts
 LICENSE
+README.md
+server/.venv
+server/save_data
+server/patches/ffdec.zip
+server/patches/scripts
+**/__pycache__

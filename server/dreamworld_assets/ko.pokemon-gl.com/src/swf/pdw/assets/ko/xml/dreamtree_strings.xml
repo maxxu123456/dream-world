@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="ko">
+	<string id="b_ae_3">예</string>
+	<string id="b_ae_4">아니오</string>
+	<string id="k_af_1">k_af_1</string>
+	<string id="t_ac_1">포켓몬 닉네임:</string>
+	<string id="t_ac_2">PGL 닉네임:</string>
+	<string id="t_ac_3">포켓몬:</string>
+	<string id="t_ac_4">어버이:</string>
+	<string id="t_ac_5">레벨:</string>
+	<string id="t_ac_6">타입:</string>
+	<string id="t_ac_7">성별:</string>
+	<string id="t_ac_8">성격:</string>
+	<string id="t_ac_9">t_ac_9</string>
+	<string id="t_ac_10">잡은 몬스터볼:</string>
+	<string id="t_ad_1">꿈의나무에 소원을 빌겠습니까? 나무열매가 1개 필요합니다</string>
+</data>

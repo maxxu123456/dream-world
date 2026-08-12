@@ -1,0 +1,17 @@
+Normal
+Kampf
+Flug
+Gift
+Boden
+Gestein
+Käfer
+Geist
+Stahl
+Feuer
+Wasser
+Pflanze
+Elektro
+Psycho
+Eis
+Drachen
+Unlicht

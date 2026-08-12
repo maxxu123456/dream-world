@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="it">
+	<string id="b_ae_3">Sì</string>
+	<string id="b_ae_4">No</string>
+	<string id="k_af_1">Bacche possedute</string>
+	<string id="t_ac_1">Soprannome</string>
+	<string id="t_ac_2">Nome PGL</string>
+	<string id="t_ac_3">Pokémon</string>
+	<string id="t_ac_4">A.O.</string>
+	<string id="t_ac_5">Livello</string>
+	<string id="t_ac_6">Tipo</string>
+	<string id="t_ac_7">Sesso</string>
+	<string id="t_ac_8">Natura</string>
+	<string id="t_ac_9">Poké Ball usata&amp;#xD;per la cattura</string>
+	<string id="t_ac_10">Poké Ball usata&amp;#xD;per la cattura</string>
+	<string id="t_ad_1">Esprimi un desiderio? Ti serve una bacca.</string>
+</data>

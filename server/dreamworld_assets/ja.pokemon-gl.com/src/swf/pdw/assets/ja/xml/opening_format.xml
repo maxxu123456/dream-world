@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="ja">
+	<string id="op_b_1" size="18" color="0xFFFFFF" bold="true" />
+	<string id="op_b_2" size="12" color="00000000" bold="true" />
+</data>

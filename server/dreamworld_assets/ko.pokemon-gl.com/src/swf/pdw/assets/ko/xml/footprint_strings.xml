@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="ko">
+	<string id="f_af_1">f_af_1</string>
+	<string id="f_af_2">f_af_2</string>
+	<string id="f_af_3">f_af_3</string>
+	<string id="f_af_4">f_af_4</string>
+	<string id="f_af_6">f_af_6</string>
+	<string id="f_af_7">f_af_7</string>
+	<string id="f_af_8">f_af_8</string>
+	<string id="f_af_9">f_af_9</string>
+	<string id="f_af_10">f_af_10</string>
+	<string id="f_af_13">f_af_13</string>
+	<string id="f_af_14">f_af_14</string>
+	<string id="f_af_15">f_af_15</string>
+	<string id="f_af_16">f_af_16</string>
+	<string id="f_af_17">f_af_17</string>
+	<string id="f_af_18">f_af_18</string>
+	<string id="m_ac_1">m_ac_1</string>
+	<string id="m_ac_2">m_ac_2</string>
+	<string id="m_ac_3">포켓몬 닉네임:</string>
+	<string id="m_ac_4">PGL 닉네임:</string>
+	<string id="m_ac_6">어버이:</string>
+	<string id="m_ac_7">레벨:</string>
+	<string id="m_ac_8">타입:</string>
+	<string id="m_ac_9">성별:</string>
+	<string id="m_ac_10">성격:</string>
+	<string id="m_ac_12">한 일:</string>
+	<string id="m_ac_16">이 포켓몬의 홈에 가기</string>
+	<string id="m_ac_17">닫기</string>
+</data>

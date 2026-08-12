@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data locale="ja">
+
+<string id="DIALOG_TUTORIAL_TITLE">ひやひやスイーツキャッチ　あそびかた</string>
+
+<string id="DIALOG_TUTORIAL_INFO0">氷のマスをクリックすると、&#xD;そこまですべって移動することができるよ。&#xD;時間内にたくさんおかしを集めて、&#xD;スコアをかせごう！</string>
+<string id="DIALOG_TUTORIAL_INFO1">氷の上をすべったり、乗り続けたりすると&#xD;氷がわれてしまうぞ。&#xD;氷に落ちてしまうとしばらく戻れないから、&#xD;注意して動こう！</string>
+
+<string id="DIALOG_BUTTON_START">スタート</string>
+<string id="DIALOG_BUTTON_START_S">スタート</string>
+
+
+<string id="BUTTON_TOP_EXIT">ゲームをやめる</string>
+
+<string id="MESSAGE_WINDOW_PLAY_FIRST">氷の上をクリックしておかしまですべろう！</string>
+<string id="MESSAGE_WINDOW_IIOKASHI">いいおかしがたくさん落ちてきたぞ！</string>
+<string id="MESSAGE_WINDOW_GANBARE10">がんばれ！のこり10秒だぞ！</string>
+
+<string id="DIALOG_EXIT_INFO">DIALOG_EXIT_INFO</string>
+
+<string id="DIALOG_BUTTON_YES">はい</string>
+<string id="DIALOG_BUTTON_YES_S">はい</string>
+<string id="DIALOG_BUTTON_NO">いいえ</string>
+<string id="DIALOG_BUTTON_NO_S">いいえ</string>
+
+<string id="DIALOG_RESULT_TITLE">せいせき</string>
+
+
+<string id="DIALOG_RESULT_KO_0">こ</string>
+<string id="DIALOG_RESULT_KO_1">こ</string>
+<string id="DIALOG_RESULT_KO_2">こ</string>
+<string id="DIALOG_RESULT_KO_3">こ</string>
+<string id="DIALOG_RESULT_POINT_0">ポイント</string>
+<string id="DIALOG_RESULT_POINT_1">ポイント</string>
+<string id="DIALOG_RESULT_POINT_2">ポイント</string>
+<string id="DIALOG_RESULT_POINT_3">ポイント</string>
+<string id="DIALOG_RESULT_POINT_4">ポイント</string>
+<string id="DIALOG_RESULT_POINT_5">ポイント</string>
+
+<string id="DIALOG_RESULT_BONUS">優勝ボーナス</string>
+<string id="DIALOG_RESULT_TOTAL">ごうけい</string>
+<string id="DIALOG_BUTTON_CLOSE">とじる</string>
+<string id="DIALOG_BUTTON_CLOSE_S">とじる</string>
+
+<string id="ICON_ME">キミ</string>
+
+<string id="POKEMON_NAME_NPC_0">チラーミィ</string>
+<string id="POKEMON_NAME_NPC_1">ヒヤップ</string>
+<string id="POKEMON_NAME_NPC_2">キルリア</string>
+<string id="POKEMON_NAME_NPC_3">コリンク</string>
+<string id="POKEMON_NAME_NPC_4">マリル</string>
+<string id="POKEMON_NAME_NPC_5">ミミロル</string>
+<string id="POKEMON_NAME_NPC_6">ミズゴロウ</string>
+<string id="POKEMON_NAME_NPC_7">ムチュール</string>
+<string id="POKEMON_NAME_NPC_8">リオル</string>
+<string id="POKEMON_NAME_NPC_9">タマザラシ</string>
+<string id="POKEMON_NAME_NPC_10">ウリムー</string>
+<string id="POKEMON_NAME_NPC_11">ユキワラシ</string>
+
+<string id="POKEMON_NAME_PC_0">マネネ</string>
+<string id="POKEMON_NAME_PC_1">ミジュマル</string>
+<string id="POKEMON_NAME_PC_2">ピチュー</string>
+<string id="POKEMON_NAME_PC_3">ズルッグ</string>
+
+
+
+<string id="MESSAGE_WINDOW">{STR}</string>
+<string id="POKEMON_STATUS_NAME_ME">{STR}</string>
+<string id="POKEMON_STATUS_NAME_ENEMY">{STR}</string>
+<string id="ICON_ENCOUNT">{BUDDY_NAME}</string>
+
+</data>

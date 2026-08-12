@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="de">
+	<string id="da_aa_1">Pokémon DW beenden.</string>
+	<string id="da_aa_2">Pokémon zum Aufwachen vorbereiten und Ende</string>
+	<string id="da_aa_3">Du verlässt die Pokémon DW und bereitest dein Pokémon darauf&amp;#xD;vor, per Spielsynchro aufgeweckt zu werden. Danach kannst du in&amp;#xD;die Kontaktebene verschickte Pokémon und Items überprüfen.</string>
+	<string id="da_aa_4">Pokémon nicht wecken und Ende</string>
+	<string id="da_aa_5">Wenn du beim Verlassen der Pokémon DW dein Pokémon zum&amp;#xD;Aufwachen vorbereiten willst</string>
+	<string id="da_aa_6">Pokémon nicht aufwecken und Sitzung beenden</string>
+	<string id="da_ab_1">Über diese Funktion kannst du die&amp;#xD;Pokémon DW vorübergehend verlassen.</string>
+	<string id="da_ab_2">[!]Solang an deiner Freundestafel das Foto eines Pokémon&amp;#xD;hängt, mit dem du dich angefreundet hast, nachdem du an&amp;#xD;der Traumreiche einen Wunsch ausgesprochen hast, erscheint&amp;#xD;der Regenbogen zur Trauminsel nicht mehr.</string>
+	<string id="da_ab_3">Vorsicht: Wenn du eine Stunde lang in der Pokémon DW gespielt hast, verlässt du sie automatisch wieder.</string>
+	<string id="da_ab_4">Weiter in der Pokémon DW spielen</string>
+	<string id="da_ad_1" unofficial="true">Eine Stunde ist vergangen seit dem du begonnen hast zu spielen.</string>
+	<string id="da_ad_2" unofficial="true">Eine Stunde ist vergangen seit dem du das spiel gestartet hast. Bitte klicke eine beliebige Taste und beende die Pokémon DW.</string>
+	<string id="da_ad_6" unofficial="true">Wähle diese Funktion um die Pokémon DW temporär zu verlassen.</string>
+	<string id="da_af_1">da_af_1</string>
+	<string id="da_af_2">da_af_2</string>
+	<string id="dc_aa_1">Liste der Mitnahme-Pokémon</string>
+	<string id="dc_aa_2">Aus der Pokémon DW mitgenommene Pokémon findest du auf den Waldlichtungen,&amp;#xD;nachdem du sie per Spielsynchro über die Spielesoftware aufgeweckt hast.</string>
+	<string id="dc_aa_3">Möchtest du weitere Pokémon mitnehmen, musst du auf „Zurück“&amp;#xD;klicken und die Freundestafel in deinem Haus überprüfen.</string>
+	<string id="dc_aa_4">Manche Pokémon, mit denen du dich angefreundet hast,&amp;#xD;indem du an der Traumeiche einen Wunsch geäußert hast,&amp;#xD;erscheinen erst nach einer Weile auf deiner Freundestafel.</string>
+	<string id="dc_aa_5">Weiter</string>
+	<string id="dc_aa_6">Zurück</string>
+	<string id="dc_ac_1">Liste der Items, die in die Kontaktebene geschickt werden</string>
+	<string id="dc_ac_2">Items, die du in die Kontaktebene schickst, erhältst du von dem Jungen am Eingang des Kontaktebenenhains in Form eines Traumsplitters, nachdem du dein Pokémon per Spielsynchro geweckt hast.</string>
+	<string id="dc_ac_3">Möchtest du die Lister der Items, die verschickt werden, ändern, musst du auf „Zurück“ klicken und über die Schatztruhe eine neue Wahl treffen.</string>
+	<string id="dc_ac_4">Pokémon DW verlassen.</string>
+	<string id="dc_ae_2">dc_ae_2</string>
+	<string id="dc_af_2" unofficial="true">Es gibt keine Items, die du mitnehmen kannst.</string>
+	<string id="o_abb_1">Du hast die Pokémon Dream World verlassen. Dein Pokémon&amp;#xD;kann nun per Spielsynchro über die Spielesoftware&amp;#xD;aufgeweckt werden.</string>
+	<string id="o_az_1">Du hast die Pokémon Dream World verlassen.</string>
+	<string id="pg_ade_1" unofficial="true">Pokémon Dream World ist zur Zeit nicht verfügbar</string>
+	<string id="pg_ade_2">pg_ade_2</string>
+	<string id="pg_ade_3" unofficial="true">Pokémon Dream World ist im Moment beschäftigt, versuche es später nochmal!</string>
+	<string id="pg_ade_4">Schließen</string>
+	<string id="pg_ade_5" unofficial="true">Wiederholen</string>
+	<string id="pg_adi_1">pg_adi_1</string>
+	<string id="pg_adi_2">pg_adi_2</string>
+	<string id="pg_adi_3">pg_adi_3</string>
+	<string id="pg_adi_4">pg_adi_4</string>
+	<string id="pg_adi_5">pg_adi_5</string>
+	<string id="pg_adi_6">pg_adi_6</string>
+	<string id="pg_adi_7">pg_adi_7</string>
+	<string id="pg_alc_1" unofficial="true">Deine Daten werden für die Pokémon Dream World verarbeitet.&amp;#xD;Bitte warten Sie, bevor Sie es erneut versuchen.&amp;#xD;Es könnte fünf Minuten oder länger brauchen um den Vorgang abzuschliessen.</string>
+	<string id="pg_alc_2" unofficial="true">*Es kann eine Weile dauern bis ein Pokémon wieder anfängt zu Träumen nach dem du es zum Schlafen gelegt hast mit der Spielsynchro.</string>
+	<string id="pg_ald_1" unofficial="true">Verarbeitung der Registrierungsdaten.&amp;#xD;Bitte warten Sie, bevor Sie es erneut versuchen.&amp;#xD;Es könnte fünf Minuten oder länger brauchen um den Vorgang abzuschliessen.</string>
+	<string id="pg_ald_2">Schließen</string>
+	<string id="pg_ale_1" unofficial="true">Kein Pokémon schläft. Benutz die Spielsynchro um ein Pokémon zum Schlafen auswählen.</string>
+	<string id="pg_ale_2">Schließen</string>
+	<string id="pg_alf_1" unofficial="true">Kein Pokémon ist am Träumen.&amp;#xD;Benutze Spielsynchro um ein Pokémon aufzuwecken.&amp;#xD;Um in der Pokémon DW wieder zu spielen, lege ein Pokémon zu Schlafen.</string>
+	<string id="pg_alf_2" unofficial="true">*Benutze Spielsynchro um ein Pokémon nur ein mal pro Tag Schlafen zu legen.</string>
+	<string id="pg_alf_3">Schließen</string>
+	<string id="pg_alg_1">pg_alg_1</string>
+	<string id="pg_alg_2">pg_alg_2</string>
+	<string id="pg_alg_3">pg_alg_3</string>
+	<string id="pg_amc_1">pg_amc_1</string>
+	<string id="pg_amc_2">pg_amc_2</string>
+	<string id="pg_amc_3">pg_amc_3</string>
+	<string id="pg_amd_1">pg_amd_1</string>
+	<string id="pg_amd_2">pg_amd_2</string>
+	<string id="pg_amd_3">pg_amd_3</string>
+	<string id="pg_ame_1" unofficial="true">Ein Fehler ist aufgetreten während der Datenverarbeitung.</string>
+	<string id="pg_amf_1" unofficial="true">Ein Datenbank Fehler ist aufgetreten.&amp;#xD;Deine Verbindung wird getrennt.</string>
+	<string id="pg_amh_1" unofficial="true">Willkommen in der Pokémon Dream World!</string>
+	<string id="pg_amh_2">Ab jetzt hast du eine Stunde zeit, um dich in der Pokémon DW zu vergnügen.</string>
+	<string id="pg_amh_3">Nach Ablauf einer Stunde verlässt du die Pokémon DW automatisch.&amp;#xD;Wenn dein Pokémon DW-Aufenthalt automatisch beendet wird, kann es vorkommen, dass die Daten deiner aktuellen Spielpartie nicht vollständig gespeichert werden. Es ist daher ratsam, die Pokémon DW zum Zeitpunkt der Benachrichtigung nach Ablauf einer Stunde selbständig zu verlassen.</string>
+	<string id="pg_amh_4">Schließen</string>
+	<string id="pg_amk_1">pg_amk_1</string>
+	<string id="pg_ay_2">O.K.</string>
+</data>

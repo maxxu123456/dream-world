@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="en">
+	<string id="B_aa_10">B_aa_10</string>
+	<string id="B_aa_11">B_aa_11</string>
+	<string id="B_az_2">B_az_2</string>
+	<string id="B_az_3">B_az_3</string>
+	<string id="b_ad_1">Items to be sent to the Entralink</string>
+	<string id="b_ad_2">Item Name</string>
+	<string id="b_ad_3">Number</string>
+	<string id="b_ad_6">OK</string>
+	<string id="b_ad_7">Cancel</string>
+	<string id="b_ae_1">Send the item(s) in the list?</string>
+	<string id="b_af_1">Item(s) going to the Entralink.</string>
+	<string id="b_ah_1">b_ah_1</string>
+	<string id="b_ai_1">b_ai_1</string>
+	<string id="b_az_1">Close</string>
+</data>

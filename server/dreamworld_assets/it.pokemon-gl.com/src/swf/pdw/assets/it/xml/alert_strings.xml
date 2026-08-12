@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="it">
+	<string id="da_aa_1">Uscita dal Pokémon Dream World in corso.</string>
+	<string id="da_aa_2">Prepara il Pokémon al risveglio ed esci</string>
+	<string id="da_aa_3">In questo modo uscirai dal Pokémon Dream World&amp;#xD;salvando i tuoi progressi. Potrai così svegliare senza&amp;#xD;problemi il tuo Pokémon tramite il Sincrogioco e&amp;#xD;recuperare gli strumenti e i Pokémon inviati&amp;#xD;nell'Intramondo.</string>
+	<string id="da_aa_4">Esci senza svegliare il Pokémon</string>
+	<string id="da_aa_5">Prepara il Pokémon al risveglio ed esci dal Pokémon&amp;#xD;Dream World</string>
+	<string id="da_aa_6">Esci senza svegliare il Pokémon</string>
+	<string id="da_ab_1">Usa questa opzione per uscire temporaneamente dal&amp;#xD;Pokémon DW.</string>
+	<string id="da_ab_2">Se continui a giocare dopo aver espresso un desiderio&amp;#xD;all'albero dei sogni, non troverai più l'arcobaleno che&amp;#xD;conduce all'Isola dei sogni.</string>
+	<string id="da_ab_3" unofficial="true">Attenzione: sarai automaticamente disconnesso dal Pokémon Dream World dopo un'ora di gioco.</string>
+	<string id="da_ab_4">Continua a giocare nel Pokémon DW</string>
+	<string id="da_ad_1">Stai giocando al Pokémon Dream World da quasi un'ora.</string>
+	<string id="da_ad_2">É quasi trascorsa un'ora da quando hai iniziato a giocare nel Pokémon Dream World. Scegli un'opzione ed esci dal&amp;#xD;Pokémon Dream World.</string>
+	<string id="da_ad_6">Usa questa opzione per uscire temporaneamente dal&amp;#xD;Pokémon DW.</string>
+	<string id="da_af_1" unofficial="true">Hai giocato al Pokémon Dream World per un'ora.</string>
+	<string id="da_af_2" unofficial="true">É trascorsa un'ora da quando hai iniziato a giocare nel Pokémon Dream World. Scegli un'opzione ed esci dal&amp;#xD;Pokémon Dream World.</string>
+	<string id="dc_aa_1">Pokémon da inviare</string>
+	<string id="dc_aa_2">Dopo aver svegliato il Pokémon con il Sincrogioco, potrai trovare i Pokémon inviati se vai nella&amp;#xD;Piazza del Bosco dell'Intramondo.</string>
+	<string id="dc_aa_3">Se vuoi inviare altri Pokémon, clicca su Indietro e controlla la bacheca in casa.</string>
+	<string id="dc_aa_4">Dopo aver espresso un desiderio all'albero dei sogni, a volte dovrai aspettare un po' per&amp;#xD;vedere la sua foto affissa sulla bacheca.</string>
+	<string id="dc_aa_5">Avanti</string>
+	<string id="dc_aa_6">Indietro</string>
+	<string id="dc_ac_1">Strumenti da inviare nell'Intramondo</string>
+	<string id="dc_ac_2">Dopo aver svegliato il Pokémon con il Sincrogioco, potrai ricevere gli strumenti inviati&amp;#xD;parlando al ragazzo all'ingresso del Bosco Intramondo.</string>
+	<string id="dc_ac_3">Se vuoi fare delle modifiche, clicca su Indietro, apri il baule e scegli gli&amp;#xD;strumenti da inviare nell'Intramondo.</string>
+	<string id="dc_ac_4">Esci dal Pokémon DW</string>
+	<string id="dc_ae_2" unofficial="true">Non ci sono Pokémon da inviare.</string>
+	<string id="dc_af_2">Non ci sono strumenti da inviare nell'Intramondo.</string>
+	<string id="o_abb_1">Fine della visita al Pokémon DW. Puoi risvegliare il Pokémon&amp;#xD;col Sincrogioco.</string>
+	<string id="o_az_1" unofficial="true">Fine della visita al Pokémon DW.</string>
+	<string id="pg_ade_1" unofficial="true">Il Pokémon Dream World non è disponibile.</string>
+	<string id="pg_ade_2">pg_ade_2</string>
+	<string id="pg_ade_3" unofficial="true">Il Pokémon Dream World è al momento occupato. Riprova più tardi!</string>
+	<string id="pg_ade_4" unofficial="true">Chiudi</string>
+	<string id="pg_ade_5" unofficial="true">Riprova</string>
+	<string id="pg_adi_1">pg_adi_1</string>
+	<string id="pg_adi_2">pg_adi_2</string>
+	<string id="pg_adi_3">pg_adi_3</string>
+	<string id="pg_adi_4">pg_adi_4</string>
+	<string id="pg_adi_5">pg_adi_5</string>
+	<string id="pg_adi_6">pg_adi_6</string>
+	<string id="pg_adi_7">pg_adi_7</string>
+	<string id="pg_alc_1" unofficial="true">Elaborazione dei dati per il Pokémon Dream World in corso.&amp;#xD;Attendere prima di provare.&amp;#xD;Il processo potrebbe richiedere almeno cinque minuti.</string>
+	<string id="pg_alc_2" unofficial="true">*Potrebbe volerci un po' prima che il Pokémon possa sognare dopo averlo fatto&amp;#xD;addormentare col Sincrogioco.</string>
+	<string id="pg_ald_1" unofficial="true">Elaborazione dati di registrazione in corso.&amp;#xD;Attendere prima di riprovare.&amp;#xD;Il processo potrebbe richiedere almeno cinque minuti.</string>
+	<string id="pg_ald_2">Chiudi</string>
+	<string id="pg_ale_1">Nessuno dei tuoi Pokémon sta sognando in questo&amp;#xD;momento: usa il Sincrogioco per fare addormentare un&amp;#xD;Pokémon.</string>
+	<string id="pg_ale_2">Chiudi</string>
+	<string id="pg_alf_1" unofficial="true">Nessuno dei tuoi Pokémon sta sognando in questo momento: usa il Sincrogioco per svegliare il Pokémon.&amp;#xD;Per giocare nel Pokémon DW di nuovo, è necessario far addormentare un Pokémon.</string>
+	<string id="pg_alf_2" unofficial="true">*Puoi usare il Sincrogioco per far addormentare un Pokémon soltanto una volta al giorno.</string>
+	<string id="pg_alf_3">Chiudi</string>
+	<string id="pg_alg_1">pg_alg_1</string>
+	<string id="pg_alg_2">pg_alg_2</string>
+	<string id="pg_alg_3">pg_alg_3</string>
+	<string id="pg_amc_1">pg_amc_1</string>
+	<string id="pg_amc_2">pg_amc_2</string>
+	<string id="pg_amc_3">pg_amc_3</string>
+	<string id="pg_amd_1">pg_amd_1</string>
+	<string id="pg_amd_2">pg_amd_2</string>
+	<string id="pg_amd_3">pg_amd_3</string>
+	<string id="pg_ame_1">Errore nella fase di elaborazione dei dati.</string>
+	<string id="pg_amf_1">pg_amf_1</string>
+	<string id="pg_amh_1">Ciao! Sei nel Pokémon Dream World!</string>
+	<string id="pg_amh_2">Potrai giocare al Pokémon DW per un'ora.</string>
+	<string id="pg_amh_3">Dopo un'ora di gioco, il Pokémon Dream World si chiude&amp;#xD;automaticamente.&amp;#xD;Quando questo accade, i dati del gioco potrebbero non essere salvati.&amp;#xD;Esci quando compare l'annuncio che il tempo è scaduto.</string>
+	<string id="pg_amh_4">Chiudi</string>
+	<string id="pg_amk_1">pg_amk_1</string>
+	<string id="pg_ay_2" unofficial="true">OK</string>
+</data>

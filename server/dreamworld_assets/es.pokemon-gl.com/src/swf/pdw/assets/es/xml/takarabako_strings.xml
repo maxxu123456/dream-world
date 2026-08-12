@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="es">
+	<string id="B_aa_10">B_aa_10</string>
+	<string id="B_aa_11">B_aa_11</string>
+	<string id="B_az_2">B_az_2</string>
+	<string id="B_az_3">B_az_3</string>
+	<string id="b_ad_1" unofficial="true">Los objetos fueron enviados a Zona Nexo</string>
+	<string id="b_ad_2">Nombre de Objeto</string>
+	<string id="b_ad_3">Número</string>
+	<string id="b_ad_6">Vale</string>
+	<string id="b_ad_7">Cancelar</string>
+	<string id="b_ae_1">¿Enviar estos objetos?</string>
+	<string id="b_af_1" unofficial="true">Objetos que se enviarán a la Zona Nexo</string>
+	<string id="b_ah_1">b_ah_1</string>
+	<string id="b_ai_1">b_ai_1</string>
+	<string id="b_az_1">Cerrar</string>
+</data>

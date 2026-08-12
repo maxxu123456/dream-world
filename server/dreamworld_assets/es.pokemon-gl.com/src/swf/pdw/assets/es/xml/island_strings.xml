@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="es">
+	<string id="MESSAGE_TYPE_1">MESSAGE_TYPE_1</string>
+	<string id="MESSAGE_TYPE_3">MESSAGE_TYPE_3</string>
+	<string id="MESSAGE_TYPE_4">MESSAGE_TYPE_4</string>
+	<string id="MESSAGE_TYPE_5">MESSAGE_TYPE_5</string>
+	<string id="MESSAGE_TYPE_6">MESSAGE_TYPE_6</string>
+	<string id="s_aa_2">Volver a mi casa.</string>
+	<string id="t_aa_1">Árbol de los Sueños</string>
+	<string id="y_aa_1">Árbol de los Sueños</string>
+	<string id="y_aa_2">Hasta el Árbol de los Sueños&amp;#xD;Te quedan: [画面数]</string>
+	<string id="y_aa_3">Isla Ensueño: Bosque Pequeño</string>
+	<string id="y_aa_4">Isla Ensueño: Mar Brillante</string>
+	<string id="y_aa_5">Isla Ensueño: Alto Cielo</string>
+	<string id="y_aa_6">Volver a mi casa</string>
+	<string id="y_aa_8">y_aa_8</string>
+	<string id="y_aa_9">y_aa_9</string>
+	<string id="y_aa_12">y_aa_12</string>
+	<string id="y_aa_13">y_aa_13</string>
+	<string id="y_aa_14">y_aa_14</string>
+	<string id="y_aa_15">y_aa_15</string>
+	<string id="y_aa_16">Isla Ensueño: Villa Antigua</string>
+	<string id="y_aa_17">Isla Ensueño: Monte Escarpado</string>
+	<string id="y_aa_18">Isla Ensueño: Cueva Helada</string>
+	<string id="y_aa_19">Isla Ensueño: Parque de los Sueños</string>
+	<string id="y_ad_1">¡Es un [ポケモン名]!</string>
+	<string id="y_ad_2" unofficial="true">[ポケモン名] está hambriento.</string>
+	<string id="y_ad_3">y_ad_3</string>
+	<string id="y_ad_4">¿Quieres jugar a Maestro heladero con [ポケモン名]?</string>
+	<string id="y_ad_7">[ポケモン名] quiere volvar por el cielo.</string>
+	<string id="y_ad_8">¿Quieres jugar a Carrera aérea con [ポケモン名]?</string>
+	<string id="y_ad_10">[ポケモン名] está buscando a otro Pokémon.</string>
+	<string id="y_ad_11">¿Quieres jugar a Pokémon perdido con [ポケモン名]?</string>
+	<string id="y_ad_13">[ポケモン名] quiere jugar con Wailord.</string>
+	<string id="y_ad_14">¿Quieres jugar a Diversión a chorro con [ポケモン名]?</string>
+	<string id="y_ad_15">[ポケモン名]  tiene sed.</string>
+	<string id="y_ad_16">¿Quieres darle una bebida a [ポケモン名] ?</string>
+	<string id="y_ad_18" unofficial="true">[ポケモン名] quiere probar su valor.</string>
+	<string id="y_ad_19" unofficial="true">¿Jugar a Apaga Velas con [ポケモン名]?</string>
+	<string id="y_ad_20" unofficial="true">[ポケモン名] quiere recolectar gemas.</string>
+	<string id="y_ad_21" unofficial="true">¿Buscar gemas con [ポケモン名]?</string>
+	<string id="y_ad_22" unofficial="true">[ポケモン名] quiere jugar en el hielo.</string>
+	<string id="y_ad_23" unofficial="true">¿Jugar a Dulces helados con [ポケモン名]?</string>
+	<string id="y_ad_24" unofficial="true">[ポケモン名] quiere jugar en el lago.</string>
+	<string id="y_ad_25" unofficial="true">¿Quieres surfear con [ポケモン名]?</string>
+	<string id="y_ad_26">A [ポケモン名] le llama la atención ese cofre.</string>
+	<string id="y_ad_27">¡Ayuda a [ポケモン名]!</string>
+	<string id="y_ad_28">y_ad_28</string>
+	<string id="y_ad_29">y_ad_29</string>
+	<string id="y_ad_30">[ポケモン名] tiene sed.</string>
+	<string id="y_ad_31">¿Quieres darle una bebida a [ポケモン名] ?</string>
+	<string id="y_ad_32">y_ad_32</string>
+	<string id="y_ad_33">y_ad_33</string>
+	<string id="y_af_1">Te has hecho amigo de  [ポケモン名].</string>
+	<string id="y_af_2">Nombre del Pokémon:</string>
+	<string id="y_af_3">Habilidad:</string>
+	<string id="y_af_4">Tipo:</string>
+	<string id="y_af_5">Sexo:</string>
+	<string id="y_af_6" unofficial="true">Mov. Aprendidos:</string>
+	<string id="y_af_7">¡[ポケモン名] está contento!</string>
+	<string id="y_af_8">y_af_8</string>
+	<string id="y_af_9">y_af_9</string>
+	<string id="y_af_10">y_af_10</string>
+	<string id="y_af_11">y_af_11</string>
+	<string id="y_ag_1" unofficial="true">No has tenido exito en Maestro heladero.</string>
+	<string id="y_ag_2">y_ag_2</string>
+	<string id="y_ag_3">No pudiste llegar a la meta.</string>
+	<string id="y_ag_4">y_ag_4</string>
+	<string id="y_ag_5" unofficial="true">No lograste encontrar al Pokémon.</string>
+	<string id="y_ag_6">y_ag_6</string>
+	<string id="y_ag_7" unofficial="true">Todos tus Pokémon cayeron al agua.</string>
+	<string id="y_ag_8">y_ag_8</string>
+	<string id="y_ag_9" unofficial="true">[ポケモン名] está decepcionado.</string>
+	<string id="y_ag_10">y_ag_10</string>
+	<string id="y_ag_11">y_ag_11</string>
+	<string id="y_ag_12">y_ag_12</string>
+	<string id="y_ag_13">y_ag_13</string>
+	<string id="y_ag_14">y_ag_14</string>
+	<string id="y_ag_15">y_ag_15</string>
+	<string id="y_ag_16" unofficial="true">No conseguiste los dulces.</string>
+	<string id="y_ag_17">y_ag_17</string>
+	<string id="y_ag_18">y_ag_18</string>
+	<string id="y_ag_19">y_ag_19</string>
+	<string id="y_ah_1" unofficial="true">[ポケモン名] ha desaparecido.</string>
+	<string id="y_ai_1">Has encontrado [道具名].</string>
+	<string id="y_aj_1">Has guardado [道具名] en el cofre.</string>
+	<string id="y_al_1">y_al_1</string>
+	<string id="y_za_1">Ha llegado a Isla Ensueño y ha ido al Bosque Pequeño</string>
+	<string id="y_zb_2">Ha llegado a Isla Ensueño y ha ido al Mar Brillante</string>
+	<string id="y_zc_3">Ha llegado a Isla Ensueño y ha ido al Alto Cielo</string>
+	<string id="y_zc_4">Ha llegado a Isla Ensueño y ha ido a la Villa Antigua</string>
+	<string id="y_zc_5">Ha llegado a Isla Ensueño y ha ido al Monte Escarpado</string>
+	<string id="y_zc_6">Ha llegado a Isla Ensueño y ha ido a la Cueva Helada</string>
+	<string id="y_zc_7">Ha llegado a Isla Ensueño y ha ido al Parque de los Sueños</string>
+	<string id="y_zd_4">y_zd_4</string>
+</data>

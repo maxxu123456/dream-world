@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="ja">
+	<string id="b_ae_3">はい</string>
+	<string id="b_ae_4">いいえ</string>
+	<string id="k_af_1">持っているきのみ</string>
+	<string id="t_ac_1">ポケモンのニックネーム：</string>
+	<string id="t_ac_2">PGLニックネーム：</string>
+	<string id="t_ac_3">ポケモン：</string>
+	<string id="t_ac_4">親：</string>
+	<string id="t_ac_5">レベル：</string>
+	<string id="t_ac_6">タイプ：</string>
+	<string id="t_ac_7">性別：</string>
+	<string id="t_ac_8">性格：</string>
+	<string id="t_ac_9">t_ac_9</string>
+	<string id="t_ac_10">つかまえたボール：</string>
+	<string id="t_ad_1">ゆめの木にねがいごとをしますか？きのみが１コ必要です。</string>
+</data>

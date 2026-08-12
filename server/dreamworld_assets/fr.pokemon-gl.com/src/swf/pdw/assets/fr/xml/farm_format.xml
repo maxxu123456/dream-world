@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="fr">
+	<string id="b_ad_4" letterSpacing="1.0" />
+	<string id="h_da_3" size="12" letterSpacing="1.0" bold="true" />
+	<string id="k_ad_1" size="18" letterSpacing="1.0" bold="true" />
+	<string id="k_ad_2" size="11" letterSpacing="1.0" />
+	<string id="k_ad_4" size="11" letterSpacing="1.0" />
+	<string id="k_ad_15" size="11" letterSpacing="1.0" />
+	<string id="k_ae_2" size="12" letterSpacing="1.0" />
+	<string id="k_afff_1" letterSpacing="1.0" />
+	<string id="k_ag_1" letterSpacing="1.0" />
+	<string id="k_ag_2" letterSpacing="1.0" />
+	<string id="k_aha_1" letterSpacing="1.0" />
+	<string id="k_ai_1" letterSpacing="1.0" />
+	<string id="k_aj_1" letterSpacing="1.0" />
+	<string id="k_ak_1" letterSpacing="1.0" />
+	<string id="k_al_1" size="12" letterSpacing="1.0" />
+	<string id="k_am_1" size="16" letterSpacing="1.0" />
+	<string id="k_am_3" letterSpacing="1.0" />
+	<string id="s_ad_2" letterSpacing="1.0" bold="true" />
+</data>

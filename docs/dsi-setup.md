@@ -4,29 +4,34 @@ You need a DS, DS Lite, DSi, DSi XL, or 3DS, and a copy of Pokemon Black,
 White, Black 2, or White 2. Reach the point in the game where the C-Gear and
 Game Sync are available.
 
-1. Start the Game Sync server on your computer:
+1. Find your computer's LAN IP:
 
    ```
-   scripts/run-gamesync.sh
+   scripts/find-lan-ip.sh
    ```
 
-   It prints a DNS address. Write it down.
+2. Start the container with that IP as `HOST_IP` (see the main README for the
+   full command). Keep it running.
 
-2. On the DS, open the game and go to the Nintendo WFC Settings on the save
+3. On the DS, open the game and go to the Nintendo WFC Settings on the save
    select screen (or System Settings > Internet on a DSi). Edit your connection
-   and set the Primary DNS to the address from step 1. Leave the Secondary DNS
-   as zeros. Save.
+   and set the Primary DNS to your computer's LAN IP. Leave the Secondary DNS as
+   zeros. Save.
 
    Make sure the DS and your computer are on the same Wi-Fi network. If the
    connection test fails, ignore it.
 
-3. In the game, open the C-Gear, choose Game Sync, and tuck in a Pokemon. Save
+4. In the game, open the C-Gear, choose Game Sync, and tuck in a Pokemon. Save
    when asked.
 
-4. Start the Dream World website (see the main README) and play as that save.
+5. If this is your first ever tuck-in, restart the container once so the Dream
+   World site switches into game sync mode.
+
+6. Open http://127.0.0.1:8080/ in a Flash-capable browser (see
+   [flash-setup.md](flash-setup.md)) and play as that save.
 
 Notes:
-- The Game Sync server must run before you tuck in.
-- On Linux and macOS it needs to run with sudo because it uses port 53.
-- Troubleshooting DNS and ports: this uses the same method as Entralinked, so
-  its guide applies: https://github.com/kuroppoi/entralinked/wiki/Troubleshooting
+- The container runs both servers, so the Game Sync side is ready as soon as the
+  container is up.
+- Troubleshooting DNS and ports uses the same method as Entralinked, so its guide
+  applies: https://github.com/kuroppoi/entralinked/wiki/Troubleshooting

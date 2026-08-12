@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="it">
+	<string id="f_af_1">f_af_1</string>
+	<string id="f_af_2">f_af_2</string>
+	<string id="f_af_3">Soprannome</string>
+	<string id="f_af_4">Nome PGL</string>
+	<string id="f_af_6">A.O.</string>
+	<string id="f_af_7">Livello</string>
+	<string id="f_af_8">Tipo</string>
+	<string id="f_af_9">Sesso</string>
+	<string id="f_af_10">Natura</string>
+	<string id="f_af_13">Attività</string>
+	<string id="f_af_14" unofficial="true">Richesta sognamico</string>
+	<string id="f_af_15">f_af_15</string>
+	<string id="f_af_16">Scambio</string>
+	<string id="f_af_17">Chiudi</string>
+	<string id="f_af_18" unofficial="true">Vai a casa di questo Pokémon.</string>
+	<string id="m_ac_1" unofficial="true">Guarda! Un'impronta!</string>
+	<string id="m_ac_2" unofficial="true">Se un Pokémon ha lasciato un'impronta, puoi chiedergli di essere il&amp;#xD;tuo Sognamico. Vai a casa del Pokémon e invia una richiesta.</string>
+	<string id="m_ac_3">Soprannome</string>
+	<string id="m_ac_4">Nome PGL</string>
+	<string id="m_ac_6">A.O.</string>
+	<string id="m_ac_7">Livello</string>
+	<string id="m_ac_8">Tipo</string>
+	<string id="m_ac_9">Sesso</string>
+	<string id="m_ac_10">Natura</string>
+	<string id="m_ac_12" unofficial="true">Attività</string>
+	<string id="m_ac_16" unofficial="true">Vai a casa di questo Pokémon</string>
+	<string id="m_ac_17">Chiudi</string>
+</data>
