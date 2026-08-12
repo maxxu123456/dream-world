@@ -3,12 +3,14 @@ import os
 import atexit
 import logging
 import mimetypes
+import posixpath
 from pathlib import Path
-from urllib.parse import parse_qs
+from urllib.parse import parse_qs, urlencode
 from flask import Flask, request, redirect, Response
 
 from utils import language
 from utils.patch_file import apply_substitutions, get_cached, SWF_PATHS
+from utils.swf import build_swf_params
 from game_sync_server.entralinked.utility.db_manager import db
 from api.routes import GET_RESPONSES, POST_RESPONSES
 
@@ -53,7 +55,7 @@ def read_and_patch(file_path: Path) -> bytes:
         data = apply_substitutions(data, file_path.name)
 
     if file_path.suffix.lower() == ".xml":
-        if "Basilisk" not in request.headers.get("User-Agent"):
+        if "Basilisk" not in (request.headers.get("User-Agent") or ""):
             data = data.replace(b"&amp;#xD;", os.linesep.encode())
 
     return data
@@ -65,11 +67,31 @@ def send_file(file_path: Path) -> Response:
 
 def send_bytes(data: bytes, content_type: str) -> Response:
     """Serve raw bytes for patched SWF assets."""
-    return Response(data, content_type=content_type)
+    return Response(data, content_type=content_type, headers=NO_CACHE_HEADERS)
 
 def resolve_static(path: str) -> Path | None:
     """Return the filesystem path for a static asset, checking site dir, then shared dir as a fallback."""
     relative = path.lstrip("/")
+
+    # Older upstream guides used this prefix when the asset directory had that
+    # name. Keep those projector bookmarks working with the current layout.
+    if relative.startswith("DreamWorld_data/"):
+        relative = relative.removeprefix("DreamWorld_data/")
+
+    # Flash commonly emits paths containing `.` and `..`. Normalize them
+    # lexically because an intermediate directory may exist only in the shared
+    # asset tree. Refuse any path that tries to escape the asset root.
+    parts = []
+    for part in relative.split("/"):
+        if part in ("", "."):
+            continue
+        if part == "..":
+            if not parts:
+                return None
+            parts.pop()
+        else:
+            parts.append(part)
+    relative = "/".join(parts)
 
     # site-specific first
     site_path = SITE_DIR / relative
@@ -97,6 +119,18 @@ def not_found(path: str) -> Response:
 def rewrite_incoming_path():
     """Apply path rewrites and enforce trailing slash on directory paths."""
     path = request.path
+
+    # The standalone projector treats URLs containing parent-directory
+    # segments as cross-sandbox loads even when they resolve to this server.
+    # Redirect legacy SWF asset paths to their canonical form first.
+    if "/../" in path or "/./" in path or path.endswith(("/..", "/.")):
+        normalized = "/" + posixpath.normpath(path).lstrip("/")
+        location = normalized
+        if request.query_string:
+            location += f"?{request.query_string.decode()}"
+        response = redirect(location, 302)
+        response.headers.update(NO_CACHE_HEADERS)
+        return response
 
     # enforce trailing slash for paths that map to a site directory
     if not path.endswith("/") and (SITE_DIR / path.lstrip("/")).is_dir():
@@ -140,9 +174,25 @@ def catch_all(path: str):
     full_path = f"/{path}"
     filename  = Path(path).name
 
-    # return patched SWFs from our cache
-    if filename in PATCHED_SWFS:
-        return send_bytes(get_cached(filename), "application/x-shockwave-flash")
+    # The standalone Flash projector cannot receive FlashVars from HTML. Add
+    # the current player data to a query string so LoaderInfo.parameters gets
+    # the same values that the browser embed supplies.
+    is_projector_entry = re.fullmatch(
+        r"(?:dream-world-projector-v\d+|main-projector-v\d+|main-\d+)\.swf",
+        filename,
+    )
+    if (filename == "main.swf" or is_projector_entry) and "json" not in request.args:
+        params = build_swf_params()
+        response = redirect(f"{request.path}?{urlencode(params)}", 302)
+        response.headers.update(NO_CACHE_HEADERS)
+        return response
+
+    if is_projector_entry:
+        patched_name = "main.swf"
+    else:
+        patched_name = filename
+    if patched_name in PATCHED_SWFS:
+        return send_bytes(get_cached(patched_name), "application/x-shockwave-flash")
 
     # find first HTML file inside given directory
     dir_path = SITE_DIR / path

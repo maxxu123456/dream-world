@@ -1,4 +1,6 @@
+# Vendored Game Sync server
 
-Stripped down Game Sync server for use in the [Dream World Revival server](https://github.com/minibug1021/dreamworld-reawakened).
-
-Code re-written from [Entralinked](https://github.com/kuroppoi/entralinked).
+This is the Game Sync component used by
+[dreamworld-reawakened](https://github.com/minibug1021/dreamworld-reawakened).
+It was rewritten from [Entralinked](https://github.com/kuroppoi/entralinked).
+The root Docker entrypoint starts it with the required DNS and WFC ports.

@@ -12,7 +12,8 @@ use std::process::Command;
 use std::time::Duration;
 
 const DOCKER_INSTALL_URL: &str = "https://www.docker.com/products/docker-desktop/";
-const DREAM_WORLD_URL: &str = "http://127.0.0.1:8080/";
+const FLASH_CLIENT_URL: &str =
+    "http://127.0.0.1:8080/src/swf/theme/assets/common/dream-world-projector-v25.swf";
 const PLAYER_UPLOAD_MILESTONE: &str = "Player upload found; Dream World site is starting";
 
 fn main() -> iced::Result {
@@ -61,7 +62,7 @@ enum Message {
     DockerPolled(Snapshot),
     LogsLoaded(Result<String, String>),
     ActionFinished(Result<String, String>),
-    OpenDreamWorld,
+    CopyFlashUrl,
     OpenDockerInstall,
     UrlOpened(Result<String, String>),
 }
@@ -356,9 +357,11 @@ impl App {
 
                 Task::batch(tasks)
             }
-            Message::OpenDreamWorld => {
-                self.feedback = Feedback::info("Opening Dream World in your default browser...");
-                Self::open_url_task(DREAM_WORLD_URL)
+            Message::CopyFlashUrl => {
+                self.feedback = Feedback::info(
+                    "Flash URL copied. Paste it into File > Open in the standalone projector.",
+                );
+                iced::clipboard::write(FLASH_CLIENT_URL.to_owned())
             }
             Message::OpenDockerInstall => {
                 self.feedback = Feedback::info("Opening the Docker Desktop download page...");
@@ -680,11 +683,6 @@ impl App {
             pull = pull.on_press(Message::Pull);
         }
 
-        let mut open = button("Open Dream World").style(button::primary);
-        if self.snapshot.site_ready && idle {
-            open = open.on_press(Message::OpenDreamWorld);
-        }
-
         let operation_text = self.operation.map_or(
             "Stop keeps saved data. Restart applies DNS-IP, Friend Code, and image changes.",
             Action::progress_message,
@@ -694,7 +692,7 @@ impl App {
             column![
                 text("Controls").size(19),
                 row![start, stop, restart].spacing(8),
-                row![pull, open].spacing(8),
+                row![pull].spacing(8),
                 text(operation_text)
                     .size(12)
                     .color(Color::from_rgb8(78, 92, 110)),
@@ -716,7 +714,7 @@ impl App {
             self.snapshot.container.is_running() && (self.snapshot.site_ready || milestone_seen);
 
         let readiness = if player_ready {
-            "Player upload found — the Dream World website is ready."
+            "Player upload found. The Dream World website is ready."
         } else {
             "The website intentionally waits for the first player upload."
         };
@@ -732,7 +730,17 @@ impl App {
                 text(identity_step).size(13),
                 text(format!("2. Set the DS Primary DNS to {ip}.")).size(13),
                 text("3. Open C-Gear, press ONLINE on the bottom screen, then press GAME SYNC and tuck in a Pokémon.").size(13),
-                text("4. Keep this app open and watch the live logs. When the player-upload message appears, open Dream World.").size(13),
+                text("4. When the player-upload message appears, paste the URL below into File > Open in the standalone Flash projector.").size(13),
+                row![
+                    text_input("", FLASH_CLIENT_URL)
+                        .padding(9)
+                        .width(Fill),
+                    button("Copy URL")
+                        .on_press(Message::CopyFlashUrl)
+                        .style(button::primary),
+                ]
+                .spacing(8)
+                .align_y(Alignment::Center),
                 text(readiness)
                     .size(13)
                     .color(if player_ready {

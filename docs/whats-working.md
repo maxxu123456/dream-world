@@ -1,23 +1,25 @@
-# What works and what does not
+# Feature status
 
-The vendored Dream World server is a community work in progress. This list
-tracks the upstream snapshot included in this repository.
+This is a community work in progress. The wrapper has only been tested with a
+Nintendo DSi, macOS, and Pokemon White 2.
 
-Working:
+Working in that setup:
 
-- Connecting a physical DS through Game Sync and tucking in a Pokemon
-- Playing the Dream World website as that save
-- Berry farming and items that carry over between sessions
-- C-Gear skins, Pokedex skins, and Musical shows delivered to the game
+- Game Sync from a physical DSi, including tuck-in and wake-up
+- Loading Dream World as that save
+- Persistent berries and items
+- C-Gear skins, Pokedex skins, and Musical shows
 
-Not working yet:
+Not working:
 
-- The Pokemon Bistro and Blow Out Candles minigames
+- Pokemon Bistro and Blow Out Candles
 - Making a wish at the Tree of Dreams
-- Sending Pokemon back to the game through the Entralink
+- Sending newly befriended Dream World Pokemon to the Entralink or Entree
+  Forest
 - Dream Catalogue
 - Share Shelf
 
-The two missing minigames are also missing from every public asset dump. If you
-have an old computer that played the Dream World between 2011 and 2014, its
-browser cache may still hold those files, which the team is looking for.
+The tucked-in Pokemon can return to the save. The broken path is the reward
+transfer for newly befriended Pokemon. A disposable test Pokemon is still
+safest while the project is unfinished. The two missing minigames are absent
+from known public asset dumps.

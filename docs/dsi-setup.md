@@ -1,79 +1,48 @@
-# Connect a DS, DSi, or 3DS
+# Connect the console
 
-You need a DS-family console and Pokemon Black, White, Black 2, or White 2 with
+You need a DS-family system and Pokemon Black, White, Black 2, or White 2 with
 the C-Gear and Game Sync unlocked.
 
-## Prepare the network
+> [!IMPORTANT]
+> This wrapper has only been tested on a Nintendo DSi with Pokemon White 2,
+> hosted by macOS. Other combinations are unverified.
+
+> [!WARNING]
+> Your tucked-in Pokemon can wake and return, but use a disposable Pokemon
+> while testing. Newly befriended Dream World Pokemon cannot yet transfer to
+> the game's Entralink or Entree Forest.
+
+## Prepare
 
 1. Put the console and Docker host on the same LAN.
-2. Find the LAN IPv4 of the host's physical adapter:
+2. Use the host's physical LAN IPv4, not a VPN or virtual-adapter address.
+3. Disable guest-network client isolation.
+4. Allow inbound UDP 53 and TCP 80, 443, and 29900 on the host firewall.
 
-   - Windows: use `ipconfig`; choose the active Wi-Fi/Ethernet adapter, not a
-     VPN, WSL, or `vEthernet` adapter.
-   - macOS: use `route -n get default` to find the interface, then
-     `ipconfig getifaddr INTERFACE`.
-   - Linux: use `ip -4 route get 1.1.1.1` and read the address after `src`.
+Original DS and DS Lite systems normally require open or WEP 2.4 GHz Wi-Fi.
+DSi and 3DS systems can use supported system Internet connections for these
+DSi-enhanced games.
 
-3. Disable guest-network/client isolation. Allow inbound UDP 53 and TCP 80,
-   443, and 29900 through the host firewall on the private/LAN network.
+## Configure WFC
 
-Original DS and DS Lite hardware require a compatible 2.4 GHz legacy network,
-normally open or WEP. DSi and 3DS systems can use the system Internet settings
-supported by these DSi-enhanced games. If the console cannot even join Wi-Fi,
-check the router's 2.4 GHz and legacy Nintendo DS settings first.
+1. Start Dream World with the desktop app or Docker Compose.
+2. Open Nintendo WFC Settings from the game's save-selection screen.
+3. Edit the active connection and disable automatic DNS.
+4. Set Primary DNS to the IP shown in the desktop app or `HOST_IP` in `.env`.
+5. Set Secondary DNS to `0.0.0.0`, then save.
 
-## Start Game Sync
+Do not mix this server with Kaeru or another Secondary DNS. A failed connection
+test does not always prevent the game-specific Game Sync flow. Check the live
+server logs for DNS and HTTP requests.
 
-Use the desktop app from the main [README](../README.md) (recommended): confirm
-and save the host LAN IP, then check the Pal Pad. Leave existing-Friend-Code
-mode off if the save has no code yet; the self-host creates the first WFC
-profile itself and does not contact Kaeru. If a 12-digit code already exists,
-enable the option and enter it so the server preserves that profile ID instead
-of returning error 60000. Then choose **Start**.
+## Tuck in
 
-For the manual Compose path, put `HOST_IP` and `FRIEND_CODE` in `.env`. Leave
-`FRIEND_CODE=` blank for a save that does not have one yet, then run:
+1. In White 2, open the C-Gear.
+2. Press **ONLINE** on the bottom screen.
+3. Press **GAME SYNC** and tuck in a disposable Pokemon.
+4. Wait for `Player upload found; Dream World site is starting` in the logs.
+5. Open the URL from [flash-setup.md](flash-setup.md) in the standalone Flash
+   projector.
 
-```
-docker compose up -d
-docker compose ps
-docker compose logs -f
-```
-
-On a new volume, the container intentionally starts Game Sync before the Dream
-World website. It remains running and healthy while waiting for the first save
-upload; port 8080 becomes available automatically after tuck-in.
-
-## Configure the console
-
-1. Open Nintendo WFC Settings from the game's save-selection screen. On DSi or
-   3DS, use the matching connection configured in System Settings when
-   appropriate for the console.
-2. Edit the connection and disable automatic DNS.
-3. Set Primary DNS to the LAN IP saved in the app (or used for `HOST_IP` in a
-   manual install).
-4. Leave Secondary DNS blank or set it to `0.0.0.0`, then save.
-
-The connection test can fail even when the game-specific flow works. If it
-does, continue once and watch the app's live logs (or `docker compose logs -f`
-for a manual install) for DNS/HTTP activity.
-
-## Tuck in and play
-
-1. In the game, open the C-Gear, press **ONLINE** on the bottom screen, then
-   press **GAME SYNC** and tuck in a Pokemon. This is the menu path shown in
-   White 2; save when asked.
-2. Wait for this message in the app's live logs or the Compose logs:
-
-   ```text
-   Player upload found; Dream World site is starting on port 8080.
-   ```
-
-3. Open http://127.0.0.1:8080/ in a supported Flash client; see
-   [flash-setup.md](flash-setup.md).
-
-No container restart is required. Accounts, the selected Game Sync ID, saves,
-berries, and items persist in the `dream-world-data` Docker volume.
-
-For protocol-specific troubleshooting, the server uses the same DNS/WFC method
-as Entralinked: https://github.com/kuroppoi/entralinked/wiki/Troubleshooting
+Data persists in the `dream-world-data` Docker volume. No restart is required
+after the first tuck-in.
