@@ -13,6 +13,11 @@ assets. It does not download source or tools at runtime.
 > This restoration is unfinished. Your tucked-in Pokemon can wake and return,
 > but newly befriended Dream World Pokemon cannot yet transfer to the Entralink
 > or Entree Forest. Use a disposable Pokemon while testing.
+>
+> New accounts currently receive 99 of all 64 berry types. This is an upstream
+> development placeholder, not original Dream World progression. The original
+> first-visit tutorial awarded five of one randomly selected damage-reducing
+> Berry type.
 
 ## Recommended: desktop app
 
@@ -182,6 +187,11 @@ Press Ctrl+C to stop. `--rm` removes the container, not the named data volume.
   29900. DNS resolvers, VPNs, and ad blockers often use port 53.
 - Unhealthy container: inspect the desktop app logs or run
   `docker compose logs -f`.
+- Dream Catalogue opens a blank panel: this feature is not implemented. Close
+  and reopen the Flash projector if the blurred overlay remains.
+- `Exit and continue sleeping` loads forever: close the projector manually.
+  The server keeps the tucked-in Pokemon asleep, and reopening the Flash URL
+  continues the same Dream World session.
 
 See [DS setup](docs/dsi-setup.md), [Flash setup](docs/flash-setup.md), and
 [feature status](docs/whats-working.md).

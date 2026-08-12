@@ -55,6 +55,16 @@ Read this file before changing the wrapper or debugging a console connection.
   60000.
 - Error 52210 occurs before Friend Code login and usually means DNS, routing,
   firewall, VPN, or LAN-isolation trouble.
+- `DBManager.write_gscd()` currently seeds every new chest with 99 of all 64
+  berries and the date `2000-01-01`. This is an upstream placeholder. The
+  original service awarded five of one randomly selected damage-reducing Berry
+  type on the first tutorial. Migrate only an untouched placeholder signature;
+  never replace a player's earned inventory blindly.
+- Dream Catalogue posts `pdw.interior.interior_catalog_list`, which has no
+  handler and returns 501. The blank modal can leave the Flash scene blurred.
+- In the standalone projector, **Exit and continue sleeping** cannot return to
+  the historical HTML wrapper and may load forever. It sends no state-changing
+  API request; closing the projector leaves the player in the dreaming state.
 - The tucked-in Pokemon can wake and return with the save. The unfinished part
   is transferring newly befriended Dream World Pokemon to the Entralink or
   Entree Forest. Use a disposable Pokemon while testing.

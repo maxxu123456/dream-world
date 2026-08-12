@@ -34,3 +34,9 @@ http://127.0.0.1:8080/src/swf/theme/assets/common/dream-world-projector-v25.swf
 Do not paste the URL into Chrome, Safari, Edge, or Firefox. If it stays at 0%,
 select **Pull / Update image** in the desktop app, restart the container, and
 copy the URL again.
+
+The standalone projector cannot return to the old browser wrapper. After
+selecting **Exit and continue sleeping**, close the projector manually if it
+loads forever. Reopening the URL continues the session with the Pokemon still
+asleep. If Dream Catalogue leaves the room blurred, close and reopen the
+projector; the catalogue is not implemented yet.
