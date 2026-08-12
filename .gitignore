@@ -9,3 +9,6 @@ server/patches/scripts/
 .DS_Store
 *.log
 *.pid
+
+# local env (keep .env.example, ignore your real .env)
+.env

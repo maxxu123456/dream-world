@@ -7,29 +7,55 @@ Dream World in a Flash-capable browser as that save.
 Everything needed to run is included in this repo (the server and all game
 assets), so the image is fully self-contained.
 
-## Run
+## Run with Docker Compose (recommended)
 
 You only need Docker.
+
+1. Find your computer's LAN IP:
+
+   ```
+   scripts/find-lan-ip.sh
+   ```
+
+2. Put it in a `.env` file next to `docker-compose.yml` (copy `.env.example`):
+
+   ```
+   echo "HOST_IP=192.168.1.50" > .env   # use your own IP
+   ```
+
+3. Start it:
+
+   ```
+   docker compose up -d
+   ```
+
+That is it. To stop it: `docker compose down`. To watch logs: `docker compose logs -f`.
+
+### Your progress is saved
+
+Saves, berries, and items are stored in a named Docker volume
+(`dream-world-data`) and persist across restarts and updates. `docker compose
+down` keeps your progress. Only `docker compose down -v` deletes it.
+
+## Run with a single command (alternative)
 
 ```
 docker run --rm \
   -e HOST_IP=<your LAN IP> \
-  --mount type=volume,src=dream-world-data,dst=/opt/server/save_data \
+  -v dream-world-data:/opt/server/save_data \
   -p 53:53/udp -p 80:80 -p 443:443 -p 29900:29900/tcp \
   -p 127.0.0.1:8080:8080 \
   ghcr.io/maxxu123456/dream-world:latest
 ```
 
-- `HOST_IP` must be your computer's address on your Wi-Fi network. Get it with
-  `scripts/find-lan-ip.sh`, or from your system network settings.
-- The named volume keeps your saves, berries, and items between runs.
-- Port 29900 is the GameSpy login step the DS needs, so keep it.
-- Port 8080 is only for your browser, so it stays on localhost.
+The `-v dream-world-data:/opt/server/save_data` volume is what keeps your
+progress. Without it, `--rm` deletes everything when the container stops. Port
+29900 is the GameSpy login the DS needs. Port 8080 is only for your browser, so
+it stays on localhost.
 
-For a DS to reach the container, Docker must be able to expose these ports on
-your LAN. That works out of the box on Linux. On Docker Desktop for Mac or
-Windows, published ports are reachable from your LAN in most setups; if the DS
-cannot connect, run Docker on a Linux machine or use host networking.
+For a DS to reach the container, Docker must expose these ports on your LAN. That
+works out of the box on Linux, and usually on Docker Desktop for Mac and Windows
+too. If the DS cannot connect, run Docker on a Linux machine.
 
 ## Connect your DS
 
