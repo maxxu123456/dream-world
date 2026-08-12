@@ -9,11 +9,14 @@ services:
       # Set it in a .env file next to this one (see .env.example).
       HOST_IP: ${HOST_IP:?Set HOST_IP in a .env file, e.g. HOST_IP=192.168.1.50}
     ports:
-      - "53:53/udp"           # Game Sync DNS
-      - "80:80"               # NAS / PGL over HTTP
-      - "443:443"             # legacy TLS the DS needs
-      - "29900:29900"         # GameSpy login (required for tuck-in)
-      - "127.0.0.1:8080:8080" # Dream World site, your browser only
+      # DS-facing ports are bound to your LAN IP (from HOST_IP), not to every
+      # interface. This avoids clashing with a local DNS resolver or VPN that
+      # already holds 127.0.0.1:53, and keeps the servers off other networks.
+      - "${HOST_IP}:53:53/udp"      # Game Sync DNS
+      - "${HOST_IP}:80:80"          # NAS / PGL over HTTP
+      - "${HOST_IP}:443:443"        # legacy TLS the DS needs
+      - "${HOST_IP}:29900:29900"    # GameSpy login (required for tuck-in)
+      - "127.0.0.1:8080:8080"       # Dream World site, your browser only
     volumes:
       - dream-world-data:/opt/server/save_data   # saves, berries, items persist here
     restart: unless-stopped

@@ -43,7 +43,10 @@ down` keeps your progress. Only `docker compose down -v` deletes it.
 docker run --rm \
   -e HOST_IP=<your LAN IP> \
   -v dream-world-data:/opt/server/save_data \
-  -p 53:53/udp -p 80:80 -p 443:443 -p 29900:29900/tcp \
+  -p <your LAN IP>:53:53/udp \
+  -p <your LAN IP>:80:80 \
+  -p <your LAN IP>:443:443 \
+  -p <your LAN IP>:29900:29900/tcp \
   -p 127.0.0.1:8080:8080 \
   ghcr.io/maxxu123456/dream-world:latest
 ```
@@ -56,6 +59,16 @@ it stays on localhost.
 For a DS to reach the container, Docker must expose these ports on your LAN. That
 works out of the box on Linux, and usually on Docker Desktop for Mac and Windows
 too. If the DS cannot connect, run Docker on a Linux machine.
+
+## Troubleshooting
+
+- `bind: address already in use` on port 53: a local DNS resolver or VPN already
+  holds it. Binding to your LAN IP (which Compose and the command above do)
+  avoids most of these. To find and stop the process holding it:
+  `sudo lsof -nP -iUDP:53`.
+- The image is multi-arch (amd64 and arm64), so it runs natively on Apple
+  Silicon. If Docker still warns about platform, run `docker compose pull` to get
+  the current image.
 
 ## Connect your DS
 
