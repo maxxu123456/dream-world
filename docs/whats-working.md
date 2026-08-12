@@ -17,7 +17,7 @@ Partially working:
   harvesting. Water consumption and yield are simplified. Additional garden
   rows cannot unlock because Dream Points are not implemented.
 
-Not working:
+Not working in the vendored `dreamworld-reawakened` project:
 
 - Pokemon Bistro and Blow Out Candles
 - Making a wish at the Tree of Dreams
@@ -25,6 +25,10 @@ Not working:
   Forest
 - Dream Catalogue. Its server endpoint is missing, so the blank panel can
   leave the room blurred until the projector is reopened.
+- Share Shelf
+
+Additional limitations confirmed in this wrapper:
+
 - C-Gear skins, Pokedex skins, and Musical shows. Their files are bundled, but
   the restored Customize page cannot save a selection and the download-content
   handler does not return the selected file.
@@ -34,7 +38,6 @@ Not working:
 - **Exit and continue sleeping** in the standalone projector. It cannot return
   to the original browser wrapper and may load forever. Close and reopen the
   projector URL to continue with the Pokemon still asleep.
-- Share Shelf
 
 The tucked-in Pokemon can return to the save. The broken path is the reward
 transfer for newly befriended Pokemon. A disposable test Pokemon is still

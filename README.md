@@ -217,9 +217,12 @@ See [DS setup](docs/dsi-setup.md), [Flash setup](docs/flash-setup.md), and
 
 ## Credits and legal
 
-The vendored server and assets come from
+The archival, asset-recovery, recreation, and community work of the
+[Dream World Revival Project](https://github.com/Shade-of-Gr3y/Dream-World-Revival)
+made this restoration possible. The vendored server and its asset and Game Sync
+submodules come from
 [dreamworld-reawakened](https://github.com/minibug1021/dreamworld-reawakened)
-and its game-sync-python and dreamworld-assets submodules. The Game Sync method
-comes from [Entralinked](https://github.com/kuroppoi/entralinked).
+by minibug1021. The Game Sync method comes from
+[Entralinked](https://github.com/kuroppoi/entralinked).
 
 This is an unofficial fan project. See [docs/legal.md](docs/legal.md).
