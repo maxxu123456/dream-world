@@ -4,6 +4,11 @@ Self-host the Pokemon Dream World and connect a physical DS-family system. The
 Docker image includes the Game Sync server, restored website, and patched Flash
 assets. It does not download source or tools at runtime.
 
+> [!CAUTION]
+> **Read [What works and what does not](docs/whats-working.md) before installing
+> or using this project.** This restoration is unfinished, and several original
+> reward and transfer features are not implemented.
+
 > [!IMPORTANT]
 > This wrapper has only been tested with a Nintendo DSi, macOS, and Pokemon
 > White 2. Other supported systems, operating systems, and Generation 5 games
